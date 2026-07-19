@@ -1,5 +1,5 @@
 /* GRE Vocab Trainer service worker — offline support */
-const CACHE = 'gre-vocab-v1';
+const CACHE = 'gre-vocab-v2';
 const CORE = [
   './',
   './index.html',
