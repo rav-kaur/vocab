@@ -63,6 +63,9 @@
   .sect{margin-top:14px}
   .sect .lbl{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--accent);font-weight:800;margin-bottom:4px}
   .sect .val{font-size:15px;line-height:1.5;white-space:pre-line}
+  .sect.sentence{background:var(--panel2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:8px 12px}
+  .sect.sentence .val{font-style:italic}
+  .sect.sentence .val b{font-style:normal;color:var(--accent2)}
   .back img{max-width:220px;max-height:180px;border-radius:10px;margin-top:8px;align-self:flex-start}
   .synlist{display:flex;flex-wrap:wrap;gap:6px}
   .synlist span{background:var(--panel2);padding:3px 10px;border-radius:14px;font-size:13px}
@@ -247,6 +250,7 @@ function drawFlash(){
             <div class="setpill"><span class="pill">${esc(c.set)}</span></div>
             <div class="sect"><div class="lbl">Definition</div><div class="val">${rich(c.d1)}</div></div>
             ${c.img?`<img src="images/${encodeURIComponent(c.img)}" alt="" loading="lazy">`:''}
+            ${c.sent?`<div class="sect sentence"><div class="lbl">In a sentence</div><div class="val">${rich(c.sent)}</div></div>`:''}
             ${c.d2?`<div class="sect"><div class="lbl">More detail</div><div class="val">${rich(c.d2)}</div></div>`:''}
             ${c.ex?`<div class="sect"><div class="lbl">Examples</div><div class="val">${rich(c.ex)}</div></div>`:''}
             <div class="sect"><div class="lbl">Synonyms</div>${synChips(c.syn)}</div>
