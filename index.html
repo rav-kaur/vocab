@@ -66,6 +66,12 @@
   .sect.sentence{background:var(--panel2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:8px 12px}
   .sect.sentence .val{font-style:italic}
   .sect.sentence .val b{font-style:normal;color:var(--accent2)}
+  .spk{display:inline-flex;align-items:center;justify-content:center;background:var(--panel2);border:1px solid var(--line);
+    color:var(--accent);border-radius:8px;cursor:pointer;padding:5px 7px;line-height:0;vertical-align:middle}
+  .spk:hover{border-color:var(--accent);color:var(--accent2)}
+  .spk svg{width:16px;height:16px}
+  .wordrow{display:flex;align-items:center;gap:10px;justify-content:center;flex-wrap:wrap}
+  .sect.sentence .lbl-row{display:flex;align-items:center;gap:8px}
   .back img{max-width:220px;max-height:180px;border-radius:10px;margin-top:8px;align-self:flex-start}
   .synlist{display:flex;flex-wrap:wrap;gap:6px}
   .synlist span{background:var(--panel2);padding:3px 10px;border-radius:14px;font-size:13px}
@@ -202,6 +208,22 @@ function rich(s){return esc(s).replace(/&lt;(\/?[bi])&gt;/g,'<$1>')}
 function synChips(s){ if(!s) return '<span class="muted">—</span>';
   return '<div class="synlist">'+s.split(',').map(x=>x.trim()).filter(Boolean).map(x=>`<span>${esc(x)}</span>`).join('')+'</div>'}
 
+/* ---- pronunciation (browser speech synthesis) ---- */
+const CAN_SPEAK = 'speechSynthesis' in window;
+function speak(t){
+  if(!CAN_SPEAK||!t) return;
+  const u=new SpeechSynthesisUtterance(t);
+  u.lang='en-US'; u.rate=0.9;
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+function sayAttr(t){return (t||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+const SPK_ICON='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1c2.9.9 5 3.5 5 6.7s-2.1 5.8-5 6.7v2.1c4-1 7-4.6 7-8.8s-3-7.8-7-8.8z"/></svg>';
+function spk(text){ return CAN_SPEAK?`<button class="spk" data-say="${sayAttr(text)}" aria-label="Hear pronunciation" title="Hear pronunciation">${SPK_ICON}</button>`:''; }
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.spk');
+  if(b){ e.stopPropagation(); speak(b.dataset.say); }
+});
+
 function renderStreak(){
   const known=VOCAB.filter(c=>P[c.id]&&P[c.id].known).length;
   const due=VOCAB.filter(c=>P[c.id]&&P[c.id].seen&&isDue(c.id)).length;
@@ -242,15 +264,15 @@ function drawFlash(){
       <div class="card ${fcFlipped?'flipped':''}" id="theCard">
         <div class="card-inner">
           <div class="face front">
-            <div class="word">${esc(c.w)}</div>
+            <div class="wordrow"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
             <div class="hint">click to flip · ${esc(c.set)}</div>
           </div>
           <div class="face back">
-            <div class="word">${esc(c.w)}</div>
+            <div class="wordrow" style="justify-content:flex-start"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
             <div class="setpill"><span class="pill">${esc(c.set)}</span></div>
             <div class="sect"><div class="lbl">Definition</div><div class="val">${rich(c.d1)}</div></div>
             ${c.img?`<img src="images/${encodeURIComponent(c.img)}" alt="" loading="lazy">`:''}
-            ${c.sent?`<div class="sect sentence"><div class="lbl">In a sentence</div><div class="val">${rich(c.sent)}</div></div>`:''}
+            ${c.sent?`<div class="sect sentence"><div class="lbl lbl-row">In a sentence ${spk(c.sent.replace(/<[^>]+>/g,''))}</div><div class="val">${rich(c.sent)}</div></div>`:''}
             ${c.d2?`<div class="sect"><div class="lbl">More detail</div><div class="val">${rich(c.d2)}</div></div>`:''}
             ${c.ex?`<div class="sect"><div class="lbl">Examples</div><div class="val">${rich(c.ex)}</div></div>`:''}
             <div class="sect"><div class="lbl">Synonyms</div>${synChips(c.syn)}</div>
@@ -411,7 +433,7 @@ function drawQuiz(){
   $('#qArea').innerHTML=`
     <div class="quiz-card">
       <div class="quiz-q">Question ${qIdx+1} of ${qDeck.length} · Score ${qScore}</div>
-      <div class="quiz-word">${esc(c.w)}</div>
+      <div class="quiz-word">${esc(c.w)} ${spk(c.w)}</div>
       <div class="quiz-q">Which definition fits?</div>
       <div id="opts">${opts.map(o=>`<button class="opt" data-id="${o.id}">${rich(o.d1)}</button>`).join('')}</div>
     </div>`;
@@ -513,7 +535,7 @@ function endType(c,verdict,html){
   const ck=$('#tCheck'); if(ck){ck.textContent='Next ›';ck.onclick=nextType;}
   const rev=$('#tReveal'); if(rev) rev.remove();
   const pic=$('#tPic'); if(pic) pic.remove();
-  $('#tFeedback').innerHTML=html;
+  $('#tFeedback').innerHTML=html+' '+spk(c.w);
 }
 function checkType(c){
   if(tState!=='ask')return;
