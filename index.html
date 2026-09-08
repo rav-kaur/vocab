@@ -57,6 +57,9 @@
   .face.front{align-items:center;justify-content:center;text-align:center}
   .front .word{font-size:44px;font-weight:800;letter-spacing:.5px}
   .front .hint{color:var(--muted);margin-top:14px;font-size:13px}
+  .posline{color:var(--muted);font-size:13px;margin-top:8px;font-style:italic}
+  .front .posline{margin-top:10px;font-size:14px}
+  .posline .pron{font-style:normal;color:var(--accent2)}
   .back{transform:rotateY(180deg)}
   .back .word{font-size:26px;font-weight:800;margin-bottom:2px}
   .back .setpill{margin-bottom:12px}
@@ -66,6 +69,8 @@
   .sect.sentence{background:var(--panel2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:8px 12px}
   .sect.sentence .val{font-style:italic}
   .sect.sentence .val b{font-style:normal;color:var(--accent2)}
+  .sect.hook{background:var(--panel2);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:8px 12px}
+  .sect.hook .lbl{color:var(--gold)}
   .spk{display:inline-flex;align-items:center;justify-content:center;background:var(--panel2);border:1px solid var(--line);
     color:var(--accent);border-radius:8px;cursor:pointer;padding:5px 7px;line-height:0;vertical-align:middle}
   .spk:hover{border-color:var(--accent);color:var(--accent2)}
@@ -156,6 +161,22 @@
     .back img{max-width:70%}
   }
   @media (hover:none){ .tile{-webkit-tap-highlight-color:transparent} }
+
+  /* Listen player */
+  .player{max-width:620px;margin:14px auto 0;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}
+  .player .np{text-align:center;margin-bottom:4px}
+  .player .np .set{font-size:26px;font-weight:800}
+  .player .np .meta{color:var(--muted);font-size:13px;margin-top:4px}
+  .player .seek{display:flex;align-items:center;gap:10px;margin:20px 0 4px}
+  .player .seek input[type=range]{flex:1;min-width:0;accent-color:var(--accent)}
+  .player .time{color:var(--muted);font-size:12px;min-width:42px;text-align:center}
+  .player .tr{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px}
+  .pbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:50%;width:52px;height:52px;
+    font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.12s}
+  .pbtn.main{background:var(--accent);border-color:var(--accent);color:#fff;width:66px;height:66px;font-size:26px}
+  .pbtn:hover{filter:brightness(1.12)}
+  .li-note{color:var(--muted);font-size:13px;margin-top:18px;text-align:center;line-height:1.55}
+  .li-missing{background:#3a2140;border:1px solid var(--warn);color:var(--txt);border-radius:12px;padding:14px;margin-top:16px;font-size:14px;line-height:1.5}
 </style>
 </head>
 <body>
@@ -163,6 +184,7 @@
   <div class="logo">GRE<span>Vocab</span></div>
   <nav id="nav">
     <button data-mode="flash" class="active">Flashcards</button>
+    <button data-mode="listen">Listen</button>
     <button data-mode="match">Match</button>
     <button data-mode="quiz">Quiz</button>
     <button data-mode="type">Type</button>
@@ -174,7 +196,7 @@
 </header>
 <main id="app"></main>
 
-<script src="data.js"></script>
+<script src="data-essential.js"></script>
 <script>
 const VOCAB = window.VOCAB || [];
 VOCAB.forEach((c,i)=>c.id=i);
@@ -239,7 +261,7 @@ function viewFlash(){
     <div class="row">
       <label>Set:
         <select id="fcSet">
-          <option value="__all">All sets (868 words)</option>
+          <option value="__all">All sets (${VOCAB.length} words)</option>
           ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
         </select></label>
       <label><input type="checkbox" id="fcShuffle" checked> Shuffle</label>
@@ -265,17 +287,22 @@ function drawFlash(){
         <div class="card-inner">
           <div class="face front">
             <div class="wordrow"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
+            ${(c.pos||c.pron)?`<div class="posline">${esc(c.pos||'')}${(c.pos&&c.pron)?' · ':''}${c.pron?`<span class="pron">${esc(c.pron)}</span>`:''}</div>`:''}
             <div class="hint">click to flip · ${esc(c.set)}</div>
           </div>
           <div class="face back">
             <div class="wordrow" style="justify-content:flex-start"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
+            ${(c.pos||c.pron||c.also)?`<div class="posline">${[c.pos?esc(c.pos):'',c.pron?esc(c.pron):'',c.also?('also '+esc(c.also)):''].filter(Boolean).join(' · ')}</div>`:''}
             <div class="setpill"><span class="pill">${esc(c.set)}</span></div>
             <div class="sect"><div class="lbl">Definition</div><div class="val">${rich(c.d1)}</div></div>
+            ${c.hook?`<div class="sect hook"><div class="lbl">Memory hook</div><div class="val">${rich(c.hook)}</div></div>`:''}
             ${c.img?`<img src="images/${encodeURIComponent(c.img)}" alt="" loading="lazy">`:''}
             ${c.sent?`<div class="sect sentence"><div class="lbl lbl-row">In a sentence ${spk(c.sent.replace(/<[^>]+>/g,''))}</div><div class="val">${rich(c.sent)}</div></div>`:''}
+            ${c.related?`<div class="sect"><div class="lbl">Related words</div><div class="val">${rich(c.related)}</div></div>`:''}
+            ${c.moreinfo?`<div class="sect"><div class="lbl">More info</div><div class="val">${rich(c.moreinfo)}</div></div>`:''}
             ${c.d2?`<div class="sect"><div class="lbl">More detail</div><div class="val">${rich(c.d2)}</div></div>`:''}
             ${c.ex?`<div class="sect"><div class="lbl">Examples</div><div class="val">${rich(c.ex)}</div></div>`:''}
-            <div class="sect"><div class="lbl">Synonyms</div>${synChips(c.syn)}</div>
+            ${c.syn?`<div class="sect"><div class="lbl">Synonyms</div>${synChips(c.syn)}</div>`:''}
           </div>
         </div>
       </div>
@@ -308,7 +335,7 @@ function viewMatch(){
         <select id="mSrc">
           <option value="one">One set</option>
           <option value="multi">Multiple sets</option>
-          <option value="random">Random from all 868</option>
+          <option value="random">Random from all ${VOCAB.length}</option>
         </select></label>
       <span id="mSrcOpt"></span>
       <label>Pairs: <input type="number" id="mPairs" value="8" min="4" max="16"></label>
@@ -323,7 +350,7 @@ function drawSrcOpt(){
     el.innerHTML=`<select id="mSet">${SETS.map(s=>`<option>${esc(s)}</option>`).join('')}</select>`;
   }else if(v==='multi'){
     el.innerHTML=`<div class="checks" id="mChecks">${SETS.map(s=>`<label><input type="checkbox" value="${esc(s)}"> ${esc(s)}</label>`).join('')}</div>`;
-  }else{ el.innerHTML='<span class="note">Words picked at random from the entire 868-word pool.</span>'; }
+  }else{ el.innerHTML='<span class="note">Words picked at random from the entire ${VOCAB.length}-word pool.</span>'; }
 }
 function matchPool(){
   const v=$('#mSrc').value;
@@ -618,10 +645,109 @@ function viewProgress(){
   $('#resetP').onclick=()=>{if(confirm('Erase all saved progress? This cannot be undone.')){P={};save();renderStreak();viewProgress()}};
 }
 
+/* ================= LISTEN (audio player) ================= */
+let liSetNum=1;
+function liSets(){ return SETS.map(n=>({name:n,num:(VOCAB.find(c=>c.set===n)||{}).setNum})).filter(s=>s.num!=null).sort((a,b)=>a.num-b.num); }
+function fmtT(t){ if(!isFinite(t)||t<0)t=0; t=t|0; return `${t/60|0}:${String(t%60).padStart(2,'0')}`; }
+function liCurName(){ const s=liSets().find(x=>x.num===liSetNum); return s?s.name:('Essential '+liSetNum); }
+function viewListen(){
+  const sets=liSets();
+  if(!sets.length){ app.innerHTML='<h2>Listen</h2><div class="empty">No sets found.</div>'; return; }
+  if(!sets.some(s=>s.num===liSetNum)) liSetNum=sets[0].num;
+  app.innerHTML=`
+    <h2>Listen</h2>
+    <p class="sub">Hands-free audio: each word, its definition, then an example sentence, with pauses. Put on headphones and let a set loop. Keeps playing with the screen locked.</p>
+    <div class="row">
+      <label>Set:
+        <select id="liSet">${sets.map(s=>`<option value="${s.num}" ${s.num===liSetNum?'selected':''}>${esc(s.name)}</option>`).join('')}</select></label>
+      <label>Repeat:
+        <select id="liRepeat">
+          <option value="one" selected>This set (loop)</option>
+          <option value="all">All sets</option>
+          <option value="off">Off</option>
+        </select></label>
+      <label>Speed:
+        <select id="liSpeed">
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.1">1.1x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+        </select></label>
+    </div>
+    <div class="player">
+      <div class="np"><div class="set" id="liName"></div><div class="meta" id="liMeta"></div></div>
+      <audio id="liAudio" preload="metadata" playsinline></audio>
+      <div id="liBody">
+        <div class="seek"><span class="time" id="liCur">0:00</span>
+          <input type="range" id="liSeek" min="0" max="1000" value="0" step="1">
+          <span class="time" id="liDur">0:00</span></div>
+        <div class="tr">
+          <button class="pbtn" id="liPrev" title="Previous set" aria-label="Previous set">&#9198;</button>
+          <button class="pbtn main" id="liPlay" title="Play / Pause" aria-label="Play or pause">&#9654;</button>
+          <button class="pbtn" id="liNext" title="Next set" aria-label="Next set">&#9197;</button>
+        </div>
+      </div>
+      <div id="liNotice"></div>
+      <div class="li-note">On a phone, playback continues with the screen off and appears on your lock screen. If a set has no audio yet, run <b>tools/generate_audio.py</b> once (see tools/README.md).</div>
+    </div>`;
+  const A=$('#liAudio'); window.liAudio=A;
+  $('#liSet').onchange=e=>{ liSetNum=+e.target.value; loadListen(true); };
+  $('#liRepeat').onchange=()=>{ A.loop = $('#liRepeat').value==='one'; };
+  $('#liSpeed').onchange=()=>{ A.playbackRate=parseFloat($('#liSpeed').value); };
+  $('#liPlay').onclick=()=>{ A.paused ? A.play().catch(()=>{}) : A.pause(); };
+  $('#liPrev').onclick=()=>liStep(-1);
+  $('#liNext').onclick=()=>liStep(1);
+  const seek=$('#liSeek');
+  seek.oninput=()=>{ if(A.duration) A.currentTime=(seek.value/1000)*A.duration; };
+  A.ontimeupdate=()=>{ if(A.duration){ seek.value=(A.currentTime/A.duration)*1000; $('#liCur').textContent=fmtT(A.currentTime); } };
+  A.onloadedmetadata=()=>{ $('#liDur').textContent=fmtT(A.duration); };
+  A.onplay=()=>{ $('#liPlay').innerHTML='&#9208;'; liSetMedia(); };
+  A.onpause=()=>{ $('#liPlay').innerHTML='&#9654;'; };
+  A.onended=()=>{ if($('#liRepeat').value==='all') liStep(1,true); };
+  A.onerror=()=>liShowMissing();
+  loadListen(false);
+}
+function loadListen(autoplay){
+  const A=$('#liAudio'); if(!A) return;
+  $('#liName').textContent=liCurName();
+  const items=VOCAB.filter(c=>c.setNum===liSetNum);
+  $('#liMeta').textContent=`${items.length} words · word, definition, example`;
+  $('#liNotice').innerHTML=''; $('#liBody').style.display='';
+  A.loop = ($('#liRepeat')||{}).value==='one';
+  A.playbackRate=parseFloat((($('#liSpeed')||{}).value)||'1');
+  A.src=`audio/essential-${liSetNum}.mp3`;
+  A.load();
+  if(autoplay) A.play().catch(()=>{});
+  liSetMedia();
+}
+function liStep(d,autoplay){
+  const sets=liSets(); let i=sets.findIndex(s=>s.num===liSetNum);
+  i=(i+d+sets.length)%sets.length; liSetNum=sets[i].num;
+  const sel=$('#liSet'); if(sel) sel.value=liSetNum;
+  loadListen(autoplay!==false);
+}
+function liShowMissing(){
+  const n=$('#liNotice'); if(!n) return;
+  $('#liBody').style.display='none';
+  n.innerHTML=`<div class="li-missing">No recording found for <b>${esc(liCurName())}</b> yet.<br>Generate audio once on your computer: <b>pip install edge-tts</b>, then <b>python tools/generate_audio.py</b>. Details in tools/README.md.</div>`;
+}
+function liSetMedia(){
+  if(!('mediaSession' in navigator)) return;
+  try{
+    navigator.mediaSession.metadata=new MediaMetadata({title:liCurName(),artist:'GRE Vocab · Listen',album:'500 Essential Words'});
+    navigator.mediaSession.setActionHandler('play',()=>{const a=$('#liAudio'); if(a)a.play().catch(()=>{});});
+    navigator.mediaSession.setActionHandler('pause',()=>{const a=$('#liAudio'); if(a)a.pause();});
+    navigator.mediaSession.setActionHandler('previoustrack',()=>liStep(-1));
+    navigator.mediaSession.setActionHandler('nexttrack',()=>liStep(1));
+  }catch(e){}
+}
+
 /* ================= ROUTER ================= */
-const VIEWS={flash:viewFlash,match:viewMatch,quiz:viewQuiz,type:viewType,review:viewReview,progress:viewProgress};
+const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,type:viewType,review:viewReview,progress:viewProgress};
 function go(mode){
   document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));
+  if(window.liAudio && mode!=='listen'){ try{window.liAudio.pause();}catch(e){} }
   VIEWS[mode]();
 }
 document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>go(b.dataset.mode));

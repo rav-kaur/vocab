@@ -1,0 +1,4002 @@
+[
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abate",
+"pos": "verb",
+"def": "Reduce, diminish",
+"example": "Her stress over spending so much money on a house abated when the real estate broker told her about the property’s 15 year tax abatement."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abdicate",
+"pos": "verb",
+"def": "Formally give up the throne (or some other power or responsibility)",
+"example": "King Edward VIII of England famously abdicated the throne in order to marry an American divorcée."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "aberrant",
+"pos": "adj",
+"def": "Abnormal, deviant",
+"example": "The teen’s aberrant behavior made his family suspect that he was using drugs."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abhor",
+"pos": "verb",
+"def": "Detest, regard with disgust",
+"example": "“Go out with you?” she replied. “I abhor you! I would rather stab myself with a rusty bread knife than be your girlfriend!”"
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abjure",
+"pos": "verb",
+"def": "Give up, renounce; repudiate, recant, or shun (especially formally or under oath)",
+"example": "To become a citizen of the United States, you must abjure loyalty to the nation of your birth."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abrasive",
+"pos": "adj",
+"def": "Rough, suitable for grinding or polishing (such as sandpaper); causing irritation or annoyance",
+"example": "Could the inside of this mascot costume be any more abrasive? It’s rubbing my skin raw! I have some seriously abrasive remarks for whoever designed this thing."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abridge",
+"pos": "verb",
+"def": "Reduce or lessen; shorten by omitting parts throughout while retaining the main idea",
+"example": "Our romantic vacation was abridged when the babysitter called to say that the kids were sick and we should come home."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "abstain",
+"pos": "verb",
+"def": "Hold back, refrain (especially from something bad or unhealthy); decline to vote",
+"example": "The church board voted on whether to hold an abstinence rally to encourage young people not to become sexually active; while most members voted in favor, one voted against and two abstained, with one abstainer commenting that, as far as she knew, the church’s teens were pretty abstemious already."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "acme",
+"pos": "noun",
+"def": "Summit, peak, highest point",
+"example": "The acme of my vacation was when I finally climbed to the acme of the mountain and enjoyed the gorgeous vista."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "activism",
+"pos": "noun",
+"def": "The practice of pursuing political or other goals through vigorous action, often including protests and demonstrations",
+"example": "Lindsay’s parents had a hard time accepting that, after incurring $100,000 in student loans, their daughter had decided to enter the low-paying field of environmental activism."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "adhere",
+"pos": "verb",
+"def": "Stick (to), such as with glue, or to a plan or belief",
+"example": "I have a message board that adheres to my refrigerator with magnets; on it, I’ve written some affirmations to help me adhere to my diet plan."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "admonish",
+"pos": "verb",
+"def": "Mildly scold; caution, advise, or remind to do something",
+"example": "She was an exacting boss who upbraided an employee for jamming the copier, yet she merely admonished her five-year-old for the same offense."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "adverse",
+"pos": "adj",
+"def": "Opposing, harmful",
+"example": "Pioneer women persevered despite adverse circumstances, even when fording a river—baby in one arm, leading a horse with the other—against an adverse current."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "advocate",
+"pos": "verb, noun",
+"def": "Speak or argue in favor of (verb); a person who pleads for a cause or on behalf of another person (noun)",
+"example": "I cannot possibly vote for a candidate who advocates oil drilling in federally protected nature preserves."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "aesthetic",
+"pos": "adj, noun",
+"def": "Concerning the appreciation of beauty or good taste, pertaining to the science of what is beautiful (adj); a sense of beauty and taste of a particular time and place (noun)",
+"example": "The twins were so different—one possessed a truly baroque aesthetic, preferring golden, gilded decor. The other lived in a world of pure logic, untouched by any aesthetic sense whatsoever; art did not move him, his house was bare, and he married his wife solely because she was a master of calculus."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "affable",
+"pos": "adj",
+"def": "Warm and friendly, pleasant, approachable",
+"example": "The professional wrestler played at belligerence in the ring, but in real life, he was quite an affable fellow—sociable, easy-going, and always ready to lend a hand."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "affectation",
+"pos": "noun",
+"def": "Fake behavior (such as in speech or dress) adopted to give a certain impression",
+"example": "I’m annoyed whenever Americans move to England and suddenly start speaking with an affected British accent; such affectations, when practiced by celebrities, are only likely to alienate their fans."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "aggrandize",
+"pos": "verb",
+"def": "Make greater; exaggerate",
+"example": "I can’t stand when my coworker aggrandizes her role in our group projects."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "aggregate",
+"pos": "verb, adj",
+"def": "Gather together, amount to (verb); constituting a whole made up of constituent parts (adj)",
+"example": "While some of the company’s divisions did better than others, in aggregate, we made a profit."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "alacrity",
+"pos": "noun",
+"def": "Cheerful or speedy willingness",
+"example": "Any boss wants an employee to respond with alacrity to his or her requests, handling them promptly and with enthusiasm."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "alienate",
+"pos": "verb",
+"def": "Cause to become unfriendly, hostile, or distant",
+"example": "The talk-show host was trying to help, but only alienated her viewers when she suggested that they cope with a tough economy by checking themselves into a spa."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "alleviate",
+"pos": "verb",
+"def": "Lessen, make easier to endure",
+"example": "The stimulus package has alleviated the pangs of the Great Recession, but times are still tough."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "ambiguous",
+"pos": "adj",
+"def": "Not clear, hard to understand, open to having several meanings or interpretations",
+"example": "The meaning of this ancient text is ambiguous—either we are missing some cultural context, or else the writer actually wanted to be mysterious."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "ambivalent",
+"pos": "adj",
+"def": "Uncertain; unable to decide, or wanting to do two contradictory things at once",
+"example": "I’ve been accepted to two amazing graduate programs, one inexpensive and close to home, and one in a big, exciting city. I’m ambivalent—I don’t know how I’m going to decide."
+},
+{
+"setNum": 1,
+"set": "Essential 1",
+"w": "analogous",
+"pos": "adj",
+"def": "Comparable, corresponding in some particular way (making a good analogy)",
+"example": "In the U.S., whenever opponents of a war want to suggest that the war is unwinnable, they point out all the ways in which the war is analogous to the Vietnam War."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "anarchy",
+"pos": "noun",
+"def": "Absence of law or government; chaos, disorder",
+"example": "Once the dictator was assassinated, the country fell into total anarchy, as none of the opposition groups were strong enough to seize power."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "anoint",
+"pos": "verb",
+"def": "Rub or sprinkle oil on; make sacred, such as by a ceremony that includes applying oil to someone",
+"example": "After Principal Smitters raised test scores over 60% at her school, it was only a matter of time before she was anointed superintendent by a fawning school board."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "anomaly",
+"pos": "noun",
+"def": "Deviation from what is common; inconsistency",
+"example": "While the cosmetics division of this company has many female executives, it is an anomaly— in the rest of the company, sadly, only 4% of management positions are filled by women."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "antagonize",
+"pos": "verb",
+"def": "Make hostile or unfriendly",
+"example": "“Josie! Stop antagonizing your little brother! Give him back that firetruck and tell him you’re sorry for pulling his hair!”"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "antipathy",
+"pos": "noun",
+"def": "Deep dislike, aversion, or repugnance, sometimes without reason",
+"example": "As an environmentalist, Mr. Subramanian had nothing but antipathy for the mining company drilling in and polluting his hometown."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "apathy",
+"pos": "noun",
+"def": "Not caring; absence of feeling; lack of interest or concern",
+"example": "Many parents of teenagers are concerned by their indolent teens’ apathy about the future. Few teens are totally apathetic, however—many get quite excited about video games, flirting, or trips to the mall."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "apocryphal",
+"pos": "adj",
+"def": "Of questionable authenticity; false",
+"example": "I’m sorry, but this putative letter from George Washington that you found at a garage sale is clearly apocryphal—it is riddled with anachronisms (for instance, Washington was long dead by the time silent films were invented), and also, Washington most certainly didn’t refer to Martha Washington as “hey baby.”"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "appease",
+"pos": "verb",
+"def": "Pacify, satisfy, relieve; concede to belligerent demands, sometimes at the expense of principles",
+"example": "My mother is so angry she wasn’t the first person we called when the baby was born—I’m hoping to appease her by spending Christmas at her house this year."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "appreciable",
+"pos": "adj",
+"def": "Enough to be perceived, considerable",
+"example": "She ruefully concluded that the “Pot Pie Diet” was a scam and had made no appreciable difference in her appearance—after four weeks, she had lost three-quarters of a pound."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "arbitrary",
+"pos": "adj",
+"def": "Based entirely on one’s discretion; capricious, unreasonable, or having no basis",
+"example": "The judge’s rulings were truly arbitrary—one defendant got community service for stealing a television, and another got three years for the same crime."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "arcane",
+"pos": "adj",
+"def": "Known or understood by only a few; obscure, secret",
+"example": "To win at Jeopardy, you must be full of arcane knowledge."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "archaic",
+"pos": "adj",
+"def": "Characteristic of an earlier period, ancient, primitive",
+"example": "The school’s archaic computer system predated even floppy disks—it stored records on tape drives!"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "arduous",
+"pos": "adj",
+"def": "Very difficult, strenuous; severe, hard to endure",
+"example": "The arduous hike up rocky terrain was all worth it once the hikers reached the summit."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "articulate",
+"pos": "adj, verb, verb",
+"def": "Using language in a clear, fluent way (adj); speak distinctly or give clarity to an idea (verb)",
+"example": "She’s so articulate that I’m sure she’ll make a good lawyer."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "artifact",
+"pos": "noun",
+"def": "Any object made by humans, especially those from an earlier time, such as those excavated by archaeologists",
+"example": "The archaeologists dug up countless artifacts, from simple pottery shards and coins to complex written tablets."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "artless",
+"pos": "adj",
+"def": "Free of deceit or craftiness, natural, genuine; lacking skill or knowledge, crude, uncultured",
+"example": "Children can be so artless that, when you try to explain war to them, they say things like, “But isn’t that mean?”/ His artless attempt at negotiating a raise began with “I need more money, please” and ended with “Okay, sorry I asked.”"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "ascertain",
+"pos": "verb",
+"def": "Find out with certainty",
+"example": "Hopefully, the investigation will allow us to ascertain who is at fault here."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "ascetic",
+"pos": "adj, noun",
+"def": "abstinent or austere in lifestyle (adj); a person who leads an austere and simple life without material pleasures, esp. someone who does this for religious reasons",
+"example": "Ascetics such as monks actually take vows of poverty."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "assuage",
+"pos": "verb",
+"def": "Make milder, relieve; soothe, pacify, or calm",
+"example": "After losing a million-dollar account, he tried to assuage his furious boss by pointing out that he was close to winning a new account worth at least as much."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "audacious",
+"pos": "adj",
+"def": "Very bold or brave, often in a rude or reckless way; extremely original",
+"example": "He audaciously asked for a raise after working at the company for less than two months!"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "augment",
+"pos": "verb",
+"def": "Make larger",
+"example": "If you memorize the definitions on all of these flashcards, you will have notably augmented your vocabulary!"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "austere",
+"pos": "adj",
+"def": "Severe in manner or appearance; very self-disciplined, ascetic; without luxury or ease; sober or serious",
+"example": "Her design sense was so minimalist as to be austere; all-white walls, hard, wooden furniture, not a single picture, throw pillow, or cozy comfort anywhere."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "autonomous",
+"pos": "adj",
+"def": "Self-governing, independent",
+"example": "As leader of an autonomous region, the newly-elected president was received as a peer by some world leaders, although he was not entitled to send a representative to the United Nations."
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "aver",
+"pos": "verb",
+"def": "Declare or affirm with confidence",
+"example": "“Despite your insistence that ethics are completely situational,” said the philosophy professor, “I aver that the existence of natural rights inevitably leads to certain immutable ethical boundaries.”"
+},
+{
+"setNum": 2,
+"set": "Essential 2",
+"w": "avid",
+"pos": "adj",
+"def": "Enthusiastic, dedicated, passionate; excessively desirous",
+"example": "An avid cyclist, she was on her bike every weekend, and even bought the same bike that Lance Armstrong last used in the Tour de France."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "balk",
+"pos": "verb",
+"def": "Refuse to proceed or to do something",
+"example": "At the company retreat, he reluctantly agreed to participate in the ropes course, but balked at walking over hot coals as a “trust exercise.”"
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "base",
+"pos": "adj",
+"def": "Morally low, mean, dishonorable; of little or no value; crude and unrefined; counterfeit",
+"example": "His philanthropy was underlied by truly base motives—he not only craved the fawning publicity his donations brought, but he was actually funneling drug money through the Children’s Defense Fund!"
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "belie",
+"pos": "verb",
+"def": "Contradict or misrepresent",
+"example": "The actress’s public persona as a perky “girl next door” belied her private penchant for abusing her assistants and demanding that her trailer be filled with ridiculous luxury goods."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "benign",
+"pos": "adj",
+"def": "Harmless; favorable; kindly, gentle, or beneficial; not cancerous",
+"example": "He was relieved when the biopsy results came back, informing him that the growth was benign."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "bogus",
+"pos": "adj",
+"def": "Fake, fraudulent",
+"example": "The back of this bodybuilding magazine is just full of ads for bogus products—this one promises 22-inch biceps just from wearing magnetic armbands!"
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "bolster",
+"pos": "verb",
+"def": "Strengthen or support",
+"example": "The general requested reinforcements to bolster the defensive line set up at the border."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "boor",
+"pos": "noun",
+"def": "Rude, ill-mannered, or insensitive person; a peasant or country bumpkin",
+"example": "Milton was such a boor that, when Jane brought him home to meet her parents, he laughed at their garden gnome and made fun of everyone’s hairstyles in old family photos. “Don’t be so boorish!” said his mortified girlfriend."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "buffer",
+"pos": "noun",
+"def": "Something that shields, protects, absorbs shock, or cushions",
+"example": "During the colonial era, England wanted Georgia as a buffer between its original colonies and Spanish Florida."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "bureaucracy",
+"pos": "noun",
+"def": "Government characterized by many bureaus and petty administrators or by excessive, seemingly meaningless requirements",
+"example": "Some nations have a worse reputation for bureaucracy than others—in order to get a visa, he had to file papers with four different agencies, wait for hours in three different waiting rooms, and, weeks later, follow up with some petty bureaucrat who complained that the original application should’ve been filed in triplicate."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "burgeon",
+"pos": "verb",
+"def": "Grow or flourish rapidly; put forth buds or shoots (of a plant)",
+"example": "The dictator was concerned about the people’s burgeoning discontent and redoubled his personal security."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "buttress",
+"pos": "verb, noun",
+"def": "Support or encourage (verb); a support or prop, esp. projecting from and supporting the wall of a building (noun)",
+"example": "A self-defense class really helped to buttress Elaine’s confidence."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "bygone",
+"pos": "adj, noun",
+"def": "Past, former (adj); that which is in the past (usually plural noun)",
+"example": "At the nursing home, the time to reminisce about bygone days was pretty much all the time."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "cacophony",
+"pos": "noun",
+"def": "Harsh, discordant, or meaningless mixture of sounds",
+"example": "The first day of elementary school marching band practice was nothing but cacophony, as students who hadn’t learned to play their instruments at all nevertheless banged on or puffed air into them."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "candid",
+"pos": "adj",
+"def": "Open, sincere, honest",
+"example": "Allow me to be candid: you do look rather portly in those pants, and I think you should wear something else."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "canonical",
+"pos": "adj",
+"def": "Authorized, recognized; pertaining to the canon, or body of accepted rules, standards or artistic works",
+"example": "School boards often start controversies when replacing canonical books in the curriculum with modern literature; while many people think students should read works more relevant to their lives, others point out that Moby Dick is part of the canon for a reason."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "capricious",
+"pos": "adj",
+"def": "Acting on impulse, erratic",
+"example": "The headmaster’s punishments were capricious—break the rules one day, you get a warning; break them another day, you get expelled."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "cartography",
+"pos": "noun",
+"def": "Mapmaking",
+"example": "The invention of better navigation tools had major effects on cartography—the more ships knew precisely where they were sailing, the better the world could be mapped."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "castigate",
+"pos": "verb",
+"def": "Criticize severely; punish in order to correct",
+"example": "At the grocery store, the mother attracted stares when she castigated—rather than merely admonished—her child for throwing a box of instant oatmeal."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "catalyst",
+"pos": "noun",
+"def": "Causer of change",
+"example": "The young manager was a catalyst at the stodgy old company—once he introduced employee laptops, telecommuting, and mobile workstations, even the most conventional of employees totally changed the way they worked."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "caustic",
+"pos": "adj",
+"def": "Capable of corroding metal or burning the skin; very critical or sarcastic",
+"example": "Wait, those chemicals are caustic! You need safety gloves and goggles before performing this experiment, or else you risk not only getting your skin burned off, but also some seriously caustic remarks from our chemistry teacher."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "censure",
+"pos": "noun, verb, verb",
+"def": "Strong disapproval or official reprimand (noun); to issue such disapproval or reprimand (verb)",
+"example": "The Senator was censured by the Senate for campaign fund improprieties—in fact, he narrowly avoided being expelled from office."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "chauvinism",
+"pos": "noun",
+"def": "Fanatical patriotism or blind enthusiasm for military glory; undue or biased devotion to any group, cause, etc.",
+"example": "He’s such a chauvinist that he denies that any other nation could be better than ours at anything —he insists our wine is better than France’s, our ski slopes are better than Norway’s, and even that we grow more rice than China! Absurd."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "chronological",
+"pos": "adj",
+"def": "Arranged in or relating to time order",
+"example": "Joey, I’m afraid you’ve done the assignment wrong—the point of making a timeline is to put the information in chronological order. You’ve made an alphabetical-order-line instead!"
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "clamor",
+"pos": "verb",
+"def": "Noisy uproar or protest, as from a crowd; a loud, continuous noise",
+"example": "As soon as a scent of scandal emerged, the press was clamoring for details."
+},
+{
+"setNum": 3,
+"set": "Essential 3",
+"w": "clinch",
+"pos": "verb",
+"def": "Make final or settle conclusively; to fasten or hold together",
+"example": "When their best player was benched, the team fell behind, but once he was allowed back in the game, the team was able to clinch the win."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "coalesce",
+"pos": "verb",
+"def": "Come together, unite; fuse together",
+"example": "While at first everyone on the team was jockeying for power and recognition, eventually, the group coalesced and everyone was happy to share credit for a job well-done."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "cogent",
+"pos": "adj",
+"def": "Very convincing, logical",
+"example": "Studying logic is an excellent way to improve at formulating cogent arguments."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "commensurate",
+"pos": "adj",
+"def": "The same in size, extent, etc., equivalent; proportional",
+"example": "According to the course catalog, you may take Advanced Japanese following Japanese III or commensurate experience with the language."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "complacent",
+"pos": "adj",
+"def": "Self-satisfied, smug; overly content (and therefore lazy, neglectful, or some other bad quality)",
+"example": "The coach gave a pep talk: “I know we’ve never won a championship before, but we do have an advantage over the six-time state champions we’re about to play—they have grown complacent with their success, and now they just assume they’ll win without having to sweat.”"
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "complementary",
+"pos": "adj",
+"def": "Completing; fitting together well; filling mutual needs",
+"example": "“That scarf really complements your outfit,” said Elle. “Thanks for the compliment,” said Danica."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "compliant",
+"pos": "adj",
+"def": "Obeying, submissive; following the requirements",
+"example": "Those who are not compliant with the regulations will be put on probation and possibly expelled."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "concede",
+"pos": "verb",
+"def": "Give in, admit, yield; acknowledge reluctantly; grant or give up (such as giving up land after losing a war)",
+"example": "The negotiations were pointless, with each side’s representatives instructed by their home countries to make no concessions whatsoever."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "conciliatory",
+"pos": "adj",
+"def": "Reconciling, appeasing, attempting to make the peace",
+"example": "The hotel manager was horrified at how the guest had been treated, and approached him in a conciliatory manner, offering him numerous freebies and apologizing repeatedly."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "concur",
+"pos": "verb",
+"def": "Approve, agree",
+"example": "John Locke wrote that justice is based on the social contract, and I concur—in fact, my latest book is all about contractual justice."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "condone",
+"pos": "verb",
+"def": "Overlook, tolerate, regard as harmless",
+"example": "While underage drinking is illegal, at many universities, it is tacitly condoned by administrations that neglect to enforce anti-drinking policies."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "confer",
+"pos": "verb",
+"def": "Consult, compare views; bestow or give",
+"example": "A Ph.D. confers upon a person the right to be addressed as “Doctor” as well as eligibility to pursue tenure-track professorship."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "connoisseur",
+"pos": "noun",
+"def": "Expert, especially in the fine arts; person of educated, refined tastes",
+"example": "A chocolate connoisseur, Mom eschews grocery store brands and will only eat 80% -cocoa- or-higher artisanal chocolate that is less than a week old."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "console",
+"pos": "verb, noun",
+"def": "Lessen the suffering or grief of (verb); a control panel, or small table or cabinet (noun)",
+"example": "I was unable to console Tina after she fell asleep at the console of her airplane and thereby failed her pilot’s exam."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "consolidate",
+"pos": "verb",
+"def": "Unite, combine, solidify, make coherent",
+"example": "She consolidated her student loans so she would only have to make one payment per month."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "constrict",
+"pos": "verb",
+"def": "Squeeze, compress; restrict the freedom of",
+"example": "The children strongly disliked being gussied up in constrictive clothing for a formal wedding."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "construe",
+"pos": "verb",
+"def": "Interpret or translate",
+"example": "I don’t know how you construed my comment as an insult. All I said was, “Wow, I never knew you could sing.”"
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "contentious",
+"pos": "adj",
+"def": "Controversial; prone to causing arguments, especially gratuitous or petty ones",
+"example": "The death penalty is a contentious issue."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "contextualize",
+"pos": "verb",
+"def": "Place in context, such as by giving the background or circumstances",
+"example": "Virginia Woolf’s feminism is hard to truly understand unless contextualized within the mores of the highly restrained, upper-class English society of her time."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "conundrum",
+"pos": "noun",
+"def": "Riddle, the answer to which involves a play on words; any mystery",
+"example": "A classic conundrum is “What’s black and white and red all over?” The answer, of course, is a newspaper."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "converge",
+"pos": "verb",
+"def": "Move towards one another or towards a point; unite",
+"example": "I know we’re driving to the wedding from different states, but our routes ought to converge when each of us hits I-95—maybe we could converge at a Cracker Barrel for lunch!"
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "conversant",
+"pos": "adj",
+"def": "Knowledgeable about or experienced with",
+"example": "For an opera singer, she is unusually conversant in physics—she just explained to everyone the purpose of the Large Hadron Collider."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "conversely",
+"pos": "adverb",
+"def": "In an opposite way; on the other hand",
+"example": "I am not here to argue that lack of education causes poverty. Conversely, I am here to argue that poverty causes lack of education."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "convoluted",
+"pos": "adj",
+"def": "Twisted; very complicated",
+"example": "Your argument is so convoluted that I’m not even able to understand it enough to start critiquing it."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "copious",
+"pos": "adj",
+"def": "Plentiful, bountiful",
+"example": "Although she took copious notes in class, she found that she was missing a big picture that would have tied all the information together."
+},
+{
+"setNum": 4,
+"set": "Essential 4",
+"w": "corroborate",
+"pos": "verb",
+"def": "Support, add evidence to",
+"example": "You’re telling me you were thirty miles away riding a roller coaster when the school was vandalized? I have a hard time believing that—is there anyone who can corroborate your story?"
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "cosmopolitan",
+"pos": "adj",
+"def": "Belonging to the entire world, at home globally; free from local or national prejudices or attachments",
+"example": "Trapped in a small town, he dreamed of a more cosmopolitan existence filled with world travel, exotic cuisine, and scintillating parties where he would meet famous authors and other cosmopolites."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "countenance",
+"pos": "noun, verb",
+"def": "Facial expression or face (noun); approve or tolerate (verb)",
+"example": "Her countenance said it all—the look on her face was pure terror."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "counterintuitive",
+"pos": "adj",
+"def": "Against what one would intuitively expect",
+"example": "Although it seems counterintuitive, for some extreme dieters, eating more can actually help them to lose weight, since the body is reassured that it is not facing a period of prolonged starvation."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "counterpoint",
+"pos": "noun",
+"def": "Contrasting item, opposite; a complement; the use of contrast or interplay in a work of art",
+"example": "The play’s lighthearted, witty narrator provides a welcome counterpoint to the seriousness and grief expressed by the other characters."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "counterproductive",
+"pos": "adj",
+"def": "Defeating the purpose; preventing the intended goal",
+"example": "The candidate’s attempt to win swing votes in Ohio was actually counterproductive —following his speech in Toledo, his poll numbers actually went down 5%."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "covert",
+"pos": "adj",
+"def": "Secret, veiled, undercover",
+"example": "The soldier trained to be part of covert operations, moving silently and remaining out of the enemy’s sight."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "crafty",
+"pos": "adj",
+"def": "Cunning, skillful in deception or underhanded schemes",
+"example": "A crafty play in basketball is the “head-fake”—moving the head in one direction slightly prior to running in the other direction, to try to get a tiny head start on a disoriented pursuer."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "craven",
+"pos": "adj",
+"def": "Very cowardly, lacking courage",
+"example": "The nervous soldier feared he would turn craven in his first firefight, but he actually acted quite bravely."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "credibility",
+"pos": "noun",
+"def": "Believability, trustworthiness",
+"example": "Many famous “experts” with “Dr.” before their names are not medical doctors at all. Any television “doctor” who turns out to have a Ph.D. in botany, for instance, ought to suffer a serious drop in credibility."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "credulous",
+"pos": "adj",
+"def": "Gullible; prone to believing or trusting too easily or without enough evidence",
+"example": "“Did you know you can wash your ears by turning your head on its side in the shower and letting the water run straight through your head?” said the father to his five-year-old daughter. “I’ll try that!” said the credulous little girl."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "crescendo",
+"pos": "noun",
+"def": "Steady increase in force, intensity, or the loudness of a musical passage; a climactic moment or peak",
+"example": "Mrs. Higgins did love the symphony, but she was also coming down with a migraine—by the time the music reached its towering crescendo, her head was pounding."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "culminate",
+"pos": "verb",
+"def": "Reach the highest point or final stage",
+"example": "A Ph.D. program generally culminates in a written dissertation and its defense to a committee."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "cynical",
+"pos": "adj",
+"def": "Thinking the worst of others’ motivations; bitterly pessimistic",
+"example": "Shilpa was so cynical that even when her friends threw her a surprise party, she figured that they only did it so they wouldn’t feel so guilty about all the mean things they must be saying behind her back."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "daunt",
+"pos": "verb",
+"def": "Discourage, dishearten, lessen the courage of",
+"example": "Amazingly undaunted after his accident, Devon vowed to complete a marathon in his wheelchair. Not even a dented rim on mile 19 could daunt him—he dauntlessly completed the race anyway."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "debase",
+"pos": "verb",
+"def": "Degrade; lower in quality, value, rank, etc.; lower in moral quality",
+"example": "You have debased yourself by accepting bribes."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "debunk",
+"pos": "verb",
+"def": "Expose, ridicule, or disprove false or exaggerated claims",
+"example": "Galileo spent his last years under house arrest for debunking the widely held idea that the Sun revolved around the Earth."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "decorous",
+"pos": "adj",
+"def": "Behaving with propriety and good taste; polite",
+"example": "Miss Etiquette writes an advice column about decorum. One writer asked, “What’s the most decorous way to tell guests exactly what I want for my wedding?” Miss Etiquette replied, “Young lady, there is no decorous way to solicit gifts, and even asking that question is entirely indecorous of you.”"
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "deem",
+"pos": "verb",
+"def": "Judge; consider",
+"example": "“You can take the black belt exam when I deem you ready, and not a moment before,” said the karate instructor."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "deface",
+"pos": "verb",
+"def": "Vandalize, mar the appearance of",
+"example": "Ernest was charged with three counts of vandalism after being caught defacing a row of townhouses with spraypaint."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "defamatory",
+"pos": "adj",
+"def": "Slanderous, injurious to someone’s reputation",
+"example": "One interesting issue in free speech law is defamation."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "default",
+"pos": "noun, verb, verb",
+"def": "Failure to act, neglect (noun); fail to fulfill an obligation, especially a financial one (verb)",
+"example": "The government is cracking down on for-profit colleges where a large percentage of the graduates cannot use their degrees to gain employment and end up defaulting on their student loans."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "deference",
+"pos": "noun",
+"def": "Respectful submission; yielding to the authority or opinion of another",
+"example": "In many cultures, young people are expected to show deference to older people at all times."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "deflect",
+"pos": "verb",
+"def": "Cause to curve; turn aside, esp. from a straight course; avoid",
+"example": "The purpose of a shield is to deflect arrows or bullets from an enemy./ Every time he was asked a difficult question, Senator Warrington deflected by changing the topic, saying he’d answer later, or even—insincerely, it seemed—calling for a moment of prayer."
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "deleterious",
+"pos": "adj",
+"def": "Harmful, unhealthful",
+"example": "The Resident Assistant told the first-year students, “I think you will find not only that drugs are illegal and will result in expulsion, but also that drug abuse will have a deleterious effect on anyone’s grades.”"
+},
+{
+"setNum": 5,
+"set": "Essential 5",
+"w": "delineate",
+"pos": "verb",
+"def": "Mark the outline of; sketch; describe in detail",
+"example": "I do need the cash, but I’m not signing up for this psychological experiment unless you delineate what’s going to happen."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "denigrate",
+"pos": "verb",
+"def": "Belittle, attack the reputation of",
+"example": "Many jokes in the Meet the Parents trilogy come from Robert De Niro’s character denigrating Ben Stiller’s character for being a male nurse."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "denote",
+"pos": "verb",
+"def": "Be a name or symbol for",
+"example": "The company’s brand denotes quality; the marketing team has done a fantastic job of associating the company’s image with fine service."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "deride",
+"pos": "verb",
+"def": "Mock, scoff at, laugh at contemptuously",
+"example": "The manager really thought that deriding his employees as “stupid” or “lazy” would motivate them to work harder; instead, it motivated them to constantly hide his office supplies as an act of revenge."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "derivative",
+"pos": "adj",
+"def": "Derived from something else; not original",
+"example": "The singer’s first album was a disappointment, derivative of several hit albums from the previous year, as though a management team had simply picked out the elements from other popular songs that they thought would make the most money."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "desiccate",
+"pos": "verb",
+"def": "Thoroughly dried up, dehydrated",
+"example": "The key to maintaining odor-free shoes is to desiccate the insole by placing a drying agent, such as a small pouch of baking soda, inside the shoe between wears."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "detached",
+"pos": "adj",
+"def": "Impartial, disinterested; unconcerned, distant, aloof",
+"example": "He found her detached demeanor inappropriate for a funeral. It’s fine to politely ask how someone died, but it’s not appropriate to coldly question a relative on the medical history of the deceased."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "deterrent",
+"pos": "noun",
+"def": "Something that restrains or discourages",
+"example": "Some argue that the death penalty is a deterrent to crime—that is, the point is not just to punish the guilty, but to frighten other prospective criminals."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "diatribe",
+"pos": "noun",
+"def": "Bitter, abusive attack or criticism; rant",
+"example": "I’d stay out of the living room for awhile—Grandpa’s on another one of his diatribes about how it’s un-American to call a large coffee a “venti.” You can hear him ranting from here!"
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "didactic",
+"pos": "adj",
+"def": "Intended to instruct; teaching, or teaching a moral lesson",
+"example": "She might have been Teacher of the Year at work, but at home, her husband wished she would turn off her didactic personality. “Honey,” he said, “I really don’t need you to use everything as a learning opportunity.”"
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "digress",
+"pos": "verb",
+"def": "Go off-topic when speaking or writing",
+"example": "Grandpa digressed quite a bit while you were in the kitchen—he was telling us an old war story, but somehow now he’s ranting about how nobody celebrates Arbor Day anymore. That digression could take awhile."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "din",
+"pos": "noun",
+"def": "Loud, confused noise, esp. for a long period of time",
+"example": "This hotel was described as “near all the hot spots,” but I didn’t realize that I wouldn’t be able to sleep due to the all-night din from partygoers."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disabuse",
+"pos": "verb",
+"def": "Free someone from a mistake in thinking",
+"example": "Do you really believe that toilets flush one way in the Northern hemisphere and another way in the Southern? Any physicist would be happy to disabuse you of that silly notion."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "discerning",
+"pos": "adj",
+"def": "Having good judgment or insight; able to distinguish mentally",
+"example": "In an age in which we are bombarded with advertising, it’s important to be a discerning consumer. For instance, the term “all natural” is not federally regulated and doesn’t have to mean anything at all, so a smart shopper still reads ingredients."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "discredit",
+"pos": "adj",
+"def": "Injure the reputation of, destroy credibility of or confidence in",
+"example": "Congresswoman Huffman’s opponent tried to use her friendship with a certain radical extremist to discredit her, even though the Congresswoman hadn’t seen this so-called “extremist” since sixth grade summer camp."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "discrepancy",
+"pos": "noun",
+"def": "Difference or inconsistency",
+"example": "When there is a discrepancy between a store’s receipts and the amount of money in the register, the cashier’s behavior is generally called into question."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "discriminating",
+"pos": "adj",
+"def": "Judicious, discerning, having good judgment or insight",
+"example": "He is a man of discriminating tastes—all his suits are handmade in Italy, and I once saw him send back an entree when he complained that black truffle oil had been substituted for white. The chef was astounded."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disingenuous",
+"pos": "adj",
+"def": "Insincere, not genuine",
+"example": "Christine used the fact that her mother spoke limited English as an opportunity to be disingenuous. When her mother asked, “Will there be boys at this sleepover?” she replied “There won’t not be boys there!”"
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disinterested",
+"pos": "adj",
+"def": "Unbiased, impartial; not interested",
+"example": "Let’s settle this argument once and for all! We’ll get a disinterested observer to judge who can sing the highest note!"
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disjointed",
+"pos": "adj",
+"def": "Disconnected, not coherent, jerky; having the joints separated",
+"example": "The novel seemed disjointed, as though whole chunks of it were missing, or as though the author had tried to stitch together drafts of several different stories."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "dismiss",
+"pos": "verb",
+"def": "Allow to disperse or leave; fire from a job; put aside or reject, especially after only a brief consideration",
+"example": "“Before I dismiss class,” said the teacher, “I want to remind you of the importance of dismissing biases in your research by ruling out or adjusting for factors other than the variable you are testing that may have led to your results.”"
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "dispassionate",
+"pos": "adj",
+"def": "Unbiased, not having a selfish or personal motivation; calm, lacking emotion",
+"example": "The defendant tearfully described how much her young child needed her at home, but the judge, who dispassionately sentenced her to ten years for selling drugs, was unmoved."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "dispatch",
+"pos": "noun, verb",
+"def": "Speed, promptness; send off or deal with in a speedy way",
+"example": "So, you want to be a bike messenger? I need messengers who approach every delivery with alacrity, care, and dispatch—if the customers wanted their packages to arrive slowly, they’d use the post office."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disperse",
+"pos": "verb",
+"def": "Scatter, spread widely, cause to vanish",
+"example": "Because the demonstrators didn’t have a permit, the police showed up with megaphones, demanding loudly that the crowd disperse."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disposition",
+"pos": "noun",
+"def": "A person’s general or natural mood; tendency",
+"example": "She was possessed of a kind and helpful disposition—she wouldn’t just help you move, she’d bring home-baked muffins to the affair."
+},
+{
+"setNum": 6,
+"set": "Essential 6",
+"w": "disquieting",
+"pos": "adj",
+"def": "Disturbing, causing anxiety",
+"example": "Mr. Peters’ lack of emotion at his wife’s death was disquieting—so much so, in fact, that even his own family began to suspect he’d had something to do with it."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "disseminate",
+"pos": "verb",
+"def": "Scatter, spread about, broadcast",
+"example": "Many plants use attractive fruits to disseminate their seeds—animals eat the fruit and excrete the seeds, allowing new plants to grow."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "dissent",
+"pos": "verb, noun",
+"def": "Disagree or take an opposing view, esp. in relation to a formal body such as a government, political party, or church; such a view",
+"example": "Judge Antonin Scalia cast the only dissenting vote, explaining in his written decision why he thought all the other justices had it wrong."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "dissonance",
+"pos": "noun",
+"def": "Harsh, inharmonious sound; cacophony; disagreement",
+"example": "After allowing her sixth-grader’s heavy metal band to practice in her living room, Mrs. Rosen decided she’d better get used to dissonance."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "distill",
+"pos": "verb",
+"def": "Purify; extract the essential elements of",
+"example": "While traveling in certain countries, it is important to only drink distilled water so you don’t get sick."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "diverge",
+"pos": "verb",
+"def": "Differ, deviate; branch off or turn aside, as from a path",
+"example": "Go five miles until the old post office, then the road diverges—you want the branch that winds off to the left."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "divest",
+"pos": "verb",
+"def": "Deprive or strip of a rank, title, etc., or of clothing or gear; to sell off holdings (opposite of invest)",
+"example": "When she found out that the most profitable stock in her portfolio was that of a company that tested products on animals, she immediately divested by telling her broker to sell the stock."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "divine",
+"pos": "verb",
+"def": "Discover through divination or supernatural means; perceive by insight",
+"example": "I’ve been poring over these quarterly reports all day, trying to divine whether I should buy or sell this stock."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "document",
+"pos": "verb",
+"def": "Support with evidence, cite sources in a detailed way, create documentary evidence of",
+"example": "Journalists embedded with military units are able to document a war as it happens."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "dogma",
+"pos": "noun",
+"def": "A system of principles laid down by an authority; established belief",
+"example": "It is part of the dogma of modern education that there are multiple intelligences that are equally valuable; try to suggest that some people just aren’t that smart, and you’ll find yourself a pariah."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "dormant",
+"pos": "adj",
+"def": "Asleep, inactive, on a break",
+"example": "Some famous writers’ skills have lain dormant until quite late in life; Laura Ingalls Wilder didn’t publish Little House on the Prairie until she was 65."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "dubious",
+"pos": "adj",
+"def": "Doubtful, questionable, suspect",
+"example": "This applicant’s resume is filled with dubious qualifications—this is a marketing position, and this resume is mostly about whitewater rafting."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "e.g.",
+"pos": "abbreviation for Latin “exempli gratia”",
+"def": "For example, such as",
+"example": "He was positively traumatized by the romantic comedies his girlfriend made him watch (e.g., He’s Just Not That Into You)."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "eccentric",
+"pos": "adj",
+"def": "Peculiar, odd, deviating from the norm esp. in a whimsical way",
+"example": "The old woman was harmless but eccentric—not many senior citizens wear a train conductor’s uniform and carry a boom box."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "eclectic",
+"pos": "adj",
+"def": "Selecting the best of everything or from many diverse sources",
+"example": "Eclectic taste is helpful in being a DJ—crowds love to hear the latest hip-hop mixed with ‘80s classics and other unexpected genres of music."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "eclipse",
+"pos": "noun, verb",
+"def": "The obscuring of one thing by another, such as the sun by the moon or a person by a more famous or talented person (noun); to obscure, darken, make less important (verb)",
+"example": "During a solar eclipse, the moon eclipses the Sun."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "efficacy",
+"pos": "noun",
+"def": "The quality of being able to produce the intended effect",
+"example": "Extensive trials will be necessary to determine whether the drug’s efficacy outweighs the side effects."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "egalitarian",
+"pos": "adj",
+"def": "Related to belief in the equality of all people, esp. in political, economic, or social spheres",
+"example": "After moving to a more liberal part of the country, the couple was pleased to have neighbors who shared their views of egalitarian marriage—for instance, men and women could be found in equal proportions downshifting to part-time work to make time for childcare."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "egregious",
+"pos": "adj",
+"def": "Extraordinarily or conspicuously bad; glaring",
+"example": "Your conduct is an egregious violation of our Honor Code—not only did you steal your roommate’s paper off his computer and turn it in as your own, you also sold his work to a plagiarism website so other cheaters could purchase it!"
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "elated",
+"pos": "adj",
+"def": "Very happy, in high spirits",
+"example": "I am elated that you flew my twin brother in from Australia to surprise me at my birthday party!"
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "elevate",
+"pos": "verb",
+"def": "Raise, lift up; lift the spirits of; move up to a higher rank or status or raise up to a higher spiritual or intellectual plane",
+"example": "After a year getting coffee and making copies, he hoped to be promoted to a more elevated position suitable for a law school graduate."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "elicit",
+"pos": "verb",
+"def": "Call forth, bring out, evoke",
+"example": "The touchdown elicited wild cheer from the crowd."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "eloquent",
+"pos": "adj",
+"def": "Marked by forceful, fluid, apt speech; expressive, emotionally moving",
+"example": "Wow, he’s such an eloquent speaker, he could sell snow to Antarcticans!"
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "embellish",
+"pos": "verb",
+"def": "Decorate, add ornamentation; enhance (a story) with fictional or fanciful details",
+"example": "Every time she tells that story, she embellishes it quite a bit—at first, she was lost in the woods and then she was found. The part with the grizzly bear was added later."
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "eminent",
+"pos": "adj",
+"def": "Prominent, distinguished, of high rank",
+"example": "The undergraduate shocked everyone by asking the eminent old professor, “Really? What makes you such an expert?”"
+},
+{
+"setNum": 7,
+"set": "Essential 7",
+"w": "empirical",
+"pos": "adj",
+"def": "Coming from, based on, or able to be verified by experience or experimentation; not purely based on theory",
+"example": "The Ancient Greeks philosophized about the nature of matter (concluding, for instance, that everything was made of earth, water, air, and fire) without any empirical evidence—that is, the very idea of conducting experiments hadn’t been invented yet."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "emulate",
+"pos": "verb",
+"def": "Copy in an attempt to equal or be better than",
+"example": "The ardent Star Trek fan emulated Captain Kirk in every way possible—his brash and confident leadership might have gotten him somewhere, but the women he tried to impress weren’t so impressed."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "enervate",
+"pos": "verb",
+"def": "Weaken, tire",
+"example": "After taking the SAT in the morning and playing in a soccer game in the afternoon, Trina was truly enervated before the prom even began. “You dance like a grandmother with osteoporosis,” said her date."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "enhance",
+"pos": "verb",
+"def": "Raise to a higher value, desirability, etc.",
+"example": "The cosmetics industry stays in business because so many people want to enhance their appearances."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "enigma",
+"pos": "noun",
+"def": "Puzzle, mystery, riddle; mysterious or contradictory person",
+"example": "The enormous rock sculptures in Stonehenge, England are truly an enigma—were they created as part of a religious observance, or in deference to a great ruler? We may never know."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "entitlement",
+"pos": "noun",
+"def": "Having the right to certain privileges; believing, sometimes without cause, that one deserves or has a right to certain privileges",
+"example": "Many bosses complain about young people’s sense of entitlement—raised on a steady diet of praise from parents and teachers, these young people are shocked to be expected to “pay their dues” at a new job."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "enumerate",
+"pos": "verb",
+"def": "Count or list; specify one-by-one",
+"example": "The Bill of Rights enumerates the basic rights held by every citizen of the United States."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "ephemeral",
+"pos": "adj",
+"def": "Lasting only a short time, fleeting",
+"example": "“Thank you for this jacket that says ‘Eugene’s Girl,’” said Marie, “but I fear that your love will prove to be ephemeral—over the last two years, I’ve seen four other girls in school with the same jacket. Do you buy them in six-packs?”"
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "equitable",
+"pos": "adj",
+"def": "Fair, equal, just",
+"example": "As the university president was heavily biased towards the sciences, faculty in the liberal arts felt they had to fight to get an equitable share of funding for their departments."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "erratic",
+"pos": "adj",
+"def": "Inconsistent, wandering, having no fixed course",
+"example": "When someone engages in erratic behavior, family members often suspect drug use or mental illness. However, sometimes the person is just building a top-secret invention in the garage!"
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "erroneous",
+"pos": "adj",
+"def": "Mistaken, in error; improper, morally incorrect",
+"example": "Hilda was completely unable to assemble her new desk chair after the instructions erroneously instructed her to screw the left armrest onto a small lever on the bottom of the seat."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "erudite",
+"pos": "adj",
+"def": "Scholarly, knowledgeable; possessing deep, often systematic, knowledge",
+"example": "Some have said that Americans dislike erudite leaders; while German leaders frequently have Ph.D.’s, even speaking a foreign language is considered pretentious by many American voters."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "eschew",
+"pos": "verb",
+"def": "Shun, avoid, abstain from",
+"example": "As a vegan, he eschewed not only meat and dairy but also anything made of leather."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "esoteric",
+"pos": "adj",
+"def": "Understood by or intended for only a few; secret",
+"example": "In his first year of university-level physics, he felt he was merely memorizing information found in every textbook on the subject; by his fourth year, he spent his days poring over esoteric journal articles that few people had ever read or understood."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "estimable",
+"pos": "adj",
+"def": "Worthy of esteem, admirable; able to be estimated",
+"example": "As the first Black president of the Harvard Law Review, Barack Obama presented an estimable resume when he ran for President in 2008."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "eulogy",
+"pos": "noun",
+"def": "Speech of praise or written work of praise, esp. a speech given at a funeral",
+"example": "While it was hard for Xing to write a eulogy for his friend, he was pleased to be able to tell others at the funeral some wonderful things about him that they hadn’t known."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "exacerbate",
+"pos": "verb",
+"def": "Make worse (more violent, severe, etc.), inflame; irritate or embitter (a person)",
+"example": "Allowing your band to practice in our garage has greatly exacerbated my headache."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "exacting",
+"pos": "adj",
+"def": "Very severe in making demands; requiring precise attention",
+"example": "The boxing coach was exacting, analyzing Joey’s footwork down to the millimeter and forcing him to repeat movements hundreds of times until they were correct."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "exculpate",
+"pos": "verb",
+"def": "Clear from guilt or blame",
+"example": "The security camera footage showing Mr. Murphy to have been in a casino the entire night turned out to be just the evidence needed to exculpate him of robbing a bank fifty miles away."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "exhaustive",
+"pos": "adj",
+"def": "Comprehensive, thorough, exhausting a topic or subject, accounting for all possibilities; draining, tending to exhaust",
+"example": "The Standard Book of British Birds provides an exhaustive treatment of the subject—you will find that not a single British bird has been omitted."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "explicit",
+"pos": "adj",
+"def": "Direct, clear, fully revealed; clearly depicting sex or nudity",
+"example": "The goal of my motivational talk is to make explicit the connection between staying in school and avoiding a life of crime."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "exponent",
+"pos": "noun",
+"def": "Person who expounds or explains; champion, advocate, or representative",
+"example": "An exponent of clean fuel, he petitioned the state government to commit to replacing conventional energy with solar and wind energy where possible."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "extraneous",
+"pos": "adj",
+"def": "Irrelevant; foreign, coming from without, not belonging",
+"example": "This essay would be stronger if you removed extraneous information; this paragraph about the author’s life doesn’t happen to be relevant to your thesis."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "extrapolate",
+"pos": "verb",
+"def": "Conjecture about an unknown by projecting information about something known; predict by projecting past experience",
+"example": "No, I’ve never been to Bryn Mawr, but I’ve visited several small, private women’s colleges in the Northeast, so I think I can extrapolate."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "facetious",
+"pos": "adj",
+"def": "Joking, humorous, esp. inappropriately; not serious, concerned with frivolous things",
+"example": "When I said, “Sure, you can take anything in my house as a souvenir of this study session,” I was being facetious! I would like my nightgown back now."
+},
+{
+"setNum": 8,
+"set": "Essential 8",
+"w": "facilitate",
+"pos": "verb",
+"def": "Make easier, help the progress of",
+"example": "A good meeting facilitator lets everyone be heard while still keeping the meeting focused."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fallacious",
+"pos": "adj",
+"def": "Containing a fallacy, or mistake in logic; logically unsound; deceptive",
+"example": "The formal study of logic can enable a student to more easily identify fallacious reasoning and, furthermore, to point out its fallacies."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fanatical",
+"pos": "adj",
+"def": "Excessively devoted, enthusiastic, or zealous in an uncritical way",
+"example": "We avoid our neighbors—they’re fanatics who can’t go five minutes without trying to convert you to their beliefs."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fanciful",
+"pos": "adj",
+"def": "Whimsical, capricious; imaginary; freely imaginative rather than based on reason or reality",
+"example": "The play was set in a fanciful version of New York City, one where all the cab drivers spoke perfect English and the Statue of Liberty seemed to be in the middle of the island."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fathom",
+"pos": "verb",
+"def": "Measure the depth of (usually of water) as with a sounding line; penetrate and discover the meaning of, understand",
+"example": "I cannot even remotely fathom how you interpreted an invitation to sleep on my couch as permission to take my car on a six-hour joyride!"
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "feasible",
+"pos": "adj",
+"def": "Possible; logical or likely; suitable",
+"example": "Your plan to promote our product launch with a parade is just not feasible—we don’t have the money or enough time to get the permits."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fidelity",
+"pos": "noun",
+"def": "Faithfulness, loyalty; strict observance of duty; accuracy in reproducing a sound or image",
+"example": "Wedding vows typically include a promise of fidelity—such as by “forsaking all others as long as I may live.”"
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "figurative",
+"pos": "adj",
+"def": "Metaphorical, based on figures of speech; containing many figures of speech (as fancy- sounding writing); related to portraying human or animal figures",
+"example": "The painter was renowned for his figurative art, including many portraits—he had been known to say that abstract artists were just people who had never learned to draw."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "finesse",
+"pos": "noun, verb",
+"def": "Extreme delicacy, subtlety, or diplomacy in handling a sensitive situation or in a performance or skill (noun); use tact or diplomacy; employ a deceptive strategy (verb)",
+"example": "After the prince deeply insulted his hosts, the diplomat was able to finesse the situation, playing it off as a translation error and getting the negotiations back on track."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "flag",
+"pos": "verb",
+"def": "Get tired, lose enthusiasm; hang limply or droop",
+"example": "Our grandmother is so physically fit that she was ready to make the rounds of the entire amusement park again after lunch, while most of us were flagging and just wanted to sit."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fleeting",
+"pos": "adj",
+"def": "Passing quickly, transitory",
+"example": "I had assumed our summer romance would be fleeting, so I was very surprised when you proposed marriage!"
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "foment",
+"pos": "verb",
+"def": "Incite, instigate, stir up, promote the growth of; apply medicated liquid to a body part",
+"example": "The revolutionary group was quietly fomenting a rebellion, galvanizing student radicals, leading unions in revolutionary songs, and anonymously pasting incendiary posters in every quarter of the city."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "foreshadow",
+"pos": "verb",
+"def": "Indicate or suggest beforehand, presage",
+"example": "You didn’t know this was a horror movie? I thought it was pretty clear that the children’s ghost story around the campfire was meant to foreshadow the horrible things that would happen to them years later as teenagers at a motel in the middle of the woods."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "forfeit",
+"pos": "verb",
+"def": "Surrender or lose as a result of an error, crime, or failure to fulfill an obligation",
+"example": "“The rules are clear,” said the umpire. “This is a co-ed league, and if your team doesn’t have at least three women, you forfeit. Sorry, everybody, no game today!”"
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fortify",
+"pos": "verb",
+"def": "Strengthen, invigorate, encourage",
+"example": "The white bread found in American grocery stores has been stripped of all the nutrients naturally found in wheat, and then artificially fortified with vitamins and minerals."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "fringe",
+"pos": "noun, adj, noun",
+"def": "On the margin, periphery (adj); the people in a group who hold the most extreme views (noun)",
+"example": "In America, reincarnation is a fringe belief, but in primarily Hindu countries, the belief is quite mainstream."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "frugal",
+"pos": "adj",
+"def": "Economical, thrifty, not wasteful with money; inexpensive",
+"example": "It wasn’t terribly surprising when Lea—who was so frugal in restaurants that she always drank water, ate salad, and requested a separate check—said she had never tried lobster."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "futile",
+"pos": "adj",
+"def": "Producing no useful result, ineffective; trivial or unimportant",
+"example": "She spent months trying to coax Fluffy to fetch and sit, but it was futile —cats just can’t be trained to perform tricks."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "gainsay",
+"pos": "verb",
+"def": "Declare false, deny; oppose",
+"example": "The professor is quite doctrinaire—she’s been known to lower the grade of any student who dares gainsay her."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "garrulous",
+"pos": "adj",
+"def": "Talkative, wordy, rambling",
+"example": "Uncle Bill is so garrulous that our dinner conversation lasted three hours—and the only person who said more than ten words was Uncle Bill."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "gauche",
+"pos": "adj",
+"def": "Tactless, lacking social grace, awkward, crude",
+"example": "It is terribly gauche to put ketchup on your steak and then talk with your mouth full as you eat it. That’s the last time I ever bring you to a nice place."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "gawky",
+"pos": "adj",
+"def": "Physically awkward (esp. of a tall, skinny person, often used to describe teenagers)",
+"example": "As a teenager, she thought of herself as gawky and often slouched so as not to seem so much taller than her peers; of course, now that she’s a supermodel, no one thinks of her as gawky at all."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "germane",
+"pos": "adj",
+"def": "Relevant and appropriate, on-topic",
+"example": "This is a business meeting, not a social club—let’s keep our comments germane to the issue of the new campaign."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "gist",
+"pos": "noun",
+"def": "Main idea, essence",
+"example": "I didn’t read the whole book, but I read enough to get the gist."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "glib",
+"pos": "adj",
+"def": "Fluent and easy in a way that suggests superficiality or insincerity",
+"example": "She was the worst teacher he had ever encountered, giving glib responses to every question. “Can you help me with this algebra problem?” he asked. “Oh, just solve for x,” she said, and walked away."
+},
+{
+"setNum": 9,
+"set": "Essential 9",
+"w": "goosebumps",
+"pos": "noun",
+"def": "The “bumps” created by hairs standing up on the skin in response to cold, fear, etc.",
+"example": "That detective novel is hard to put down! I’ve got goosebumps just waiting to find out what happens next!"
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "gradation",
+"pos": "noun",
+"def": "A progression, a process taking place gradually, in stages; one of these stages",
+"example": "The hill’s gradation was so gradual that even those on crutches were able to enjoy the nature trail."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "gregarious",
+"pos": "adj",
+"def": "Sociable, pertaining to a flock or crowd",
+"example": "“We need to be a little more productive and a little less gregarious,” said the chemistry teacher when he saw that the two-person lab groups had devolved into clusters of five and six students standing around talking and laughing."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "guile",
+"pos": "noun",
+"def": "Clever deceit, cunning, craftiness",
+"example": "The game of poker is all about guile, manipulating your own body language and patter to lead other players to erroneous conclusions about the cards you’re holding."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hackneyed",
+"pos": "adj",
+"def": "So commonplace as to be stale; not fresh or original",
+"example": "This screenplay is so hackneyed—the leading lady has a quirky, artsy job in the city and has a minor problem early in the movie from which the male lead rescues her, and they get together but then break up due to a misunderstanding, and then they end up together anyway, all while the female lead’s “sassy” friend gives advice. Ugh. I’ll bet they’re auditioning Jennifer Aniston right now."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hardy",
+"pos": "adj",
+"def": "Bold, brave, capable of withstanding hardship, fatigue, cold, etc.",
+"example": "While the entire family enjoyed the trip to South America, only the hardier members even attempted to hike to the top of Ecuador’s tallest volcano."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "haven",
+"pos": "noun",
+"def": "Harbor or port; refuge, safe place",
+"example": "The relief workers set up the camp as a haven from persecution."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hearken",
+"pos": "verb",
+"def": "Listen, pay attention to",
+"example": "“Hearken, students!” said the old-fashioned music teacher. “We are going to practice ‘Hark, the Herald Angels Sing.”"
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hedonist",
+"pos": "noun",
+"def": "Person devoted to pleasure",
+"example": "A vacation is a fine time to practice hedonism, letting your troubles go and pursuing massages and cocktails as though it’s your life mission."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "heterogeneous",
+"pos": "adj",
+"def": "Different in type, incongruous; composed of different types of elements",
+"example": "Rather than build the wall with plain brick, we used a heterogeneous mixture of stones—they are not only different colors, but a variety of sizes as well."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hierarchy",
+"pos": "noun",
+"def": "A ranked series; a classification of people according to rank, ability, etc.; a ruling body",
+"example": "The activist, accustomed to groups ruled by consensus, was quite surprised to find that the Eco-Action Coalition was led by a strict hierarchy—members followed orders from district leaders, district leaders from regional leaders, and regional leaders from the national head."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hodgepodge",
+"pos": "noun",
+"def": "Mixture of different kinds of things, jumble",
+"example": "The comedian’s book wasn’t a proper memoir, but more a hodgepodge of old bits, personal stories that went nowhere, random political opinions, and childhood photos."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "homogeneous",
+"pos": "adj",
+"def": "Of the same kind; uniform throughout",
+"example": "While Sweden seems to have solved many of its social ills, critics point out that Sweden’s largely homogeneous population doesn’t present the challenges extant in a more diverse nation with many cultures and languages."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "hyberbole",
+"pos": "noun",
+"def": "Deliberate exaggeration for effect",
+"example": "Oh, come on. Saying “That movie was so bad it made me puke” was surely hyperbole. I strongly doubt that you actually vomited during or following The Back-Up Plan."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "idiosyncrasy",
+"pos": "noun",
+"def": "Characteristic or habit peculiar to an individual; peculiar quality, quirk",
+"example": "Sometimes, the richer people get, the more idiosyncratic they become. After he made his first billion, he began traveling with a pet iguana, sleeping in an oxygen chamber, and, oddly, speaking with a slight Dutch accent."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "illiberality",
+"pos": "noun",
+"def": "Narrow-mindedness, bigotry; strictness or lack of generosity",
+"example": "Students protested the illiberality of an admissions policy that made no allowances for those from disadvantaged areas or backgrounds who may not have had access to advanced classes and tutors."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "imminent",
+"pos": "adj",
+"def": "Ready to occur, impending",
+"example": "In the face of imminent war, the nation looked to FDR for reassurance."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "impair",
+"pos": "verb",
+"def": "Make worse, weaken",
+"example": "Playing in a rock band without earplugs will almost certainly impair your hearing over time."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "impartial",
+"pos": "adj",
+"def": "Unbiased, fair",
+"example": "Judge Gonzales removed himself from the case because, having a personal connection to the school where the shooting took place, he did not think he could be appropriately impartial."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "impede",
+"pos": "verb",
+"def": "Hold back, obstruct the progress of",
+"example": "I didn’t realize business school would be entirely group work—sadly, there’s always at least one person in every group who impedes the group’s progress more than helps it."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "implication",
+"pos": "noun",
+"def": "Act of implying or that which is implied; close connection, esp. in an incriminating way",
+"example": "When the boss said, “Times are tight around here, I just think you should know,” the implication was that maybe we should start looking for new jobs."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "implicit",
+"pos": "adj",
+"def": "Implied, not stated directly; involved in the very essence of something, unquestionable",
+"example": "He didn’t have to be told to resign; it was implicit in his not getting the promotion that he had no future at the company."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "implode",
+"pos": "verb",
+"def": "Burst inward",
+"example": "The startup struggled for years before it simply imploded—the management team broke into factions, all the clients were scared off, and employees who hadn’t been paid in weeks began taking the office computers home with them in retribution."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "inadvertent",
+"pos": "adj",
+"def": "Unintentional; characterized by a lack of attention, careless",
+"example": "In attempting to perfect his science project, he inadvertently blew a fuse and plunged his family’s home into darkness."
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "inasmuch",
+"pos": "adv",
+"def": "In like manner, considering that (contraction of “in as much,” generally followed by “as”)",
+"example": "Inasmuch as you missed my birthday party to do the Walk for the Cure, I am not angry at all. Good for you for doing that!"
+},
+{
+"setNum": 10,
+"set": "Essential 10",
+"w": "incendiary",
+"pos": "adj",
+"def": "Setting on fire, pertaining to arson; arousing strife, rebellion, etc.; “inflaming” the senses",
+"example": "The college suspended him for creating an incendiary website, encouraging sit-ins and protests, but the ACLU defended his right to freedom of speech."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "incentive",
+"pos": "noun",
+"def": "Something that encourages greater action or effort, such as a reward",
+"example": "A controversial program in a failing school system uses cash payments as an incentive for students to stay in school."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "inchoate",
+"pos": "adj",
+"def": "Just begun, undeveloped, unorganized",
+"example": "The first few weeks of language class went well, but her inchoate French was all but useless when she found herself at an academic conference in Quebec."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "incipient",
+"pos": "adj",
+"def": "Just beginning; in a very early stage",
+"example": "The movie producer was devastated when, due to legal trouble over the screenplay, the incipient project was crushed before it had even begun shooting."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "incongruous",
+"pos": "adj",
+"def": "Out of place, inappropriate, not harmonious",
+"example": "Among the student artwork posted in the halls, Angelina’s submission was incongruous, a dark, gruesome, and even worldly work amidst the happy family portraits and other childish drawings."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "inconsequential",
+"pos": "adj",
+"def": "Insignificant, unimportant; illogical",
+"example": "You wrote a bestselling book and got a stellar review in the New York Times—whatever your cousin has to say about it is simply inconsequential."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "incorporate",
+"pos": "verb",
+"def": "Combine, unite; form a legal corporation; embody, give physical form to",
+"example": "When a business incorporates, it becomes a separate legal entity—for instance, the business can declare bankruptcy without the owners doing so."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "indeterminate",
+"pos": "adj",
+"def": "Not fixed or determined, indefinite; vague",
+"example": "The results of the drug trial were indeterminate; further trials will be needed to ascertain whether the drug can be released."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "indifferent",
+"pos": "adj",
+"def": "Not caring, having no interest; unbiased, impartial",
+"example": "Do whatever you want—I’m indifferent. I won’t even notice."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "inform",
+"pos": "verb",
+"def": "Inspire, animate; give substance, essence, or context to; be the characteristic quality of",
+"example": "Her work as an art historian is informed by a background in drama; where others see a static tableau, she sees a protagonist, a conflict, a denouement."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "ingenuous",
+"pos": "adj",
+"def": "Genuine, sincere, not holding back; naive",
+"example": "Multi-level marketing scams prey on the ingenuous, those who really think there’s someone out there who just wants to help them get rich."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "ingrained",
+"pos": "adj",
+"def": "Deep-rooted, forming part of the very essence; worked into the fiber",
+"example": "Religious observance had been ingrained in him since birth; he could not remember a time when he didn’t pray five times a day."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "inherent",
+"pos": "adj",
+"def": "Existing as a permanent, essential quality; intrinsic",
+"example": "New research seems to support the idea that humans have an inherent sense of justice—even babies become upset at puppet shows depicting unfairness, and are gratified at seeing the “bad” puppets punished."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "innocuous",
+"pos": "adj",
+"def": "Harmless, inoffensive",
+"example": "While it’s quite acrid in here, fortunately the fumes that come from our factory are completely innocuous—you don’t need a face mask unless you’d like one."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "intelligible",
+"pos": "adj",
+"def": "Able to be understood, clear",
+"example": "You are doing a disservice to all music by listening through those horrible speakers! None of the lyrics are even intelligible! I’ll bet you have no idea what this song is even about!"
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "intractable",
+"pos": "adj",
+"def": "Difficult to control, manage, or manipulate; hard to cure; stubborn",
+"example": "That student is positively intractable! Last week, we talked about the importance of staying in your seat during the lesson—this week, she not only got up mid-class, but she actually scrambled on top of a bookcase and refused to come down!"
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "intrepid",
+"pos": "adj",
+"def": "Fearless, brave, enduring in the face of adversity",
+"example": "Intrepid explorers Lewis and Clark led the first U.S. expedition to the West Coast, facing bitter winters and rough terrain."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "intrinsic",
+"pos": "adj",
+"def": "Belonging to the essential nature of a thing",
+"example": "Despite all this high-tech safety equipment, skydiving is an intrinsically dangerous proposition."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "jargon",
+"pos": "noun",
+"def": "Vocabulary specific to a group or occupation; convoluted or unintelligible language",
+"example": "The information my doctor gave me was so full of medical jargon I couldn’t understand it at all! I’m going to look on the Internet for something written for regular people."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "jocular",
+"pos": "adj",
+"def": "Joking or given to joking all the time; jolly, playful",
+"example": "He’s certainly a jocular fellow—if we were friends, I’m sure I’d find his antics amusing, but as his professor, I do wish he’d contribute some serious comments to the class discussion instead of his constant stream of jocular comments."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "judicious",
+"pos": "adj",
+"def": "Using good judgment; wise, sensible",
+"example": "In his will, the old titan of industry left little to his hard-partying younger son, and left the bulk of his estate to the more judicious older son, with instructions that the older son see that the rest of the family was taken care of."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "juncture",
+"pos": "noun",
+"def": "Critical point in time, such as a crisis or a time when a decision is necessary; a place where two things are joined together",
+"example": "We are at a critical juncture in the history of this organization: either we can remain a nonprofit, or we can register as a political action committee and try to expand our influence."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "keen",
+"pos": "adj",
+"def": "Sharp, piercing; very perceptive or mentally sharp; intense (of a feeling)",
+"example": "Dogs have a keen sense of smell."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "kudos",
+"pos": "noun",
+"def": "Praise, honor, congratulations",
+"example": "“Kudos on your amazing GRE score!” said the teacher."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "lackluster",
+"pos": "adj",
+"def": "Not shiny; dull, mediocre; lacking brilliance or vitality",
+"example": "Many young people today are so accustomed to being praised by parents and adults that they are shocked when a lackluster effort in the workplace receives the indifference or mild disapproval it deserves."
+},
+{
+"setNum": 11,
+"set": "Essential 11",
+"w": "laconic",
+"pos": "adj",
+"def": "Using few words, concise",
+"example": "The boss was famously laconic; after allowing his employees to present their new plan for an entire hour, he finally responded, “Confirmed.”"
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lament",
+"pos": "verb, noun",
+"def": "Mourn; express grief, sorrow, or regret (verb); an expression of grief, esp. as a song or poem (noun)",
+"example": "Silda said she couldn’t make it to the party—she’s still lamenting the death of her cat. In fact, she wrote a poem: “A Lament On the Topic of Buttons McFlufferton.” Lamentably, Silda is a very bad poet."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lampoon",
+"pos": "noun, verb",
+"def": "A harsh satire (noun); ridicule or satirize (verb)",
+"example": "“As a Democrat,” said Bob, “I can’t say I appreciated watching that comedian in the Obama mask lampoon the State of the Union address.”"
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "landmark",
+"pos": "noun, adj",
+"def": "Object (such as a building) that stands out and can be used to navigate by; a very important place, event, etc.",
+"example": "The Civil Rights Act of 1964 was a landmark in the battle for equality."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "languid",
+"pos": "adj",
+"def": "Drooping from exhaustion, sluggish, slow; lacking in spirit",
+"example": "We signed up for a fitness boot camp, but after a single hour of exercise in the heat, we all felt so overcome with languor that we refused to go on. Turns out the reason we need a fitness boot camp in the first place is that we’re pretty languid people."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lassitude",
+"pos": "noun",
+"def": "Tiredness, weariness; lazy indifference",
+"example": "It’s so difficult to get anything done in the dead heat of August! I can’t seem to shake my lassitude enough to get out of this hammock, much less study for the GRE."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "laudable",
+"pos": "adj",
+"def": "worthy of praise",
+"example": "When a major discount mart fired several employees for subduing a gunman, most people considered the action a laudable act of heroism, but the discount chain fired the employees for “violating company policies.” Nevertheless, the mayor lauded the former employees in a medal- granting ceremony."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lavish",
+"pos": "adj, verb",
+"def": "Abundant or giving in abundance; marked by excess (adj); give very generously (verb)",
+"example": "Anita wanted to live as she imagined Beyonce lived, and ran up huge credit card bills pursuing a lavish lifestyle she could scarcely afford."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "layperson",
+"pos": "noun",
+"def": "a person who is not a member of the clergy or not a member of a particular profession (such as medicine, law, etc.)",
+"example": "The actress Jenny McCarthy has written a book about autism. While her experience as a parent is interesting to anyone in a similar situation, it’s still important to remember that McCarthy is a layperson, not a doctor."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "levity",
+"pos": "noun",
+"def": "Lightness (of mind, spirit, or mood) or lack of seriousness, sometimes in an inappropriate way",
+"example": "My late uncle Bill loved practical jokes and absolutely would have approved of the iPod mix my aunt played at the wake, which added a little levity by segueing from “Amazing Grace” to the party anthem “Let’s Get It Started.”"
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "levy",
+"pos": "verb, noun",
+"def": "Collect tax from, wage war on, or enlist for military service; (verb); act of colleting tax or amount owed, or the drafting of troops into military service (noun)",
+"example": "When England levied yet another tax on the colonists, the colonists were pushed one further step towards levying war. Soon, the worried British began to levy troops."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "liberal",
+"pos": "adj, noun",
+"def": "Favorable to progress or reform; believing in maximum possible individual freedom; tolerant, open-minded; generous (adj); a person with such beliefs or practices (noun)",
+"example": "Split pea soup benefits from a liberal application of pepper."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "libertine",
+"pos": "noun",
+"def": "Morally or sexually unrestrained person; freethinker (regarding religion)",
+"example": "A famed libertine, the sitcom star was constantly in the news for cavorting with women of dubious occupations and overdosing on drugs often enough to regularly hold up production of his popular television show."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "likewise",
+"pos": "adverb",
+"def": "Also, in addition to; similarly, in the same way",
+"example": "Chip was baffled by all the silverware set before him, so when his host began eating salad with the smallest, leftmost fork, Chip did likewise."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "log",
+"pos": "verb, noun",
+"def": "Keep a record of, write down; travel for or at a certain distance or speed (verb); a written record (noun)",
+"example": "Lawyers who bill by the hour have to be sure to log all the time they spend on every client’s case."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "loquacious",
+"pos": "adj",
+"def": "Talkative, wordy",
+"example": "The loquacious professor spoke at a million miles an hour and still regularly talked past the scheduled end time of the class."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lucid",
+"pos": "adj",
+"def": "Clear, easy to understand; rational, sane",
+"example": "After surgery, it’ll take at least an hour until she’s lucid—it’s nothing to worry about, but patients sometimes talk complete nonsense until the anesthesia wears off and their speech becomes lucid."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "lull",
+"pos": "noun, verb",
+"def": "Soothe or cause to fall asleep (as in a lullaby); quiet down; make to feel secure, sometimes falsely (verb); a period of calm or quiet (noun)",
+"example": "Tisha always tried to be polite—if she had to slip out of class to use the bathroom, she waited for a lull in the action so as not to attract too much attention."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "makeshift",
+"pos": "noun, adj",
+"def": "A temporary, often improvised, substitute (noun); improvised for temporary use (adj)",
+"example": "Lost in the woods for over 24 hours, the children were eventually found sleeping under a makeshift tent made from branches and old plastic bags."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "malleable",
+"pos": "adj",
+"def": "Able to be bent, shaped, or adapted",
+"example": "The more malleable the material, the easier it is to bend into jewelry—and the easier it is to damage that jewelry."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "maverick",
+"pos": "noun",
+"def": "Rebel, individualist, dissenter",
+"example": "Most cop movies feature heroes who are maverick police officers, breaking all the rules, blowing things up, and getting their guns confiscated by the chief—but ultimately saving the day."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "mendacious",
+"pos": "adj",
+"def": "Lying, habitually dishonest",
+"example": "She was so mendacious that, when she broke the television, she blamed it on her little brother, even though he was in a wheelchair and could hardly have tipped over a piece of furniture. Her mendacity knows no bounds!"
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "mercurial",
+"pos": "adj",
+"def": "Quickly and unpredictably changing moods; fickle, flighty",
+"example": "It’s tough being married to someone so mercurial. I do pretty much the same thing every day— some days, she thinks I’m great, and other days, the exact same behaviors make her inexplicably angry."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "metamorphosis",
+"pos": "noun",
+"def": "A complete change or transformation (in biology, a change such as a caterpillar becoming a pupa and then a butterfly)",
+"example": "Many reality show competitions are based on the idea of a contestant undergoing a metamorphosis, such as through dieting, exercise, life coaching, rehab, or plastic surgery—or all of the above."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "meticulous",
+"pos": "adj",
+"def": "Taking extreme care in regards to details; precise, fussy",
+"example": "As a surgeon, of course Mom needs to be highly meticulous in her work—she gets things right down to a fraction of a millimeter. But this also means that when it’s her night to cook, she’s sometimes a little too meticulous—no one really needs a meatloaf to be sculpted into an absolutely perfect rectangular prism."
+},
+{
+"setNum": 12,
+"set": "Essential 12",
+"w": "mitigate",
+"pos": "verb",
+"def": "Make less severe; lessen or moderate (damage, grief, pain, etc.)",
+"example": "Sadly, his illness could not be cured, but the nurses made every effort to mitigate the symptoms."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "modest",
+"pos": "adj",
+"def": "Humble; simple rather than showy; decent (esp. “covering up” in terms of dress); small, limited",
+"example": "The reporter was surprised that the celebrity lived in such a modest house, one that looked just like every other plain, two-story house on the block."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "mollify",
+"pos": "verb",
+"def": "Calm or soothe (an angry person); lessen or soften",
+"example": "The cellular company’s billing practices were so infuriating to customers that the customer service representatives spent every workday mollifying angry customers."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "monotony",
+"pos": "noun",
+"def": "Sameness or repetitiousness to the point of being boring; lack of variation, uniformity, esp. repetition in sound",
+"example": "The monotony of working on a factory assembly line made her feel as though she would go insane from boredom."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "moreover",
+"pos": "adverb",
+"def": "Besides; in addition to what was just stated",
+"example": "You are fired. Moreover, the police are coming to arrest you for theft."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "mores",
+"pos": "noun",
+"def": "Customs, manners, or morals of a particular group",
+"example": "An American in Saudi Arabia should study the culture beforehand so as to avoid violating deeply conservative cultural mores."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "mundane",
+"pos": "adj",
+"def": "Common, ordinary, everyday",
+"example": "Dominique had been excited to visit France for the first time, but she was soon disappointed at how mundane the stay with her relatives was: they shopped at the market, cooked dinner, chatted with one another, and occasionally went shopping."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "naïve",
+"pos": "adj",
+"def": "Simple and unsophisticated, unsuspecting, lacking worldly experience and critical judgment",
+"example": "I was a little naïve during the hiring process—the HR rep asked for my acceptable salary range, and I answered honestly. Of course I got an offer for the very lowest number in the range! Now I know I should have tried to get a number from her first, or named a higher number so I could negotiate down."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "nascent",
+"pos": "adj",
+"def": "Coming into existence, still developing",
+"example": "The violin teacher was always very encouraging with children. All children sound terrible the first couple of years, so she offered plenty of praise to encourage nascent talents."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "negate",
+"pos": "verb",
+"def": "Deny or refute; make void or cause to be ineffective",
+"example": "Darling, if you add “I promise to try to work things out for at least a couple of weeks before giving up” to our wedding vows, it would kind of negate the part where you promise to love, honor, and cherish me “until death do us part.”"
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "net",
+"pos": "adj, verb",
+"def": "Remaining after expenses or other factors have been deducted; ultimate (adj); to bring in as profit, or to catch as in a net (verb)",
+"example": "In one day of trading, my portfolio went up $10,000 and down $8,000, for a net gain of $2,000."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "nevertheless or nonetheless",
+"pos": "adverb",
+"def": "However, even so, despite that",
+"example": "While losing the P&G account was a serious blow, we nevertheless were able to achieve a new sales goal this month due to the tireless efforts of the sales team in bringing in three new clients."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "notoriety",
+"pos": "noun",
+"def": "Ill fame; the state of being well-known for a disgraceful reason",
+"example": "Bill was notorious for being late to everything—after awhile, his friends just stopped inviting him to the movies."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "novel",
+"pos": "adj",
+"def": "New, fresh, original",
+"example": "You can make your writing better by eliminating clichés and replacing those clichés with more novel turns of speech."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "nuance",
+"pos": "noun",
+"def": "A subtle difference in tone, meaning, expression, etc.",
+"example": "People with certain cognitive disabilities cannot understand the nuances of non-literal speech. For instance, “You can come if you want to, but it’s really going to be mostly family” means that you shouldn’t try to come."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "objective",
+"pos": "adj",
+"def": "Factual, related to reality or physical objects; not influenced by emotions, unbiased",
+"example": "You cannot be forced to testify against your spouse in a court of law—it’s pretty impossible for anyone to be objective about the guilt or innocence of a spouse."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "obsequious",
+"pos": "adj",
+"def": "Servile, very compliant, fawning",
+"example": "Sammy thought he could get ahead by being obsequious, but instead, his boss gave a promotion to someone he viewed as more of a peer; truthfully, he thought Sammy’s sucking up was pretty pathetic."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "obsolete",
+"pos": "adj",
+"def": "Out of date, no longer in use",
+"example": "She kept her old laptop so long that it was obsolete—she couldn’t sell it on Craigslist, and the local elementary school didn’t even want it as a donation."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "obstinate",
+"pos": "adj",
+"def": "Stubborn or hard to control",
+"example": "It’s difficult to get an obstinate child to eat food he doesn’t want to eat. When Toby realized that his son would rather sit and starve than eat mahi-mahi, he gave in and made him a peanut butter and jelly sandwich."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "obviate",
+"pos": "verb",
+"def": "Prevent, eliminate, or make unnecessary",
+"example": "Adding protective heel taps to your dress shoes can obviate the need to take them to the shoe repair store later, once the heels have worn down."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "occult",
+"pos": "noun, adj, verb",
+"def": "The supernatural (noun); pertaining to magic, astrology, etc.; mysterious, secret or hidden (adj); to hide, to shut off from view (verb)",
+"example": "A group of religious parents demanded that a popular series of young adult vampire novels be banned in schools because it promoted the occult."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "offhand",
+"pos": "adj",
+"def": "Casual, informal; done without preparation or forethought; rude in a short way, brusque",
+"example": "I was pretty happy with my salary until my coworker Deena mentioned offhandedly that she was thinking about buying a house now that she made six figures."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "officious",
+"pos": "adj",
+"def": "Excessively eager in giving unwanted advice or intruding where one is not wanted; meddlesome, pushy",
+"example": "Lisa’s dinner parties are exhausting. She’s an officious host who butts in and runs everyone’s conversations, keeps an eye on what everyone is eating and makes sure you finish your vegetables, and even knocks on the bathroom door to make sure you’re “okay in there.”"
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "offset",
+"pos": "verb, noun",
+"def": "Counteract, compensate for (verb); a counterbalance (noun)",
+"example": "Property taxes did go up this year, but the hit to our finances was offset by a reduction in fees paid to our homeowners association."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "onerous",
+"pos": "adj",
+"def": "Burdensome, oppressive, hard to endure",
+"example": "Doctors are often faced with the onerous task of telling waiting families that their loved one has died."
+},
+{
+"setNum": 13,
+"set": "Essential 13",
+"w": "opaque",
+"pos": "adj",
+"def": "Not translucent; not allowing light, heat, etc. to pass through; dark, dull, unclear or stupid",
+"example": "The school dress code required opaque tights under skirts—the rules specified that sheer stockings were unacceptable."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "optimal or optimum",
+"pos": "adj",
+"def": "Best, most desirable or favorable",
+"example": "Many believe that the U.S. Constitution’s genius lies in its striking and optimal balance between freedom and order."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "orthodox",
+"pos": "adj",
+"def": "Adhering to a traditional, established faith, or to anything customary or commonly accepted",
+"example": "I appreciate that the new dentist thinks that my oral health can be improved through yoga, but I really prefer a more orthodox approach to dental care."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "oscillate",
+"pos": "verb",
+"def": "Swing back and forth; waver, change one’s mind",
+"example": "I wish we had air conditioning, but at least I replaced our old fan with this oscillating one that swings side to side and blows air on the whole room."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "outstrip",
+"pos": "verb",
+"def": "Surpass, exceed; be larger or better than; leave behind",
+"example": "Our sales figures this quarter have outstripped those of any other quarter in the company’s history."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "overshadow",
+"pos": "verb",
+"def": "Cast a shadow over, darken; dominate, make to seem less important",
+"example": "She was a straight-A student who excelled at field hockey, but she still felt overshadowed by her older sister, who won a national science competition for her work on cancer in mice, and also had time to become a pole vaulting champion and model who walked in Fashion Week."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "paradigm",
+"pos": "noun",
+"def": "Model or pattern; worldview, set of shared assumptions, values, etc.",
+"example": "Far from being atypically bawdy, this limerick is a paradigm of the form—nearly all of them rely on off-color jokes."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "paradox",
+"pos": "noun",
+"def": "Contradiction, or seeming contradiction that is actually true",
+"example": "Kayla was always bothering the youth minister with her paradoxes, like “If God is all- powerful, can He make a burrito so big He can’t eat it?”"
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pariah",
+"pos": "noun",
+"def": "Social outcast, untouchable",
+"example": "After the schoolteacher was fired for participating in what some called a “hate rally,” he became a pariah in his own town, glared at in the grocery store—even his longtime barber refused him a haircut."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "partial",
+"pos": "adj",
+"def": "Biased, prejudiced, favoring one over others; having a special liking for something or someone (usually partial to)",
+"example": "Although I grew up in New York, I’ve always been partial to country music."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "partisan",
+"pos": "adj, noun",
+"def": "Devoted to a particular group, cause, etc. (adj.); fervent supporter of a group, party, idea, etc.; guerilla fighter (noun)",
+"example": "It is unconscionable to engage in partisan politics in a time of crisis. People are trapped in the rubble of an earthquake, and you suggest that we vote for your tax bill in exchange for your voting for our relief bill?"
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "patent",
+"pos": "adj, noun",
+"def": "Obvious, apparent, plain to see (adj); a letter from a government guaranteeing an inventor the rights to his or her invention (noun)",
+"example": "Her resume was full of patent lies: anyone could check to see that she had never been president of UNICEF."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pathological",
+"pos": "adj",
+"def": "Relating to or caused by disease; relating to compulsive bad behavior",
+"example": "She thought her skin darkening was simply a result of the sun, but it was actually pathological, the result of a serious disease."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "patronizing",
+"pos": "adj",
+"def": "Condescending, having a superior manner, treating as an inferior",
+"example": "I’m not surprised that Professor McDougal used to teach kindergarten. His patronizing tone has been driving me crazy. Not only does he assume we can barely add or subtract, he also makes us put our heads down and have a moment of silence."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "paucity",
+"pos": "noun",
+"def": "Scarcity, the state of being small in number",
+"example": "Our school has such a disgraceful paucity of textbooks that the students are sharing, and so cannot even count on being able to take the books home to do homework."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "peccadillo",
+"pos": "noun",
+"def": "Small sin or fault",
+"example": "I’m going to propose to Melinda tomorrow—sure, she has her peccadillos, like anyone, but she’s the perfect woman for me."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pedestrian",
+"pos": "adj",
+"def": "Ordinary, dull, commonplace",
+"example": "It was so amazing when you had us over to dinner and made that rack of lamb! I’m afraid neither of us is a professional chef like you are, though, so we hope you won’t mind that we’ve made something more pedestrian: hot dogs and French fries."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "penchant",
+"pos": "noun",
+"def": "Liking or inclination (usually penchant for)",
+"example": "He seems like a mild-mannered accountant, but twice a year he jets off to Australia to satisfy his penchant for adventure sports."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "perfidious",
+"pos": "adj",
+"def": "Disloyal, treacherous, violating one’s trust",
+"example": "The perfidious soldier sold out his comrades, giving secrets to the enemy in exchange for money and protection."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "peripheral",
+"pos": "adj",
+"def": "Relating to or making up an outer boundary or region; not of primary importance, fringe",
+"example": "My main goal is to get into a good grad school. Whether it has good fitness facilities is really a peripheral concern."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "permeate",
+"pos": "verb",
+"def": "Spread or penetrate throughout",
+"example": "Under the Emperor Constantine, Christianity began to permeate every sector of public life."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pervasive",
+"pos": "adj",
+"def": "Tending to spread throughout",
+"example": "Poverty is pervasive in our school system; 65% of students receive free or reduced-price lunch."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "philanthropy",
+"pos": "noun",
+"def": "Efforts to improve the well-being of humankind, generally through giving money",
+"example": "Many wealthy people turn to philanthropy as a way to create social good, and many others turn to it as a way to hobnob with the rich and famous."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "phony",
+"pos": "adj",
+"def": "Fake, counterfeit; insincere, not genuine",
+"example": "Phony Louis Vuitton bags are easily purchased in Chinatown, but they are illegal—selling them can land a vendor in jail, and the counterfeit bags are often made with child labor."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pious",
+"pos": "adj",
+"def": "Devout; religiously reverent and dutiful",
+"example": "Some matrimonial websites catering to conservative religious groups contain listings for young women that feature testimonials from the woman’s relatives about her piety. Naturally, only similarly pious suitors need apply."
+},
+{
+"setNum": 14,
+"set": "Essential 14",
+"w": "pith",
+"pos": "noun",
+"def": "Core, essence; significance or weight",
+"example": "I can only stay at this meeting for a minute—can you get to the pith of the issue now, and discuss the details after I leave?"
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "placate",
+"pos": "verb",
+"def": "Satisfy or calm down (an angry or dissatisfied person), esp. by conciliatory gestures",
+"example": "“It’s an interesting business model,” said the flower shop owner. “Outside of Valentine’s Day, our average customer uses our product to placate an angry partner.”"
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "placid",
+"pos": "adj",
+"def": "Peaceful, calm, tranquil",
+"example": "Famed Spanish tenor Placido Domingo has an unusual name—literally, “Peaceful Sunday.” It’s certainly not a coincidence that Placido looks so much like placid."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "plastic",
+"pos": "adj",
+"def": "Able to be shaped or formed; easily influenced",
+"example": "A young child’s mind is quite plastic, and exposure to violent movies and video games can have a much greater effect on children than they typically do on adults."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "plausible",
+"pos": "noun",
+"def": "Believable; having the appearance of truth",
+"example": "When three doctors treating crash victims were suddenly stricken with what looked like the effects of nerve gas, hospital officials posited “hysteria” as the culprit—hardly a plausible explanation, as emergency room doctors are accustomed to seeing horrific things every day."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "plummet",
+"pos": "verb",
+"def": "Plunge, fall straight down",
+"example": "During the first 60 seconds or so of a skydive, the diver plummets towards Earth in freefall; then, he or she activates a parachute and floats down at what seems like a relatively leisurely pace."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "polarized",
+"pos": "adj",
+"def": "Divided into sharply opposed groups",
+"example": "The school board was used to rationally discussing issues, but when it came to the teaching of evolution in schools, the board was polarized, immediately splitting into two camps, with the discussion devolving into a shouting match within minutes."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "ponderous",
+"pos": "adj",
+"def": "Heavy; bulky and unwieldy; dull, labored",
+"example": "The book assigned by her professor was a ponderous tome, more a reference book than something you could read straight through. She was so bored she thought she would die."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "posthumous",
+"pos": "adj",
+"def": "Happening or continuing after death",
+"example": "Ernest Hemingway died in 1961. His novel The Garden of Eden was published posthumously in 1986."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "potentate",
+"pos": "noun",
+"def": "Ruler, person of great power",
+"example": "62-year-old Prince Charles has certainly waited long enough to become potentate of England; his mother, Elizabeth II, has been ruling for his entire life."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "pragmatic",
+"pos": "adj",
+"def": "Practical; dealing with actual facts and reality",
+"example": "Megan and Dave were in love, but Megan decided to be pragmatic—she doubted they’d stay together through a four-year long distance relationship as they attended different colleges, so she figured they might as well end things now."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "preamble",
+"pos": "noun",
+"def": "Introductory statement, preface",
+"example": "The Preamble to the Constitution is a brief introduction that begins, “We the People of the United States, in Order to form a more perfect Union…”"
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "precarious",
+"pos": "adj",
+"def": "Unstable, insecure, dangerous",
+"example": "Recognizing that his position at the company was precarious, Sanjay requested that his bonus structure be formally written down as a contract, rather than dangled over him as a mere verbal promise."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "precursor",
+"pos": "noun",
+"def": "Something that comes before, esp. something that also announces or suggests something on its way",
+"example": "We cannot ignore this warning sign—it is clearly a precursor of larger problems to come."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "predisposed",
+"pos": "adj",
+"def": "Having an inclination or tendency beforehand; susceptible",
+"example": "Some autoimmune disorders don’t kill the patient directly, but rather make the patient predisposed to contracting other, potentially fatal illnesses."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "pre-empt",
+"pos": "verb",
+"def": "Prevent; take the place of, supplant; take before someone else can",
+"example": "The speaker attempted to preempt an excessively long Q&A session by handing out a “Frequently Asked Questions” packet at the beginning of the seminar."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "presumptive",
+"pos": "adj",
+"def": "Based on inference or assumption; providing reasonable grounds for belief",
+"example": "The dictator’s favorite nephew is the presumptive heir to power, but anything could happen."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "presumptuous",
+"pos": "adj",
+"def": "Too bold or forward; going beyond that which is proper",
+"example": "I would never date that presumptuous jerk! I mean, I thought he was attractive until he walked up to me and said, “We should go out—I looked up your address on Google and I’ll pick you up at 8.” The nerve!"
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "pretentious",
+"pos": "adj",
+"def": "Claiming or demanding a position of importance or dignity, esp. when unjustified; showing off, creating a deceptive, false show of worth",
+"example": "Josie found her date’s habit of constantly dropping French phrases into conversation to be incredibly pretentious, especially since he knew she didn’t speak French. He sure did sound fancy, though."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "principled",
+"pos": "adj",
+"def": "Having high moral standards",
+"example": "Donna was only an intern, but she was also quite principled—although she knew it would kill her shot at a full-time job, she was the one who alerted the authorities when asked to violate federal law via corrupt accounting practices."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "pristine",
+"pos": "adj",
+"def": "In an original, pure state; uncorrupted",
+"example": "Having grown up in a rural area, Billy had been in plenty of forests where people regularly left beer cans and shotgun shells behind. So it truly took his breath away, after hiking hours through the Himalayas, to visit a pristine forest, seemingly untouched by humans."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "probity",
+"pos": "noun",
+"def": "Honesty, integrity",
+"example": "After losing the last election when their candidate’s string of mistresses came to light, this time, the party would only nominate a candidate whose probity was beyond any doubt."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "prodigal",
+"pos": "adj",
+"def": "Wasteful, extravagant; giving abundantly, lavish",
+"example": "If you’re going to leave a trust fund for your children, you should raise them not to be prodigal, or they’ll blow through all the cash the minute they get their hands on it."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "prodigious",
+"pos": "adj",
+"def": "Extraordinarily large, impressive, etc.",
+"example": "The Great Wall of China consists of a prodigious series of fortifications stretching over 5,000 miles!"
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "profligate",
+"pos": "adj",
+"def": "Completely and shamelessly immoral, or extremely wasteful",
+"example": "The billionaire software developer was so disgusted with his profligate daughter’s spending that he cut her off—she had bought champagne for an entire nightclub full of strangers one too many times."
+},
+{
+"setNum": 15,
+"set": "Essential 15",
+"w": "profound",
+"pos": "adj",
+"def": "Very insightful, penetrating deeply into a subject; pervasive, intense, “down to the very bottom”; at the very bottom",
+"example": "Certain fish that live in the dark, profound depths of the ocean have long since evolved to have sightless eyes."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "profuse",
+"pos": "adj",
+"def": "Abundant, extravagant, giving or given freely",
+"example": "It didn’t mean anything at all to me, giving my old microwave to the family next door, but the woman’s profuse thanks made me think that maybe the family was having some financial troubles."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "prohibitive",
+"pos": "adj",
+"def": "Tending to forbid something, or serving to prevent something",
+"example": "I was admitted to NYU, but it was prohibitively expensive, so I ended up at state school instead."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "proliferate",
+"pos": "verb",
+"def": "Increase or spread rapidly or excessively",
+"example": "The book alleged that terrorist cells are proliferating across the United States faster than law enforcement can keep up."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "prologue",
+"pos": "noun",
+"def": "Introductory part to a book, play, etc.",
+"example": "The novel’s prologue gives some historical background so the main story can be better understood in context."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "pronounced",
+"pos": "adj",
+"def": "Distinct, strong, clearly indicated",
+"example": "Aunt Shirley claimed we would never know that her “secret recipe” for brownies involved lots of healthy vegetables, but the brownies had a pronounced asparagus flavor."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "propriety",
+"pos": "noun",
+"def": "Conforming to good manners or appropriate behavior; justness",
+"example": "The parent questioned the propriety of the punishment meted out to her son—sitting in a corner all day seemed a little harsh for using the pencil sharpener at the wrong time."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "prosaic",
+"pos": "adj",
+"def": "Dull, ordinary",
+"example": "Finding his friends’ bar mitzvahs at the local synagogue a bit prosaic, Justin instead asked his dad to rent out the local laser tag center."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "proscribe",
+"pos": "verb",
+"def": "Prohibit, outlaw; denounce; exile or banish",
+"example": "Plagiarism is proscribed by every college’s code of conduct."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "prospective",
+"pos": "adj",
+"def": "Potential, in the future",
+"example": "Everyone had a hard time correctly saying the name of the seminar, “Perspectives for Prospective Doctors.” Even the prospective doctors—college students hoping to be admitted to medical school—were a bit confused."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "prudent",
+"pos": "adj",
+"def": "Wise in practical matters, carefully providing for the future",
+"example": "Katie’s friends blew all kinds of money on spring break, but Katie prudently kept to her usual spending habits: she’d drink one of whatever was least expensive, and then watch her friends get stupid while she checked her bank balances on her phone and dreamed about the day she’d have a full-time job and a 401K."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "pugnacious",
+"pos": "adj",
+"def": "Inclined to fight, combative",
+"example": "Amy had hoped to avoid inviting Uncle Ed to the wedding, as he was a pugnacious fellow— and, sure enough, he managed to start a fistfight with the best man."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "qualified",
+"pos": "adj",
+"def": "Modified, limited, conditional on something else",
+"example": "The scientist gave her qualified endorsement to the book, pointing out that, while it posed a credible theory, more research was still needed before the theory could be applied."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "quandary",
+"pos": "noun",
+"def": "Uncertainty or confusion about what to do, dilemma",
+"example": "He knew it sounded like the plot of a cheesy movie, but he really had accidentally asked two girls to the prom, and now he was in quite a quandary."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "quibble",
+"pos": "verb",
+"def": "Make trivial arguments or criticisms, find faults in a petty way, esp. to evade something more important",
+"example": "Look, I am telling you some of the serious consequences of global warming, as predicted by the scientific establishment—I think you’re just quibbling to complain that I said “carbon monoxide” when I meant “carbon dioxide.”"
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "quotidian",
+"pos": "adj",
+"def": "Daily; everyday, ordinary",
+"example": "He was so involved in his quest for spiritual enlightenment that he regularly forgot more quotidian concerns—sure, he meditated for six hours today, but he hasn’t done laundry in weeks."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "ranks",
+"pos": "noun",
+"def": "Personnel; a group of people considered all together",
+"example": "Among the ranks of our alumni are two Senators and many famous authors."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "reap",
+"pos": "verb",
+"def": "Harvest, such as by cutting; gather; get as a result of one’s effort",
+"example": "He worked night and day in the strange new country, never stopping to rest, for he knew he would reap his reward when his family greeted him as a hero for all the money he had sent back home."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "recluse",
+"pos": "noun",
+"def": "Person who lives in seclusion",
+"example": "That show about “hoarders” featured a recluse who hadn’t left her house in six years."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "refute",
+"pos": "verb",
+"def": "Prove to be false",
+"example": "She’s not a very valuable member of the debate team, actually—she loves making speeches, but she’s not very good at refuting opponents’ arguments."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "relegate",
+"pos": "verb",
+"def": "Send or commit to an inferior place, rank, condition, etc.; exile, banish; assign (a task) to someone else",
+"example": "After the legal associate offended one of the partners, he found himself relegated to working on minor—even unwinnable—cases."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "remedial",
+"pos": "adj",
+"def": "Providing a remedy, curative; correcting a deficient skill",
+"example": "After harassment occurs in the workplace, it is important that the company take remedial action right away, warning or firing the offender as appropriate, and making sure the complainant’s concerns are addressed."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "render",
+"pos": "verb",
+"def": "Give, submit, surrender; translate; declare formally; cause to become",
+"example": "When you render your past due payments, we will turn your phone back on."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "replete",
+"pos": "adj",
+"def": "Supplied in abundance, filled, gorged (used with with)",
+"example": "This essay is replete with errors—I don’t think you even bothered to use spellcheck, much less carefully edit your work."
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "reproach",
+"pos": "noun, verb",
+"def": "Blame, disgrace (noun); criticize, express disappointment in (verb)",
+"example": "I’m not really enjoying my foreign study program. My host mom reproached me in Spanish— it sounded really harsh, but I couldn’t really understand her and I have no idea what I did wrong!"
+},
+{
+"setNum": 16,
+"set": "Essential 16",
+"w": "repudiate",
+"pos": "verb",
+"def": "Reject, cast off, deny that something has authority",
+"example": "If you receive an erroneous notice from a collections agency, you have 30 days to repudiate the debt by mail."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "requite",
+"pos": "verb",
+"def": "Reciprocate, repay, or revenge",
+"example": "Ashley felt that her unrequited love for George would surely kill her. George barely noticed her—he cared about nothing but requiting his father’s death."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "rescind",
+"pos": "verb",
+"def": "Annul, repeal, make void",
+"example": "The governor rescinded his proclamation making September 10th “Pastafarian Day” once someone told him it wasn’t a real religion."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "resolution",
+"pos": "noun",
+"def": "The quality of being firmly determined; resolving to do something; a formal judgment, esp. decided by a vote",
+"example": "The city government passed a resolution to support the new monorail."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "resolve",
+"pos": "verb, noun",
+"def": "Find a solution to; firmly decide to do something; decide by formal vote (verb); firmness of purpose (noun)",
+"example": "She was resolved to find a marrow donor for her son, and led a stunningly successful drive to get people to sign up for a national donor registry. Even when no match was found for her son in the first year, her resolve was undampened."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "respectively",
+"pos": "adverb",
+"def": "In the order given",
+"example": "His poems “An Ode to the Blossoms of Sheffield” and “An Entreaty to Ladies All Too Prim” were written in 1756 and 1758, respectively."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "restive",
+"pos": "adj",
+"def": "Impatient or uneasy under the control of another; resisting being controlled",
+"example": "The company was purchased by a larger competitor, and the employees grew restive as the new bosses curtailed their freedoms and put a hold on their projects."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "reticent",
+"pos": "adj",
+"def": "Not talking much; private (of a person), restrained, reserved",
+"example": "She figured that, to rise to the top, it was best to be reticent about her personal life; thus, even her closest colleagues were left speculating at the water cooler about whether her growing belly actually indicated a pregnancy she simply declined to mention to anyone."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "retrospective",
+"pos": "adj, noun",
+"def": "Looking to the past or backward; applying to the past, retroactive (adj); an art exhibit of an artist’s work over a long period of time (noun)",
+"example": "The proposed law is retrospective: anyone who violated the law before the law even existed can be prosecuted."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "reverent",
+"pos": "adj",
+"def": "Feeling or expressing very deep respect and awe",
+"example": "Ayn Rand is a controversial figure, but critical views are not welcome at the local Objectivist Club meeting, where everyone expresses a reverent view of the author."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "rhetoric",
+"pos": "noun",
+"def": "The art or study of persuasion through speaking or writing; language that is elaborate or pretentious but actually empty, meaning little",
+"example": "The ancient Greeks used to study rhetoric as a major academic subject. Today, if you want to improve your rhetorical skills, you will probably have to hunt down a public speaking class or join Toastmasters."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "rife",
+"pos": "adj",
+"def": "Happening frequently, abundant, currently being reported",
+"example": "Reports of financial corruption are rife."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "rudimentary",
+"pos": "adj",
+"def": "Elementary, relating to the basics; undeveloped, primitive",
+"example": "My knowledge of Chinese is quite rudimentary—I get the idea of characters and I can order food, but I really can’t read this document you’ve just given me."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "rustic",
+"pos": "adj, noun",
+"def": "Relating to country life, unsophisticated; primitive; made of rough wood (adj); a rural or uncultured person (noun)",
+"example": "For their honeymoon, they eschewed fancy hotels and instead chose a rustic cabin in the woods."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "sacrosanct",
+"pos": "adj",
+"def": "Sacred, inviolable, not to be trespassed on or violated; above any criticism",
+"example": "In our house, family dinners were sacrosanct—if being in the school play meant you would miss dinner, then you just couldn’t be in the school play."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "sagacious",
+"pos": "adj",
+"def": "Wise; showing good judgment and foresight",
+"example": "It’s important to choose a mentor who is not only successful, but also sagacious—plenty of people are successful through luck and have little insight about how to attack someone else’s situation."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "salubrious",
+"pos": "adj",
+"def": "Healthful, promoting health",
+"example": "After spending her twenties smoking and drinking, Jessica recognized the necessity of adopting a more salubrious lifestyle, but found it difficult to cut back."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "sanction",
+"pos": "noun, verb",
+"def": "Permission or approval, something that gives support or authority to something else (noun); to allow, confirm, ratify (verb); OR a legal action by one or more countries against another country to get it to comply (noun); to place sanctions or penalties on (verb)",
+"example": "Professional boxers may only fight in sanctioned matches—fighting outside the ring is prohibited."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "sanguine",
+"pos": "adj",
+"def": "Cheerfully optimistic, hopeful; reddish, ruddy (as in rosy-red cheeks indicting health or vitality)",
+"example": "She had three papers due in three days, but she maintained her typically sanguine attitude. “Things always just work out for me,” she said, happily."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "sap",
+"pos": "noun, verb",
+"def": "The inner fluid of a plant or any essential body fluid; energy, vitality; a person taken advantage of (noun); undermine, weaken, tire out (verb)",
+"example": "I really thought that if I clicked on that Facebook ad and entered all my information, I would get a free iPad to test and keep! I feel like such a sap."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "satiate or sate",
+"pos": "verb",
+"def": "To fully satisfy; to go beyond satisfying to the point of excess (possibly inducing disgust, tiredness, etc.)",
+"example": "I usually just eat a tiny salad or something while I’m at work, but since I had a half day off, I went to the Indian buffet and stayed for a whole hour! I’ve never been more satiated (or sated) in my life."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "saturate",
+"pos": "verb",
+"def": "Soak or imbue thoroughly; cause a substance to unite with the greatest possible amount of another substance",
+"example": "We got married on a rainy beach, and my dress was saturated. Although the pictures were a bit dark, the photographer was able to increase the saturation in Photoshop, making our wedding photos ultimately look quite vivid!"
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "savor",
+"pos": "verb",
+"def": "Appreciate fully, taste or smell with pleasure",
+"example": "As a parent, it’s important to take a step back and really savor the special moments—those children will grow up sooner than you think!"
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "scant",
+"pos": "adj",
+"def": "Not enough or barely enough",
+"example": "The new intern was scant help at the conference—he disappeared all day to smoke and didn’t seem to realize that he was there to assist his coworkers."
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "scathing",
+"pos": "adj",
+"def": "Severe, injurious; bitterly harsh or critical (as a remark)",
+"example": "The school superintendant gave a scathing criticism of the education bill, calling it “an attack on our community’s children that will surely go down in infamy.”"
+},
+{
+"setNum": 17,
+"set": "Essential 17",
+"w": "secular",
+"pos": "adj",
+"def": "Not religious or holy; pertaining to worldly things",
+"example": "Forty years ago, American companies wished their employees “Merry Christmas”—even the employees who didn’t celebrate Christmas. Today, the secular “Happy Holidays” is common."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "sedulous",
+"pos": "adj",
+"def": "Persevering, persistent, diligent in one’s efforts",
+"example": "Sedulous effort is necessary to improve your GRE verbal score—you need to study vocab in a serious way, nearly every day."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "sentient",
+"pos": "adj",
+"def": "Conscious; experiencing sensation or perceiving with the senses",
+"example": "Tia became a vegan because she refused to eat any sentient creature."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "simultaneous",
+"pos": "adj",
+"def": "At the same time",
+"example": "It is rare in a duel that the two shooters draw their guns simultaneously and actually kill each other in an instant."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "skeptic",
+"pos": "adj",
+"def": "Person inclined to doubting or questioning generally accepted beliefs",
+"example": "I wish you’d be more of a skeptic—I can’t believe you spent money on a pet psychic so we can “talk” to our dearly departed shih tzu."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "skirt",
+"pos": "verb",
+"def": "Border, lie along the edge of, go around; evade",
+"example": "Melissa spent all of Thanksgiving skirting the issue of who she was dating and when she might get married and make her mother a grandmother. It was exhausting changing the subject two dozen times!"
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "slack",
+"pos": "adj, verb, noun",
+"def": "Loose, negligent, lazy, weak (adj); neglect to do one’s duties; loosen up, relax (verb); period of little work (noun)",
+"example": "As the product of slack parenting, I never learned good time management skills—Mom and Dad never checked my homework or made me go to bed at a certain time."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "slew",
+"pos": "noun",
+"def": "A large number or quantity",
+"example": "As soon as we switched software packages, we encountered a whole slew of problems."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "slight",
+"pos": "adj, verb, noun",
+"def": "Small, not very important, slender or delicate (adj); treat as though not very important; snub, ignore (verb); an act of treating in this way, a discourtesy (noun)",
+"example": "She was very sensitive, always holding a grudge against her coworkers for a variety of slights, both real and imagined."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "solicitous",
+"pos": "adj",
+"def": "Concerned or anxious (about another person), expressing care; eager or desirous; very careful",
+"example": "A solicitous host, Derek not only asked each person how he or she was doing, but asked by name about everyone’s spouses and kids."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "soporific",
+"pos": "adj, noun",
+"def": "Causing sleep; sleepy, drowsy (adj); something that causes sleep (noun)",
+"example": "I was excited to take a class with Professor Baria because I had enjoyed her books, but sadly, she is a better writer than speaker—her lectures are soporific."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "sound",
+"pos": "verb",
+"def": "Measure the depth of (usually of water) as with a sounding line; penetrate and discover the meaning of, understand (usually as sound the depths)",
+"example": "The psychiatrist appointed by the court felt he would need more time to sound the depths of the defendant’s tortured mind—clearly, she was mentally ill, but did she know on any level that what she was doing was wrong?"
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "spartan",
+"pos": "adj",
+"def": "Very disciplined and stern; frugal, living simply, austere; suggestive of the ancient Spartans",
+"example": "A young soldier in the spartan environment of boot camp can really long for a home-cooked meal or even just a comfortable couch to sit on."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "spate",
+"pos": "noun",
+"def": "Sudden outpouring or rush; flood",
+"example": "After a brief spate of post-exam partying, Lola is ready for classes to begin again."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "spearhead",
+"pos": "verb",
+"def": "Be the leader of",
+"example": "Lisa agreed to spearhead the “healthy office” initiative, and was instrumental in installing two treadmills and getting healthy food stocked in the vending machines."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "specious",
+"pos": "adj",
+"def": "Seemingly true but actually false; deceptively attractive",
+"example": "“All squares are rectangles, all candy bars are rectangles, therefore all squares are candy bars” is clearly a specious argument."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "spectrum",
+"pos": "noun",
+"def": "A broad range of nevertheless related qualities or ideas, esp. those that overlap to create a continuous series (as in a color spectrum, where each color blends into the next in a continuous way)",
+"example": "A test showed she was partially colorblind – she did see blues and greens, but was unable to perceive some other colors on the spectrum."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "speculate",
+"pos": "verb",
+"def": "Contemplate; make a guess or educated guess about; engage in a risky business transaction, gamble",
+"example": "During the Gold Rush, speculators bought up land, sometimes with borrowed funds, expecting to prospect the land for gold and get rich quickly."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "sporadic",
+"pos": "adj",
+"def": "Occasional, happening irregularly or in scattered locations",
+"example": "Her attendance was sporadic at best, so when she flounced into class after a two-session absence, she discovered that not only was everyone working on group projects, but that the professor hadn’t even thought to assign her to a group."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "sportive",
+"pos": "adj",
+"def": "Playful, merry, joking around, done “in sport” (rather than intended seriously)",
+"example": "After Will shot a ball entirely off the pool table, knocking a woman’s purse off a bar stool, his friends laughed hysterically and called him “purse-snatcher” all night, but he took it as sportive and bought the next round of drinks."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "standing",
+"pos": "noun, adj",
+"def": "Status, rank, reputation (noun); existing indefinitely, not movable (adj)",
+"example": "As he had feared, his divorce greatly reduced his standing as a relationship expert."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "stark",
+"pos": "adj",
+"def": "Complete, total, utter; harsh or grim; extremely simple, severe, blunt, or plain",
+"example": "The designer’s work is appreciated for its stark beauty, but most people prefer to live in a cozier, more welcoming home—the kind with carpets and pillows, for instance."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "static",
+"pos": "adj",
+"def": "Fixed, not moving or changing, lacking vitality",
+"example": "The anthropologist studied a society in the Amazon that had been deliberately static for hundreds of years—the fiercely proud people disdained change, and viewed all new ideas as inferior to the way of life they had always practiced."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "status quo",
+"pos": "noun",
+"def": "Existing state or condition",
+"example": "Many opposed the establishment of a needle-exchange program, but others reasoned that the plan would be an improvement on the status quo, in which disease spread rapidly through certain communities."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "stingy",
+"pos": "adj",
+"def": "Not generous with money, reluctant to spend or give",
+"example": "Billionaire industrialist J. Paul Getty was so famously stingy that he installed pay phones in his mansion for guests to use. When his grandson was kidnapped, he refused to pay ransom and only changed his mind when the kidnappers cut off the boy’s ear. This famous cheapskate then demanded that his son (the boy’s father) pay him back! What a miser."
+},
+{
+"setNum": 18,
+"set": "Essential 18",
+"w": "stoic or stoical",
+"pos": "adj, noun",
+"def": "Indifferent to pleasure or pain, enduring without complaint; person indifferent to pleasure or pain (noun)",
+"example": "Della was not only calm but positively stoic, thanking her family for driving her home from chemotherapy, and then simply never mentioning it until it was time to go again."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "stolid",
+"pos": "adj",
+"def": "Unemotional, showing little emotion, not easily moved",
+"example": "Dad is so stolid that we can’t get a rise out of him no matter what we do—Jody got a tattoo, Max declared himself a communist, and Helen won a Rhodes Scholarship. No response! Dad just nods and says “Alright, then.”"
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "stymie or stymy",
+"pos": "verb, noun",
+"def": "Block, hinder, or thwart (verb); an obstacle (noun)",
+"example": "Sara feared that her learning disability would stymie her success in college, but the support services offered were excellent and she was fine academically; the thing that really stymied her college career was poor time management."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "subjective",
+"pos": "adj",
+"def": "Existing in the mind or relating to one’s own thoughts, opinions, emotions, etc.; personal, individual, based on feelings",
+"example": "Naturally, anyone’s experience of a movie is subjective, and some will enjoy this picture despite its flaws; however, it is an objective fact that the cinematography is very bad."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "subside",
+"pos": "verb",
+"def": "Sink, settle down, become less active; return to a normal level",
+"example": "When her terror subsided, she realized that the house wasn’t really haunted."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "substantiate",
+"pos": "verb",
+"def": "Support with evidence or proof; give a material existence to",
+"example": "You say you were at home when the crime occurred two towns over—is there anyone who can substantiate your claim?"
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "succeeding",
+"pos": "adj",
+"def": "Coming after or following",
+"example": "After the sale of the company, you will receive 5% of the profits from the current year, and 1% in all succeeding years."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "supersede",
+"pos": "verb",
+"def": "Replace, take the position of, cause to be disregarded as void or obsolete",
+"example": "Of course, electric washing machines superseded hand-powered ones many decades ago, but my great-grandmother used her hand-cranked washer until she died in the 1990s."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "supplicate",
+"pos": "verb",
+"def": "Pray humbly; ask, beg, or seek in a humble way",
+"example": "She had been estranged from her wealthy father for years, but when she needed money for her daughter’s medical care, she supplicated the old man for assistance."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "surfeit",
+"pos": "noun",
+"def": "Excess, excessive amount, overindulgence",
+"example": "The soup kitchen would like to announce that it has a serious surfeit of those cans of jellied cranberries that no one seems to want, but it could still use at least ten Thanksgiving turkeys."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "surmise",
+"pos": "verb",
+"def": "Guess, infer, think or make an opinion with incomplete information",
+"example": "Based on your rather sad attempt to figure out the tip on our restaurant bill, I would surmise that you actually have no idea how percents work."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "sycophant",
+"pos": "noun",
+"def": "Servile flatterer, parasitic person who fawns in order to get ahead",
+"example": "Stop being such a sycophant. I don’t need you to compliment my tie or get me coffee; I just need you to do your job without bothering me."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "synchronous",
+"pos": "adj",
+"def": "Happening at the same time; occurring at the same rate and thus happening together repeatedly",
+"example": "The sound of that bell is a signal for the dancers to make perfectly synchronous entrances from opposite sides of the stage."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "table",
+"pos": "verb",
+"def": "Lay aside to discuss later, often as a way to postpone discussion indefinitely",
+"example": "I see we’re not going to agree on whether to scrap our entire curriculum and develop a new one, so let’s table that discussion and move on to voting on the budget."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "tacit",
+"pos": "adj",
+"def": "Understood without being said; implied, not stated directly; silent",
+"example": "Her parents never told her she could smoke, but they gave their tacit consent when they didn’t say anything about the obvious smell coming from her bedroom."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "taciturn",
+"pos": "adj",
+"def": "Not talking much, reserved; silent, holding back in conversation",
+"example": "Because he felt self-conscious about his stutter, Mike had always been taciturn, but after some very good speech therapy, soon he was much more voluble."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "tangential",
+"pos": "adj",
+"def": "Only slightly relevant, going off-topic",
+"example": "It’s hard to get a quick answer out of Noah—ask him any question, and you’ll get a wide range of tangential remarks before you can find a polite way to move on."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "temperance",
+"pos": "noun",
+"def": "Moderation, self-control, esp. regarding alcohol or other desires or pleasures; total abstinence from alcohol",
+"example": "After the end of the Civil War, economic change led to an increase in alcohol problems and the birth of the Temperance Movement, which ultimately led to Prohibition."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "tenuous",
+"pos": "adj",
+"def": "Long and thin, slender; flimsy, having little substance",
+"example": "Your argument is quite tenuous—it depends on our accepting the results of a 1955 study published in an obscure medical journal not subject to peer review."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "timely",
+"pos": "adj",
+"def": "Well-timed, happening at a suitable time",
+"example": "Your arrival is quite timely—we were just mulling over a question we’re sure you can answer!"
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "timorous",
+"pos": "adj",
+"def": "Fearful, timid",
+"example": "An expression describing a timorous person is “quaking in his boots”—that is, a scared person would shake or shiver from fear."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "tirade",
+"pos": "noun",
+"def": "Bitter, abusive criticism or verbal attack",
+"example": "I hate that television show where that commentator goes on angry tirades about all the liberal conspiracies taking over America. Even my conservative friends find his ranting embarrassing."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "torpor",
+"pos": "noun",
+"def": "Sluggishness, lethargy, or apathy; a period of inactivity",
+"example": "Sam had hoped to be able to play in the game after having his wisdom teeth out, but the anesthesia left him in such torpor that he obviously couldn’t play soccer."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "torrid",
+"pos": "adj",
+"def": "Very hot, parching, burning; passionate",
+"example": "They had a torrid love affair in the ‘80s, but split up because a royal was not permitted to marry a commoner."
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "tractable",
+"pos": "adj",
+"def": "Easily controlled or managed, docile; easily shaped or molded",
+"example": "He’s a tractable fellow—when I asked if we could see a different movie than the one we’d come to see, he shrugged and said “Cool.”"
+},
+{
+"setNum": 19,
+"set": "Essential 19",
+"w": "transitory",
+"pos": "adj",
+"def": "Temporary, short-lived, not lasting",
+"example": "While a few people marry their high school sweethearts, generally, our teenage years are full of transitory crushes."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "trifling",
+"pos": "adj",
+"def": "Trivial, not very important; so small as to be unimportant; frivolous, shallow",
+"example": "Luis broke up with Cara because she was always obsessed with some trifling matter—he tried to talk about foreign aid dependency, and she changed the subject to what the actress Katie Holmes dressed her daughter Suri in for a shopping trip."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "trite",
+"pos": "adj",
+"def": "Lacking freshness and originality, lacking effectiveness due to overuse, cliché",
+"example": "The topic of your speech is “Children are the Future”? That’s pretty trite. Maybe you should think harder and come up with something original."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "ubiquitous",
+"pos": "adj",
+"def": "Existing everywhere at the same time",
+"example": "Thirty years ago, women would lie about coloring their hair, considering the admission embarrassing. Today, blatantly fake hair color—not to mention fake tans and unnaturally white teeth— are ubiquitous, not only on starlets, but even on the checkers at the local grocery store."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "undermine",
+"pos": "verb",
+"def": "Weaken, cause to collapse by digging away at the foundation (of a building or an argument); injure or attack in a secretive or underhanded way",
+"example": "Rather than searching impartially for the truth, these pharmaceutical company “scientists” willfully ignored any evidence that undermined the conclusion they were being paid to produce."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "underscore",
+"pos": "verb",
+"def": "Emphasize (or, literally, to underline text)",
+"example": "“You’re not going to mess with Joey anymore,” said Joey. His new bodyguards stepped forward threatening, as though to underscore Joey’s point."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "unearth",
+"pos": "verb",
+"def": "Dig up, uncover, expose",
+"example": "The ACLU’s Prison Project works tirelessly to unearth evidence from old cases that might exonerate innocent people who have spent years or even decades in prison."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "unequivocal",
+"pos": "adj",
+"def": "Unambiguous, clear, absolute; having only one possible meaning",
+"example": "Although Chuck denied he had a problem, his family was unequivocal in demanding that he check into rehab. Chuck knew there was no getting around it this time."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "unprecedented",
+"pos": "adj",
+"def": "Never before known or seen, without having happened previously",
+"example": "When Nixon resigned, American bravado was at an all-time low—the resignation of a sitting President was disgraceful and unprecedented."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "unseemly",
+"pos": "adj",
+"def": "Improper, inappropriate, against the rules of taste or politeness",
+"example": "The activist really did want to get the candidate’s support for the equal-rights measure, so she did what the candidate’s aides asked—but she found it very unseemly that they suggested a specific dollar amount for the “donation” she was asked to make in order to get a meeting."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "vacillate",
+"pos": "verb",
+"def": "Waver in one’s mind or opinions, be indecisive",
+"example": "In need of a good used car, I was vacillating between the Ford and the Hyundai until a recommendation from a friend helped me decide."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "venerate",
+"pos": "verb",
+"def": "Revere, regard with deep respect and awe",
+"example": "The boys were utterly crushed when the baseball player they venerated saw them waiting and refused to sign an autograph."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "veracity",
+"pos": "noun",
+"def": "Truthfulness, accuracy; habitual adherence to the truth",
+"example": "I question the veracity of your story—I just don’t think you’ve been to outer space."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "verbose",
+"pos": "adj",
+"def": "Wordy",
+"example": "Twitter’s 140 character limit really forces the verbose to go against their natural tendencies and instead write succinctly."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "viable",
+"pos": "adj",
+"def": "Capable of living (or growing, developing, etc.); practical, workable",
+"example": "I have three screenplay ideas, but the studio head said only one was commercially viable. Apparently, it’s important to have a human lead character and a satisfying ending."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "vintage",
+"pos": "adj, noun",
+"def": "Related to items of high quality from a previous era, old-fashioned, antique (adj); the wine of a particular year (noun)",
+"example": "He didn’t want just any vintage Darth Vader action figure—he wanted a particular vintage, the 1978 telescoping lightsaber one."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "virtual",
+"pos": "adj",
+"def": "Existing only in the mind or by means of a computer network; existing in results or in essence but not officially or in name",
+"example": "The Tamagotchi is a handheld virtual pet made in Japan—you have to “care” for it by performing various actions with the device, but in the end, your “pet” still looks very much like a keychain."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "vituperate",
+"pos": "verb",
+"def": "Verbally abuse, rebuke or criticize harshly",
+"example": "All couples fight, but your girlfriend vituperates you so severely that I’m not sure she loves you at all. Verbal abuse is actually a pretty good reason to break up."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "volatile",
+"pos": "adj",
+"def": "Varying, inconstant, fleeting; tending to violence, explosive;",
+"example": "Following the sudden revolution, the political environment in the country was so volatile that anything could have started a riot."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "warranted",
+"pos": "adj",
+"def": "Justified, authorized (warrant can mean to justify or a justification, but can also mean to vouch for or guarantee)",
+"example": "The pundit’s comments don’t even warrant a response from our organization—they were mere name-calling, not suitable for public discourse."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "wary",
+"pos": "adj",
+"def": "Watchful, motivated by caution, on guard against danger",
+"example": "Be wary of anyone who tells you that “anyone” can get rich with some special plan or scheme."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "whereas",
+"pos": "conjunction",
+"def": "While on the contrary, considering that",
+"example": "Mr. Katsoulas had always assumed his son would take over the family business, whereas his son had always assumed he would go away to college and never come back."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "whimsical",
+"pos": "adj",
+"def": "Marked or motivated by whims (odd, fanciful ideas); erratic, unpredictable",
+"example": "Alice in Wonderland is a famously whimsical story in which a little girl falls down a rabbit hole and finds a strange and at times absurd world."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "wily",
+"pos": "adj",
+"def": "Crafty, cunning, characterized by tricks or artifice",
+"example": "The wily criminal stole eight laptops by simply walking into a branch of a large company, introducing himself as the laptop repairman, and waiting for people to hand him their computers."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "zeal",
+"pos": "noun",
+"def": "Great fervor or enthusiasm for a cause, person, etc., tireless diligence in furthering that cause; passion, ardor",
+"example": "Whether you agree with their views or not, you have to admit that the employees of PETA have great zeal for animal rights—most work for less than $25,000 a year, and often participate in protests that get them shouted at or even arrested."
+},
+{
+"setNum": 20,
+"set": "Essential 20",
+"w": "zenith",
+"pos": "noun",
+"def": "High point, culmination",
+"example": "At the zenith of her career, the actress could command $5 million per film. Now, she is mostly seen in made-for-TV movies."
+}
+]

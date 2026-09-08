@@ -1,9 +1,10 @@
 /* GRE Vocab Trainer service worker — offline support */
-const CACHE = 'gre-vocab-v3';
+const CACHE = 'gre-vocab-v6';
 const CORE = [
   './',
   './index.html',
   './data.js',
+  './data-essential.js',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png'
