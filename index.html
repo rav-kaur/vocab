@@ -186,7 +186,8 @@
     <button data-mode="flash" class="active">Flashcards</button>
     <button data-mode="listen">Listen</button>
     <button data-mode="match">Match</button>
-    <button data-mode="quiz">Quiz</button>
+    <button data-mode="quiz">Quiz: Meaning</button>
+    <button data-mode="rquiz">Quiz: Word</button>
     <button data-mode="type">Type</button>
     <button data-mode="review">Review</button>
     <button data-mode="progress">Progress</button>
@@ -421,8 +422,8 @@ function finishMatch(){
 let qDeck=[], qIdx=0, qScore=0, qAnswered=false;
 function viewQuiz(){
   app.innerHTML=`
-    <h2>Multiple-Choice Quiz</h2>
-    <p class="sub">Pick the correct definition for each word. Answers feed your progress + spaced repetition.</p>
+    <h2>Quiz: Pick the Meaning</h2>
+    <p class="sub">See the word, choose its correct definition. Answers feed your progress and spaced repetition.</p>
     <div class="row">
       <label>Set:
         <select id="qSet">
@@ -477,6 +478,68 @@ function answerQuiz(btn,c){
   if(good) qScore++;
   grade(c.id,good);
   setTimeout(()=>{qIdx++;drawQuiz()},good?700:1300);
+}
+
+/* ============ QUIZ: PICK THE WORD (reverse) ============ */
+let rqDeck=[], rqIdx=0, rqScore=0, rqAnswered=false;
+function viewQuizWord(){
+  app.innerHTML=`
+    <h2>Quiz: Pick the Word</h2>
+    <p class="sub">Read the definition and choose the word it defines. This is the reverse of the Meaning quiz, and a tougher test of recall.</p>
+    <div class="row">
+      <label>Set:
+        <select id="rqSet">
+          <option value="__all">All sets</option>
+          <option value="__due">Due for review</option>
+          ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
+        </select></label>
+      <label>Questions: <input type="number" id="rqN" value="15" min="5" max="50"></label>
+      <button class="btn small" id="rqStart">Start</button>
+    </div>
+    <div id="rqArea"></div>`;
+  $('#rqStart').onclick=startQuizWord;
+}
+function startQuizWord(){
+  const s=$('#rqSet').value;
+  let pool = s==='__all'?VOCAB.slice()
+    : s==='__due'?VOCAB.filter(c=>isDue(c.id))
+    : VOCAB.filter(c=>c.set===s);
+  if(!pool.length){$('#rqArea').innerHTML='<div class="empty">Nothing here — try another set.</div>';return}
+  const n=Math.min(Math.max(5,parseInt($('#rqN').value)||15),pool.length);
+  rqDeck=shuffle(pool).slice(0,n); rqIdx=0; rqScore=0; drawQuizWord();
+}
+function drawQuizWord(){
+  if(rqIdx>=rqDeck.length){
+    $('#rqArea').innerHTML=`<div class="quiz-card" style="text-align:center">
+      <div style="font-size:26px;font-weight:800">Score: ${rqScore} / ${rqDeck.length}</div>
+      <p class="sub" style="margin:10px 0 16px">${Math.round(rqScore/rqDeck.length*100)}%</p>
+      <button class="btn" onclick="startQuizWord()">Again</button></div>`;
+    return;
+  }
+  rqAnswered=false;
+  const c=rqDeck[rqIdx];
+  const distract=shuffle(VOCAB.filter(x=>x.id!==c.id&&x.w)).slice(0,3);
+  const opts=shuffle([c,...distract]);
+  $('#rqArea').innerHTML=`
+    <div class="quiz-card">
+      <div class="quiz-q">Question ${rqIdx+1} of ${rqDeck.length} · Score ${rqScore}</div>
+      <div class="sect"><div class="lbl">Definition</div><div class="val" style="font-size:18px">${rich(c.d1)}</div></div>
+      <div class="quiz-q" style="margin-top:18px">Which word means this?</div>
+      <div id="ropts">${opts.map(o=>`<button class="opt" data-id="${o.id}" style="font-weight:700">${esc(o.w)}</button>`).join('')}</div>
+    </div>`;
+  document.querySelectorAll('#ropts .opt').forEach(b=>b.onclick=()=>answerQuizWord(b,c));
+}
+function answerQuizWord(btn,c){
+  if(rqAnswered)return; rqAnswered=true;
+  const good = +btn.dataset.id===c.id;
+  document.querySelectorAll('#ropts .opt').forEach(b=>{
+    b.disabled=true;
+    if(+b.dataset.id===c.id) b.classList.add('correct');
+    else if(b===btn) b.classList.add('incorrect');
+  });
+  if(good) rqScore++;
+  grade(c.id,good);
+  setTimeout(()=>{rqIdx++;drawQuizWord()},good?800:1400);
 }
 
 /* ================= TYPE (active recall) ================= */
@@ -744,7 +807,7 @@ function liSetMedia(){
 }
 
 /* ================= ROUTER ================= */
-const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,type:viewType,review:viewReview,progress:viewProgress};
+const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,rquiz:viewQuizWord,type:viewType,review:viewReview,progress:viewProgress};
 function go(mode){
   document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));
   if(window.liAudio && mode!=='listen'){ try{window.liAudio.pause();}catch(e){} }
