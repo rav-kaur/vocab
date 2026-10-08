@@ -198,11 +198,18 @@
 <main id="app"></main>
 
 <script src="data-essential.js"></script>
+<script src="data-advanced.js"></script>
 <script>
 const VOCAB = window.VOCAB || [];
 VOCAB.forEach((c,i)=>c.id=i);
-const SETS = [...new Set(VOCAB.map(c=>c.set))]
-  .sort((a,b)=>{const A=VOCAB.find(c=>c.set===a).setNum,B=VOCAB.find(c=>c.set===b).setNum;return A-B});
+const COLL_ORDER={Essential:0,Advanced:1};
+function reSortSets(names){return names.sort((a,b)=>{const A=VOCAB.find(c=>c.set===a),B=VOCAB.find(c=>c.set===b);return (COLL_ORDER[A.coll]-COLL_ORDER[B.coll])||(A.setNum-B.setNum);});}
+const SETS = reSortSets([...new Set(VOCAB.map(c=>c.set))]);
+function collCounts(){const e=VOCAB.filter(c=>c.coll==='Essential').length,a=VOCAB.filter(c=>c.coll==='Advanced').length;return{all:VOCAB.length,Essential:e,Advanced:a};}
+function collOptionsHTML(sel){const n=collCounts();return [['all','All ('+n.all+' words)'],['Essential','Essential ('+n.Essential+' words)'],['Advanced','Advanced ('+n.Advanced+' words)']].map(x=>`<option value="${x[0]}"${x[0]===sel?' selected':''}>${x[1]}</option>`).join('');}
+function setsInColl(ck){const cs=ck==='all'?VOCAB:VOCAB.filter(c=>c.coll===ck);return reSortSets([...new Set(cs.map(c=>c.set))]);}
+function setOptionsHTML(ck,due){const al=ck==='all'?'All sets':('All '+ck+' sets');let h=`<option value="__all">${al}</option>`;if(due)h+=`<option value="__due">Due for review</option>`;h+=setsInColl(ck).map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');return h;}
+function scopePool(ck,sv){const base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);if(sv==='__all')return base;if(sv==='__due')return base.filter(c=>isDue(c.id));return base.filter(c=>c.set===sv);}
 
 /* ---------- progress store (localStorage) ---------- */
 const PKEY='gre_vocab_progress_v1';
@@ -260,21 +267,20 @@ function viewFlash(){
     <h2>Flashcards</h2>
     <p class="sub">Front shows the word — click the card (or press Space) to reveal. Rate yourself to feed spaced repetition.</p>
     <div class="row">
+      <label>Deck:
+        <select id="fcColl">${collOptionsHTML('all')}</select></label>
       <label>Set:
-        <select id="fcSet">
-          <option value="__all">All sets (${VOCAB.length} words)</option>
-          ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
-        </select></label>
+        <select id="fcSet">${setOptionsHTML('all',false)}</select></label>
       <label><input type="checkbox" id="fcShuffle" checked> Shuffle</label>
       <button class="btn small" id="fcStart">Start</button>
     </div>
     <div id="fcArea"></div>`;
   $('#fcStart').onclick=startFlash;
+  $('#fcColl').onchange=()=>{ $('#fcSet').innerHTML=setOptionsHTML($('#fcColl').value,false); };
   startFlash();
 }
 function startFlash(){
-  const s=$('#fcSet').value;
-  fcDeck = s==='__all'?VOCAB.slice():VOCAB.filter(c=>c.set===s);
+  fcDeck = scopePool($('#fcColl').value, $('#fcSet').value);
   if($('#fcShuffle').checked) fcDeck=shuffle(fcDeck);
   fcIdx=0; fcFlipped=false; drawFlash();
 }
@@ -332,33 +338,35 @@ function viewMatch(){
     <h2>Match Game</h2>
     <p class="sub">Click a word, then its matching definition. Right pairs vanish; wrong pairs flash red.</p>
     <div class="row">
+      <label>Deck:
+        <select id="mColl">${collOptionsHTML('all')}</select></label>
       <label>Source:
         <select id="mSrc">
           <option value="one">One set</option>
           <option value="multi">Multiple sets</option>
-          <option value="random">Random from all ${VOCAB.length}</option>
+          <option value="random">Random from deck</option>
         </select></label>
       <span id="mSrcOpt"></span>
       <label>Pairs: <input type="number" id="mPairs" value="8" min="4" max="16"></label>
       <button class="btn small" id="mStart">Start</button>
     </div>
     <div id="mArea"></div>`;
-  $('#mSrc').onchange=drawSrcOpt; $('#mStart').onclick=startMatch; drawSrcOpt();
+  $('#mSrc').onchange=drawSrcOpt; $('#mColl').onchange=drawSrcOpt; $('#mStart').onclick=startMatch; drawSrcOpt();
 }
 function drawSrcOpt(){
-  const v=$('#mSrc').value, el=$('#mSrcOpt');
+  const v=$('#mSrc').value, ck=$('#mColl').value, el=$('#mSrcOpt'), sets=setsInColl(ck);
   if(v==='one'){
-    el.innerHTML=`<select id="mSet">${SETS.map(s=>`<option>${esc(s)}</option>`).join('')}</select>`;
+    el.innerHTML=`<select id="mSet">${sets.map(s=>`<option>${esc(s)}</option>`).join('')}</select>`;
   }else if(v==='multi'){
-    el.innerHTML=`<div class="checks" id="mChecks">${SETS.map(s=>`<label><input type="checkbox" value="${esc(s)}"> ${esc(s)}</label>`).join('')}</div>`;
-  }else{ el.innerHTML='<span class="note">Words picked at random from the entire ${VOCAB.length}-word pool.</span>'; }
+    el.innerHTML=`<div class="checks" id="mChecks">${sets.map(s=>`<label><input type="checkbox" value="${esc(s)}"> ${esc(s)}</label>`).join('')}</div>`;
+  }else{ el.innerHTML='<span class="note">Words picked at random from the selected deck.</span>'; }
 }
 function matchPool(){
-  const v=$('#mSrc').value;
+  const v=$('#mSrc').value, ck=$('#mColl').value;
   if(v==='one') return VOCAB.filter(c=>c.set===$('#mSet').value);
   if(v==='multi'){const sel=[...document.querySelectorAll('#mChecks input:checked')].map(i=>i.value);
     return VOCAB.filter(c=>sel.includes(c.set));}
-  return VOCAB.slice();
+  return ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);
 }
 function startMatch(){
   let pool=matchPool();
@@ -425,23 +433,19 @@ function viewQuiz(){
     <h2>Quiz: Pick the Meaning</h2>
     <p class="sub">See the word, choose its correct definition. Answers feed your progress and spaced repetition.</p>
     <div class="row">
+      <label>Deck:
+        <select id="qColl">${collOptionsHTML('all')}</select></label>
       <label>Set:
-        <select id="qSet">
-          <option value="__all">All sets</option>
-          <option value="__due">Due for review</option>
-          ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
-        </select></label>
+        <select id="qSet">${setOptionsHTML('all',true)}</select></label>
       <label>Questions: <input type="number" id="qN" value="15" min="5" max="50"></label>
       <button class="btn small" id="qStart">Start</button>
     </div>
     <div id="qArea"></div>`;
   $('#qStart').onclick=startQuiz;
+  $('#qColl').onchange=()=>{ $('#qSet').innerHTML=setOptionsHTML($('#qColl').value,true); };
 }
 function startQuiz(){
-  const s=$('#qSet').value;
-  let pool = s==='__all'?VOCAB.slice()
-    : s==='__due'?VOCAB.filter(c=>isDue(c.id))
-    : VOCAB.filter(c=>c.set===s);
+  let pool = scopePool($('#qColl').value, $('#qSet').value);
   if(!pool.length){$('#qArea').innerHTML='<div class="empty">Nothing here — try another set.</div>';return}
   const n=Math.min(Math.max(5,parseInt($('#qN').value)||15),pool.length);
   qDeck=shuffle(pool).slice(0,n); qIdx=0; qScore=0; drawQuiz();
@@ -487,23 +491,19 @@ function viewQuizWord(){
     <h2>Quiz: Pick the Word</h2>
     <p class="sub">Read the definition and choose the word it defines. This is the reverse of the Meaning quiz, and a tougher test of recall.</p>
     <div class="row">
+      <label>Deck:
+        <select id="rqColl">${collOptionsHTML('all')}</select></label>
       <label>Set:
-        <select id="rqSet">
-          <option value="__all">All sets</option>
-          <option value="__due">Due for review</option>
-          ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
-        </select></label>
+        <select id="rqSet">${setOptionsHTML('all',true)}</select></label>
       <label>Questions: <input type="number" id="rqN" value="15" min="5" max="50"></label>
       <button class="btn small" id="rqStart">Start</button>
     </div>
     <div id="rqArea"></div>`;
   $('#rqStart').onclick=startQuizWord;
+  $('#rqColl').onchange=()=>{ $('#rqSet').innerHTML=setOptionsHTML($('#rqColl').value,true); };
 }
 function startQuizWord(){
-  const s=$('#rqSet').value;
-  let pool = s==='__all'?VOCAB.slice()
-    : s==='__due'?VOCAB.filter(c=>isDue(c.id))
-    : VOCAB.filter(c=>c.set===s);
+  let pool = scopePool($('#rqColl').value, $('#rqSet').value);
   if(!pool.length){$('#rqArea').innerHTML='<div class="empty">Nothing here — try another set.</div>';return}
   const n=Math.min(Math.max(5,parseInt($('#rqN').value)||15),pool.length);
   rqDeck=shuffle(pool).slice(0,n); rqIdx=0; rqScore=0; drawQuizWord();
@@ -557,23 +557,19 @@ function viewType(){
     <h2>Type It Out</h2>
     <p class="sub">Read the definition, type the word. Near-misspellings still count — you'll see the correct spelling. Strongest mode for active recall.</p>
     <div class="row">
+      <label>Deck:
+        <select id="tColl">${collOptionsHTML('all')}</select></label>
       <label>Set:
-        <select id="tSet">
-          <option value="__all">All sets</option>
-          <option value="__due">Due for review</option>
-          ${SETS.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('')}
-        </select></label>
+        <select id="tSet">${setOptionsHTML('all',true)}</select></label>
       <label>Words: <input type="number" id="tN" value="15" min="5" max="50"></label>
       <button class="btn small" id="tStart">Start</button>
     </div>
     <div id="tArea"></div>`;
   $('#tStart').onclick=startType;
+  $('#tColl').onchange=()=>{ $('#tSet').innerHTML=setOptionsHTML($('#tColl').value,true); };
 }
 function startType(){
-  const s=$('#tSet').value;
-  let pool = s==='__all'?VOCAB.slice()
-    : s==='__due'?VOCAB.filter(c=>isDue(c.id))
-    : VOCAB.filter(c=>c.set===s);
+  let pool = scopePool($('#tColl').value, $('#tSet').value);
   if(!pool.length){$('#tArea').innerHTML='<div class="empty">Nothing here — try another set.</div>';return}
   const n=Math.min(Math.max(5,parseInt($('#tN').value)||15),pool.length);
   tDeck=shuffle(pool).slice(0,n); tIdx=0; tScore=0; drawType();
@@ -655,29 +651,39 @@ function revealType(c){
 function nextType(){ tIdx++; drawType(); }
 
 /* ================= REVIEW (spaced repetition) ================= */
+let rvColl='all';
 function viewReview(){
-  const due=shuffle(VOCAB.filter(c=>isDue(c.id) && (P[c.id]&&P[c.id].seen)));
-  const fresh=VOCAB.filter(c=>!P[c.id]||!P[c.id].seen).length;
+  const base = rvColl==='all'?VOCAB:VOCAB.filter(c=>c.coll===rvColl);
+  const due=shuffle(base.filter(c=>isDue(c.id) && (P[c.id]&&P[c.id].seen)));
+  const fresh=base.filter(c=>!P[c.id]||!P[c.id].seen).length;
+  const picker=`<div class="row" style="margin-bottom:14px"><label>Deck:
+        <select id="rvColl">${collOptionsHTML(rvColl)}</select></label></div>`;
   if(!due.length){
-    app.innerHTML=`<h2>Review</h2>
+    app.innerHTML=`<h2>Review</h2>${picker}
       <div class="empty">Nothing due right now. ✅<br><br>
       ${fresh} words are still new — study them in Flashcards or Quiz to add them to your review schedule.</div>`;
+    $('#rvColl').onchange=()=>{ rvColl=$('#rvColl').value; viewReview(); };
     return;
   }
   fcDeck=due; fcIdx=0; fcFlipped=false;
   app.innerHTML=`<h2>Review — ${due.length} due</h2>
     <p class="sub">Spaced repetition: words you miss come back sooner, words you know get pushed further out.</p>
+    ${picker}
     <div id="fcArea"></div>`;
+  $('#rvColl').onchange=()=>{ rvColl=$('#rvColl').value; viewReview(); };
   drawFlash();
 }
 
 /* ================= PROGRESS ================= */
+let pgColl='all';
 function viewProgress(){
-  const seen=VOCAB.filter(c=>P[c.id]&&P[c.id].seen).length;
-  const mastered=VOCAB.filter(c=>P[c.id]&&P[c.id].known).length;
+  const base = pgColl==='all'?VOCAB:VOCAB.filter(c=>c.coll===pgColl);
+  const tot0=base.length||1;
+  const seen=base.filter(c=>P[c.id]&&P[c.id].seen).length;
+  const mastered=base.filter(c=>P[c.id]&&P[c.id].known).length;
   const learning=seen-mastered;
-  const due=VOCAB.filter(c=>P[c.id]&&P[c.id].seen&&isDue(c.id)).length;
-  const rows=SETS.map(s=>{
+  const due=base.filter(c=>P[c.id]&&P[c.id].seen&&isDue(c.id)).length;
+  const rows=setsInColl(pgColl).map(s=>{
     const cs=VOCAB.filter(c=>c.set===s);
     const m=cs.filter(c=>P[c.id]&&P[c.id].known).length;
     const sn=cs.filter(c=>P[c.id]&&P[c.id].seen).length;
@@ -686,10 +692,12 @@ function viewProgress(){
   app.innerHTML=`
     <h2>Progress</h2>
     <p class="sub">Saved automatically in this browser. Ratings from Flashcards, Quiz, Match and Review all count.</p>
+    <div class="row" style="margin-bottom:6px"><label>Deck:
+        <select id="pgColl">${collOptionsHTML(pgColl)}</select></label></div>
     <div class="cards-grid">
-      <div class="stat-card"><div class="n">${VOCAB.length}</div><div class="k">Total words</div></div>
+      <div class="stat-card"><div class="n">${base.length}</div><div class="k">Total words</div></div>
       <div class="stat-card"><div class="n" style="color:var(--good)">${mastered}</div><div class="k">Mastered</div>
-        <div class="bar"><i style="width:${mastered/VOCAB.length*100}%"></i></div></div>
+        <div class="bar"><i style="width:${mastered/tot0*100}%"></i></div></div>
       <div class="stat-card"><div class="n" style="color:var(--gold)">${learning}</div><div class="k">Still learning</div></div>
       <div class="stat-card"><div class="n" style="color:var(--accent)">${due}</div><div class="k">Due for review</div></div>
     </div>
@@ -705,24 +713,30 @@ function viewProgress(){
     <div class="row" style="margin-top:20px">
       <button class="btn ghost small" id="resetP">Reset all progress</button>
     </div>`;
+  $('#pgColl').onchange=()=>{ pgColl=$('#pgColl').value; viewProgress(); };
   $('#resetP').onclick=()=>{if(confirm('Erase all saved progress? This cannot be undone.')){P={};save();renderStreak();viewProgress()}};
 }
 
 /* ================= LISTEN (audio player) ================= */
-let liSetNum=1;
-function liSets(){ return SETS.map(n=>({name:n,num:(VOCAB.find(c=>c.set===n)||{}).setNum})).filter(s=>s.num!=null).sort((a,b)=>a.num-b.num); }
+let liSetName=null, liColl='all';
 function fmtT(t){ if(!isFinite(t)||t<0)t=0; t=t|0; return `${t/60|0}:${String(t%60).padStart(2,'0')}`; }
-function liCurName(){ const s=liSets().find(x=>x.num===liSetNum); return s?s.name:('Essential '+liSetNum); }
+function liSets(){ return setsInColl(liColl).map(n=>{const c=VOCAB.find(x=>x.set===n);return {name:n,coll:c.coll,num:c.setNum};}); }
+function liCur(){ const s=liSets(); return s.find(x=>x.name===liSetName) || s[0]; }
+function liCurName(){ const c=liCur(); return c?c.name:''; }
+function liFile(){ const c=liCur(); return c?`audio/${c.coll.toLowerCase()}-${c.num}.mp3`:''; }
+function liSetSelectHTML(){ const s=liSets(); return s.map(x=>`<option value="${esc(x.name)}" ${x.name===liSetName?'selected':''}>${esc(x.name)}</option>`).join(''); }
 function viewListen(){
   const sets=liSets();
   if(!sets.length){ app.innerHTML='<h2>Listen</h2><div class="empty">No sets found.</div>'; return; }
-  if(!sets.some(s=>s.num===liSetNum)) liSetNum=sets[0].num;
+  if(!sets.some(s=>s.name===liSetName)) liSetName=sets[0].name;
   app.innerHTML=`
     <h2>Listen</h2>
     <p class="sub">Hands-free audio: each word, its definition, then an example sentence, with pauses. Put on headphones and let a set loop. Keeps playing with the screen locked.</p>
     <div class="row">
+      <label>Deck:
+        <select id="liColl">${collOptionsHTML(liColl)}</select></label>
       <label>Set:
-        <select id="liSet">${sets.map(s=>`<option value="${s.num}" ${s.num===liSetNum?'selected':''}>${esc(s.name)}</option>`).join('')}</select></label>
+        <select id="liSet">${liSetSelectHTML()}</select></label>
       <label>Repeat:
         <select id="liRepeat">
           <option value="one" selected>This set (loop)</option>
@@ -755,7 +769,8 @@ function viewListen(){
       <div class="li-note">On a phone, playback continues with the screen off and appears on your lock screen. If a set has no audio yet, run <b>tools/generate_audio.py</b> once (see tools/README.md).</div>
     </div>`;
   const A=$('#liAudio'); window.liAudio=A;
-  $('#liSet').onchange=e=>{ liSetNum=+e.target.value; loadListen(true); };
+  $('#liColl').onchange=()=>{ liColl=$('#liColl').value; const s=liSets(); liSetName=s.length?s[0].name:null; $('#liSet').innerHTML=liSetSelectHTML(); loadListen(false); };
+  $('#liSet').onchange=()=>{ liSetName=$('#liSet').value; loadListen(true); };
   $('#liRepeat').onchange=()=>{ A.loop = $('#liRepeat').value==='one'; };
   $('#liSpeed').onchange=()=>{ A.playbackRate=parseFloat($('#liSpeed').value); };
   $('#liPlay').onclick=()=>{ A.paused ? A.play().catch(()=>{}) : A.pause(); };
@@ -773,21 +788,22 @@ function viewListen(){
 }
 function loadListen(autoplay){
   const A=$('#liAudio'); if(!A) return;
+  const cur=liCur();
   $('#liName').textContent=liCurName();
-  const items=VOCAB.filter(c=>c.setNum===liSetNum);
+  const items=cur?VOCAB.filter(c=>c.coll===cur.coll&&c.setNum===cur.num):[];
   $('#liMeta').textContent=`${items.length} words · word, definition, example`;
   $('#liNotice').innerHTML=''; $('#liBody').style.display='';
   A.loop = ($('#liRepeat')||{}).value==='one';
   A.playbackRate=parseFloat((($('#liSpeed')||{}).value)||'1');
-  A.src=`audio/essential-${liSetNum}.mp3`;
+  A.src=liFile();
   A.load();
   if(autoplay) A.play().catch(()=>{});
   liSetMedia();
 }
 function liStep(d,autoplay){
-  const sets=liSets(); let i=sets.findIndex(s=>s.num===liSetNum);
-  i=(i+d+sets.length)%sets.length; liSetNum=sets[i].num;
-  const sel=$('#liSet'); if(sel) sel.value=liSetNum;
+  const sets=liSets(); let i=sets.findIndex(s=>s.name===liSetName);
+  i=(i+d+sets.length)%sets.length; liSetName=sets[i].name;
+  const sel=$('#liSet'); if(sel) sel.value=liSetName;
   loadListen(autoplay!==false);
 }
 function liShowMissing(){
@@ -798,7 +814,7 @@ function liShowMissing(){
 function liSetMedia(){
   if(!('mediaSession' in navigator)) return;
   try{
-    navigator.mediaSession.metadata=new MediaMetadata({title:liCurName(),artist:'GRE Vocab · Listen',album:'500 Essential Words'});
+    navigator.mediaSession.metadata=new MediaMetadata({title:liCurName(),artist:'GRE Vocab · Listen',album:'Manhattan GRE'});
     navigator.mediaSession.setActionHandler('play',()=>{const a=$('#liAudio'); if(a)a.play().catch(()=>{});});
     navigator.mediaSession.setActionHandler('pause',()=>{const a=$('#liAudio'); if(a)a.pause();});
     navigator.mediaSession.setActionHandler('previoustrack',()=>liStep(-1));
