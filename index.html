@@ -177,6 +177,20 @@
   .pbtn:hover{filter:brightness(1.12)}
   .li-note{color:var(--muted);font-size:13px;margin-top:18px;text-align:center;line-height:1.55}
   .li-missing{background:#3a2140;border:1px solid var(--warn);color:var(--txt);border-radius:12px;padding:14px;margin-top:16px;font-size:14px;line-height:1.5}
+  /* Word Groups */
+  .grp{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-top:14px}
+  .grp h3{margin:0;font-size:17px;font-weight:800}
+  .grp h3 .cnt{color:var(--muted);font-size:12px;font-weight:600}
+  .grp .words{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+  .wchip{background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:5px 12px;border-radius:14px;font-size:14px;cursor:pointer;font-weight:600;transition:.12s}
+  .wchip:hover{border-color:var(--accent)}
+  .wchip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .grp .reveal{font-size:14px;line-height:1.5}
+  .grp .reveal:not(:empty){margin-bottom:12px}
+  .grp .reveal .m2{color:var(--muted);font-size:12px}
+  .grp .acts{display:flex;gap:10px}
+  .m2{color:var(--muted);font-size:12px}
+  .cloze-blank{display:inline-block;min-width:84px;border-bottom:2px solid var(--accent);color:var(--accent2);font-weight:700;font-style:normal;text-align:center;margin:0 2px}
 </style>
 </head>
 <body>
@@ -188,7 +202,11 @@
     <button data-mode="match">Match</button>
     <button data-mode="quiz">Quiz: Meaning</button>
     <button data-mode="rquiz">Quiz: Word</button>
+    <button data-mode="cloze">Cloze</button>
+    <button data-mode="closest">Closest</button>
     <button data-mode="type">Type</button>
+    <button data-mode="groups">Groups</button>
+    <button data-mode="conf">Confusables</button>
     <button data-mode="review">Review</button>
     <button data-mode="progress">Progress</button>
   </nav>
@@ -199,6 +217,8 @@
 
 <script src="data-essential.js"></script>
 <script src="data-advanced.js"></script>
+<script src="groups.js"></script>
+<script src="confusables.js"></script>
 <script>
 const VOCAB = window.VOCAB || [];
 VOCAB.forEach((c,i)=>c.id=i);
@@ -210,6 +230,9 @@ function collOptionsHTML(sel){const n=collCounts();return [['all','All ('+n.all+
 function setsInColl(ck){const cs=ck==='all'?VOCAB:VOCAB.filter(c=>c.coll===ck);return reSortSets([...new Set(cs.map(c=>c.set))]);}
 function setOptionsHTML(ck,due){const al=ck==='all'?'All sets':('All '+ck+' sets');let h=`<option value="__all">${al}</option>`;if(due)h+=`<option value="__due">Due for review</option>`;h+=setsInColl(ck).map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');return h;}
 function scopePool(ck,sv){const base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);if(sv==='__all')return base;if(sv==='__due')return base.filter(c=>isDue(c.id));return base.filter(c=>c.set===sv);}
+const GROUPS=(window.VOCAB_GROUPS||[]).map(g=>({name:g.name,cards:g.words.map(w=>VOCAB.find(c=>c.w===w)).filter(Boolean)})).filter(g=>g.cards.length>=2);
+const CONF = window.VOCAB_CONFUSABLES||[];
+const SYN = (function(){ const m={}; (window.VOCAB_GROUPS||[]).forEach(g=>{(g.words||[]).forEach(w=>{ m[w]=m[w]||new Set(); g.words.forEach(o=>{ if(o!==w) m[w].add(o); }); });}); const r={}; Object.keys(m).forEach(k=>r[k]=[...m[k]]); return r; })();
 
 /* ---------- progress store (localStorage) ---------- */
 const PKEY='gre_vocab_progress_v1';
@@ -445,6 +468,7 @@ function viewQuiz(){
   $('#qColl').onchange=()=>{ $('#qSet').innerHTML=setOptionsHTML($('#qColl').value,true); };
 }
 function startQuiz(){
+  window.qRestart=startQuiz;
   let pool = scopePool($('#qColl').value, $('#qSet').value);
   if(!pool.length){$('#qArea').innerHTML='<div class="empty">Nothing here — try another set.</div>';return}
   const n=Math.min(Math.max(5,parseInt($('#qN').value)||15),pool.length);
@@ -455,7 +479,7 @@ function drawQuiz(){
     $('#qArea').innerHTML=`<div class="quiz-card" style="text-align:center">
       <div style="font-size:26px;font-weight:800">Score: ${qScore} / ${qDeck.length}</div>
       <p class="sub" style="margin:10px 0 16px">${Math.round(qScore/qDeck.length*100)}%</p>
-      <button class="btn" onclick="startQuiz()">Again</button></div>`;
+      <button class="btn" onclick="(window.qRestart||startQuiz)()">Again</button></div>`;
     return;
   }
   qAnswered=false;
@@ -822,8 +846,188 @@ function liSetMedia(){
   }catch(e){}
 }
 
+/* ================= WORD GROUPS ================= */
+function viewGroups(){
+  if(!GROUPS.length){ app.innerHTML='<h2>Word Groups</h2><div class="empty">No groups found.</div>'; return; }
+  const gs=GROUPS.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  window._GS=gs;
+  app.innerHTML=`
+    <h2>Word Groups</h2>
+    <p class="sub">Kaplan's common-meaning themes, limited to words in your decks. Grouping related words helps them stick. Tap a word for its definition, or study a whole group. These are loose themes, not exact synonyms.</p>
+    <p class="sub" style="margin-top:-12px">${gs.length} groups · ${new Set(gs.flatMap(g=>g.cards.map(c=>c.w))).size} words</p>
+    <div id="grpList">${gs.map((g,i)=>`
+      <div class="grp">
+        <h3>${esc(g.name)} <span class="cnt">· ${g.cards.length} words</span></h3>
+        <div class="words">${g.cards.map(c=>`<button class="wchip" data-g="${i}" data-w="${esc(c.w)}">${esc(c.w)}</button>`).join('')}</div>
+        <div class="reveal" id="rev-${i}"></div>
+        <div class="acts">
+          <button class="btn small" data-flash="${i}">Flashcards</button>
+          <button class="btn ghost small" data-quiz="${i}">Quiz</button>
+        </div>
+      </div>`).join('')}</div>`;
+  document.querySelectorAll('.wchip').forEach(ch=>ch.onclick=()=>{
+    const gi=+ch.dataset.g, c=gs[gi].cards.find(x=>x.w===ch.dataset.w);
+    document.querySelectorAll(`.wchip[data-g="${gi}"]`).forEach(x=>x.classList.remove('active'));
+    ch.classList.add('active');
+    $('#rev-'+gi).innerHTML=`<b>${esc(c.w)}</b>: ${rich(c.d1)} <span class="m2">(${esc(c.coll)} ${c.setNum})</span>`;
+  });
+  document.querySelectorAll('[data-flash]').forEach(b=>b.onclick=()=>gStudyFlash(+b.dataset.flash));
+  document.querySelectorAll('[data-quiz]').forEach(b=>b.onclick=()=>gStudyQuiz(+b.dataset.quiz));
+}
+function gStudyFlash(i){
+  const g=window._GS[i]; fcDeck=shuffle(g.cards.slice()); fcIdx=0; fcFlipped=false;
+  app.innerHTML=`<h2>${esc(g.name)}</h2><p class="sub">${g.cards.length} words · flashcards</p>
+    <div class="row" style="margin-bottom:10px"><button class="btn ghost small" id="gBack">‹ Back to groups</button></div>
+    <div id="fcArea"></div>`;
+  $('#gBack').onclick=viewGroups; drawFlash();
+}
+function gStudyQuiz(i){
+  const g=window._GS[i]; qDeck=shuffle(g.cards.slice()); qIdx=0; qScore=0;
+  window.qRestart=()=>gStudyQuiz(i);
+  app.innerHTML=`<h2>${esc(g.name)}</h2><p class="sub">${g.cards.length} words · quiz</p>
+    <div class="row" style="margin-bottom:10px"><button class="btn ghost small" id="gBack">‹ Back to groups</button></div>
+    <div id="qArea"></div>`;
+  $('#gBack').onclick=viewGroups; drawQuiz();
+}
+
+/* ================= CLOZE (fill in the blank, multiple choice) ================= */
+let czDeck=[], czIdx=0, czScore=0, czAns=false;
+function viewCloze(){
+  app.innerHTML=`
+    <h2>Fill in the Blank</h2>
+    <p class="sub">Read the sentence and choose the word that fills the blank. Context is one of the strongest ways to lock a word in.</p>
+    <div class="row">
+      <label>Deck:<select id="czColl">${collOptionsHTML('all')}</select></label>
+      <label>Set:<select id="czSet">${setOptionsHTML('all',true)}</select></label>
+      <label>Questions: <input type="number" id="czN" value="15" min="5" max="50"></label>
+      <button class="btn small" id="czStart">Start</button>
+    </div>
+    <div id="czArea"></div>`;
+  $('#czStart').onclick=startCloze;
+  $('#czColl').onchange=()=>{ $('#czSet').innerHTML=setOptionsHTML($('#czColl').value,true); };
+}
+function czAble(c){ return /<b>.+?<\/b>/.test(c.sent||''); }
+function startCloze(){
+  const pool=scopePool($('#czColl').value,$('#czSet').value).filter(czAble);
+  if(!pool.length){$('#czArea').innerHTML='<div class="empty">No sentences here — try another set.</div>';return}
+  const n=Math.min(Math.max(5,parseInt($('#czN').value)||15),pool.length);
+  czDeck=shuffle(pool).slice(0,n); czIdx=0; czScore=0; drawCloze();
+}
+function drawCloze(){
+  if(czIdx>=czDeck.length){
+    $('#czArea').innerHTML=`<div class="quiz-card" style="text-align:center"><div style="font-size:26px;font-weight:800">Score: ${czScore} / ${czDeck.length}</div><p class="sub" style="margin:10px 0 16px">${Math.round(czScore/czDeck.length*100)}%</p><button class="btn" onclick="startCloze()">Again</button></div>`; return;
+  }
+  czAns=false; const c=czDeck[czIdx];
+  const disp=rich(c.sent).replace(/<b>.+?<\/b>/g,'<span class="cloze-blank">_____</span>');
+  const distract=shuffle(VOCAB.filter(x=>x.id!==c.id&&x.w)).slice(0,3);
+  const opts=shuffle([c,...distract]);
+  $('#czArea').innerHTML=`
+    <div class="quiz-card">
+      <div class="quiz-q">Sentence ${czIdx+1} of ${czDeck.length} · Score ${czScore}</div>
+      <div class="sect sentence"><div class="val">${disp}</div></div>
+      <div class="quiz-q" style="margin-top:16px">Which word fits?</div>
+      <div id="czOpts">${opts.map(o=>`<button class="opt" data-id="${o.id}" style="font-weight:700">${esc(o.w)}</button>`).join('')}</div>
+    </div>`;
+  document.querySelectorAll('#czOpts .opt').forEach(bb=>bb.onclick=()=>answerCloze(bb,c));
+}
+function answerCloze(btn,c){
+  if(czAns)return; czAns=true; const good=+btn.dataset.id===c.id;
+  document.querySelectorAll('#czOpts .opt').forEach(bb=>{ bb.disabled=true; if(+bb.dataset.id===c.id)bb.classList.add('correct'); else if(bb===btn)bb.classList.add('incorrect'); });
+  if(good)czScore++; grade(c.id,good);
+  setTimeout(()=>{czIdx++;drawCloze()},good?800:1300);
+}
+
+/* ================= CLOSEST IN MEANING ================= */
+let clDeck=[], clIdx=0, clScore=0, clAns=false;
+function viewClosest(){
+  app.innerHTML=`
+    <h2>Closest in Meaning</h2>
+    <p class="sub">Pick the word nearest in meaning to the prompt, GRE-style. Built from your word groups.</p>
+    <div class="row">
+      <label>Deck:<select id="clColl">${collOptionsHTML('all')}</select></label>
+      <label>Set:<select id="clSet">${setOptionsHTML('all',true)}</select></label>
+      <label>Questions: <input type="number" id="clN" value="15" min="5" max="50"></label>
+      <button class="btn small" id="clStart">Start</button>
+    </div>
+    <div id="clArea"></div>`;
+  $('#clStart').onclick=startClosest;
+  $('#clColl').onchange=()=>{ $('#clSet').innerHTML=setOptionsHTML($('#clColl').value,true); };
+}
+function startClosest(){
+  const pool=scopePool($('#clColl').value,$('#clSet').value).filter(c=>SYN[c.w]&&SYN[c.w].length);
+  if(!pool.length){$('#clArea').innerHTML='<div class="empty">No grouped words here — try another set or deck.</div>';return}
+  const n=Math.min(Math.max(5,parseInt($('#clN').value)||15),pool.length);
+  clDeck=shuffle(pool).slice(0,n); clIdx=0; clScore=0; drawClosest();
+}
+function drawClosest(){
+  if(clIdx>=clDeck.length){
+    $('#clArea').innerHTML=`<div class="quiz-card" style="text-align:center"><div style="font-size:26px;font-weight:800">Score: ${clScore} / ${clDeck.length}</div><p class="sub" style="margin:10px 0 16px">${Math.round(clScore/clDeck.length*100)}%</p><button class="btn" onclick="startClosest()">Again</button></div>`; return;
+  }
+  clAns=false; const c=clDeck[clIdx]; const syn=SYN[c.w];
+  const correct=VOCAB.find(x=>x.w===syn[Math.random()*syn.length|0]);
+  const forbidden=new Set([c.w,...syn]);
+  const distract=shuffle(VOCAB.filter(x=>!forbidden.has(x.w)&&x.d1)).slice(0,3);
+  const opts=shuffle([correct,...distract]);
+  $('#clArea').innerHTML=`
+    <div class="quiz-card">
+      <div class="quiz-q">Question ${clIdx+1} of ${clDeck.length} · Score ${clScore}</div>
+      <div class="quiz-word">${esc(c.w)} ${spk(c.w)}</div>
+      <div class="quiz-q">Closest in meaning?</div>
+      <div id="clOpts">${opts.map(o=>`<button class="opt" data-id="${o.id}" style="font-weight:700">${esc(o.w)}</button>`).join('')}</div>
+    </div>`;
+  document.querySelectorAll('#clOpts .opt').forEach(b=>b.onclick=()=>answerClosest(b,c,correct));
+}
+function answerClosest(btn,c,correct){
+  if(clAns)return; clAns=true; const good=+btn.dataset.id===correct.id;
+  document.querySelectorAll('#clOpts .opt').forEach(b=>{ b.disabled=true; if(+b.dataset.id===correct.id)b.classList.add('correct'); else if(b===btn)b.classList.add('incorrect'); });
+  if(good)clScore++; grade(c.id,good);
+  setTimeout(()=>{clIdx++;drawClosest()},good?800:1300);
+}
+
+/* ================= CONFUSABLE PAIRS ================= */
+let cfRounds=[], cfIdx=0, cfScore=0, cfAns=false;
+function viewConf(){
+  const dw=new Set(CONF.flatMap(s=>s.words.filter(w=>w.inDeck).map(w=>w.w)));
+  app.innerHTML=`
+    <h2>Confusable Pairs</h2>
+    <p class="sub">Tell apart the look-alikes that trip people up on the GRE. Read the meaning, pick the word it belongs to, then see the difference.</p>
+    <div class="row">
+      <button class="btn small" id="cfStart">Start</button>
+      <span class="note">${CONF.length} sets · ${dw.size} of your words</span>
+    </div>
+    <div id="cfArea"></div>`;
+  $('#cfStart').onclick=startConf;
+}
+function startConf(){
+  if(!CONF.length){$('#cfArea').innerHTML='<div class="empty">No confusable sets.</div>';return}
+  cfRounds=shuffle(CONF.map(s=>({set:s, ans:s.words[Math.random()*s.words.length|0]})));
+  cfIdx=0; cfScore=0; drawConf();
+}
+function drawConf(){
+  if(cfIdx>=cfRounds.length){
+    $('#cfArea').innerHTML=`<div class="quiz-card" style="text-align:center"><div style="font-size:26px;font-weight:800">Score: ${cfScore} / ${cfRounds.length}</div><p class="sub" style="margin:10px 0 16px">${Math.round(cfScore/cfRounds.length*100)}%</p><button class="btn" onclick="startConf()">Again</button></div>`; return;
+  }
+  cfAns=false; const r=cfRounds[cfIdx]; const opts=shuffle(r.set.words.slice());
+  $('#cfArea').innerHTML=`
+    <div class="quiz-card">
+      <div class="quiz-q">Pair ${cfIdx+1} of ${cfRounds.length} · Score ${cfScore}</div>
+      <div class="sect"><div class="lbl">Which word means this?</div><div class="val" style="font-size:18px">${esc(r.ans.gloss)}</div></div>
+      <div id="cfOpts" style="margin-top:14px">${opts.map(o=>`<button class="opt" data-w="${esc(o.w)}" style="font-weight:700">${esc(o.w)}${o.inDeck?'':' <span class="m2">(not in your decks)</span>'}</button>`).join('')}</div>
+    </div>`;
+  document.querySelectorAll('#cfOpts .opt').forEach(b=>b.onclick=()=>answerConf(b,r));
+}
+function answerConf(btn,r){
+  if(cfAns)return; cfAns=true; const good=btn.dataset.w===r.ans.w;
+  if(good)cfScore++;
+  const card=VOCAB.find(x=>x.w===r.ans.w); if(card) grade(card.id,good);
+  document.querySelectorAll('#cfOpts .opt').forEach(b=>{ b.disabled=true; if(b.dataset.w===r.ans.w)b.classList.add('correct'); else if(b===btn)b.classList.add('incorrect'); });
+  const rev=r.set.words.map(w=>`<div style="margin-top:3px"><b>${esc(w.w)}</b>: ${esc(w.gloss)}</div>`).join('');
+  $('#cfArea').querySelector('.quiz-card').insertAdjacentHTML('beforeend',`<div class="sect" style="margin-top:14px"><div class="lbl">The difference</div><div class="val">${rev}</div></div><div class="row" style="margin-top:14px"><button class="btn small" id="cfNext">Next ›</button></div>`);
+  $('#cfNext').onclick=()=>{cfIdx++;drawConf();};
+}
+
 /* ================= ROUTER ================= */
-const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,rquiz:viewQuizWord,type:viewType,review:viewReview,progress:viewProgress};
+const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,rquiz:viewQuizWord,cloze:viewCloze,closest:viewClosest,type:viewType,groups:viewGroups,conf:viewConf,review:viewReview,progress:viewProgress};
 function go(mode){
   document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));
   if(window.liAudio && mode!=='listen'){ try{window.liAudio.pause();}catch(e){} }
