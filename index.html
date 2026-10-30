@@ -217,16 +217,18 @@
 
 <script src="data-essential.js"></script>
 <script src="data-advanced.js"></script>
+<script src="data-gregmat.js"></script>
 <script src="groups.js"></script>
 <script src="confusables.js"></script>
 <script>
 const VOCAB = window.VOCAB || [];
 VOCAB.forEach((c,i)=>c.id=i);
-const COLL_ORDER={Essential:0,Advanced:1};
+const COLL_ORDER={Essential:0,Advanced:1,GregMat:2};
+const COLLS=Object.keys(COLL_ORDER).sort((a,b)=>COLL_ORDER[a]-COLL_ORDER[b]);
 function reSortSets(names){return names.sort((a,b)=>{const A=VOCAB.find(c=>c.set===a),B=VOCAB.find(c=>c.set===b);return (COLL_ORDER[A.coll]-COLL_ORDER[B.coll])||(A.setNum-B.setNum);});}
 const SETS = reSortSets([...new Set(VOCAB.map(c=>c.set))]);
-function collCounts(){const e=VOCAB.filter(c=>c.coll==='Essential').length,a=VOCAB.filter(c=>c.coll==='Advanced').length;return{all:VOCAB.length,Essential:e,Advanced:a};}
-function collOptionsHTML(sel){const n=collCounts();return [['all','All ('+n.all+' words)'],['Essential','Essential ('+n.Essential+' words)'],['Advanced','Advanced ('+n.Advanced+' words)']].map(x=>`<option value="${x[0]}"${x[0]===sel?' selected':''}>${x[1]}</option>`).join('');}
+function collCounts(){const r={all:VOCAB.length};COLLS.forEach(c=>r[c]=VOCAB.filter(x=>x.coll===c).length);return r;}
+function collOptionsHTML(sel){const n=collCounts();const rows=[['all','All ('+n.all+' words)']].concat(COLLS.map(c=>[c,c+' ('+n[c]+' words)']));return rows.map(x=>`<option value="${x[0]}"${x[0]===sel?' selected':''}>${x[1]}</option>`).join('');}
 function setsInColl(ck){const cs=ck==='all'?VOCAB:VOCAB.filter(c=>c.coll===ck);return reSortSets([...new Set(cs.map(c=>c.set))]);}
 function setOptionsHTML(ck,due){const al=ck==='all'?'All sets':('All '+ck+' sets');let h=`<option value="__all">${al}</option>`;if(due)h+=`<option value="__due">Due for review</option>`;h+=setsInColl(ck).map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');return h;}
 function scopePool(ck,sv){const base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);if(sv==='__all')return base;if(sv==='__due')return base.filter(c=>isDue(c.id));return base.filter(c=>c.set===sv);}

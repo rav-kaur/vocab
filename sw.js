@@ -1,11 +1,12 @@
 /* GRE Vocab Trainer service worker — offline support */
-const CACHE = 'gre-vocab-v11';
+const CACHE = 'gre-vocab-v12';
 const CORE = [
   './',
   './index.html',
   './data.js',
   './data-essential.js',
   './data-advanced.js',
+  './data-gregmat.js',
   './groups.js',
   './confusables.js',
   './manifest.webmanifest',
