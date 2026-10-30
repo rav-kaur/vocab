@@ -198,6 +198,7 @@
   <div class="logo">GRE<span>Vocab</span></div>
   <nav id="nav">
     <button data-mode="flash" class="active">Flashcards</button>
+    <button data-mode="sift">Sift</button>
     <button data-mode="listen">Listen</button>
     <button data-mode="match">Match</button>
     <button data-mode="quiz">Quiz: Meaning</button>
@@ -227,11 +228,11 @@ const COLL_ORDER={Essential:0,Advanced:1,GregMat:2};
 const COLLS=Object.keys(COLL_ORDER).sort((a,b)=>COLL_ORDER[a]-COLL_ORDER[b]);
 function reSortSets(names){return names.sort((a,b)=>{const A=VOCAB.find(c=>c.set===a),B=VOCAB.find(c=>c.set===b);return (COLL_ORDER[A.coll]-COLL_ORDER[B.coll])||(A.setNum-B.setNum);});}
 const SETS = reSortSets([...new Set(VOCAB.map(c=>c.set))]);
-function collCounts(){const r={all:VOCAB.length};COLLS.forEach(c=>r[c]=VOCAB.filter(x=>x.coll===c).length);return r;}
+function collCounts(){const f=x=>!hideKnown||!isKnown(x);const r={all:VOCAB.filter(f).length};COLLS.forEach(c=>r[c]=VOCAB.filter(x=>x.coll===c&&f(x)).length);return r;}
 function collOptionsHTML(sel){const n=collCounts();const rows=[['all','All ('+n.all+' words)']].concat(COLLS.map(c=>[c,c+' ('+n[c]+' words)']));return rows.map(x=>`<option value="${x[0]}"${x[0]===sel?' selected':''}>${x[1]}</option>`).join('');}
 function setsInColl(ck){const cs=ck==='all'?VOCAB:VOCAB.filter(c=>c.coll===ck);return reSortSets([...new Set(cs.map(c=>c.set))]);}
 function setOptionsHTML(ck,due){const al=ck==='all'?'All sets':('All '+ck+' sets');let h=`<option value="__all">${al}</option>`;if(due)h+=`<option value="__due">Due for review</option>`;h+=setsInColl(ck).map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');return h;}
-function scopePool(ck,sv){const base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);if(sv==='__all')return base;if(sv==='__due')return base.filter(c=>isDue(c.id));return base.filter(c=>c.set===sv);}
+function scopePool(ck,sv){const base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);let p;if(sv==='__all')p=base;else if(sv==='__due')p=base.filter(c=>isDue(c.id));else p=base.filter(c=>c.set===sv);return hideKnown?p.filter(c=>!isKnown(c)):p;}
 const GROUPS=(window.VOCAB_GROUPS||[]).map(g=>({name:g.name,cards:g.words.map(w=>VOCAB.find(c=>c.w===w)).filter(Boolean)})).filter(g=>g.cards.length>=2);
 const CONF = window.VOCAB_CONFUSABLES||[];
 const SYN = (function(){ const m={}; (window.VOCAB_GROUPS||[]).forEach(g=>{(g.words||[]).forEach(w=>{ m[w]=m[w]||new Set(); g.words.forEach(o=>{ if(o!==w) m[w].add(o); }); });}); const r={}; Object.keys(m).forEach(k=>r[k]=[...m[k]]); return r; })();
@@ -252,6 +253,15 @@ function grade(id,good){
   save(); renderStreak();
 }
 function isDue(id){ const r=P[id]; if(!r||!r.seen) return true; return r.due<=Date.now(); }
+/* ---- shelved "known" words (manual cull) ---- */
+const KKEY='gre_vocab_known_v1'; let KNOWN=loadKnown();
+function loadKnown(){try{return JSON.parse(localStorage.getItem(KKEY))||{}}catch(e){return {}}}
+function saveKnown(){try{localStorage.setItem(KKEY,JSON.stringify(KNOWN))}catch(e){}}
+const HKEY='gre_vocab_hidek_v1'; let hideKnown=loadHideK();
+function loadHideK(){try{const v=localStorage.getItem(HKEY);return v===null?true:v==='1'}catch(e){return true}}
+function saveHideK(){try{localStorage.setItem(HKEY,hideKnown?'1':'0')}catch(e){}}
+function knownKey(c){return c.coll+'||'+c.w;}
+function isKnown(c){return !!KNOWN[knownKey(c)];}
 
 /* ---------- helpers ---------- */
 const $=(s,el=document)=>el.querySelector(s);
@@ -282,7 +292,8 @@ document.addEventListener('click',e=>{
 function renderStreak(){
   const known=VOCAB.filter(c=>P[c.id]&&P[c.id].known).length;
   const due=VOCAB.filter(c=>P[c.id]&&P[c.id].seen&&isDue(c.id)).length;
-  $('#streak').innerHTML=`<b>${known}</b> mastered · ${due} due for review`;
+  const shelved=VOCAB.filter(isKnown).length;
+  $('#streak').innerHTML=`<b>${known}</b> mastered · ${due} due`+(shelved?` · <b>${shelved}</b> shelved${hideKnown?' (hidden)':''}`:'');
 }
 
 /* ================= FLASHCARDS ================= */
@@ -387,11 +398,12 @@ function drawSrcOpt(){
   }else{ el.innerHTML='<span class="note">Words picked at random from the selected deck.</span>'; }
 }
 function matchPool(){
-  const v=$('#mSrc').value, ck=$('#mColl').value;
-  if(v==='one') return VOCAB.filter(c=>c.set===$('#mSet').value);
-  if(v==='multi'){const sel=[...document.querySelectorAll('#mChecks input:checked')].map(i=>i.value);
-    return VOCAB.filter(c=>sel.includes(c.set));}
-  return ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);
+  const v=$('#mSrc').value, ck=$('#mColl').value; let pool;
+  if(v==='one') pool=VOCAB.filter(c=>c.set===$('#mSet').value);
+  else if(v==='multi'){const sel=[...document.querySelectorAll('#mChecks input:checked')].map(i=>i.value);
+    pool=VOCAB.filter(c=>sel.includes(c.set));}
+  else pool=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);
+  return hideKnown?pool.filter(c=>!isKnown(c)):pool;
 }
 function startMatch(){
   let pool=matchPool();
@@ -680,7 +692,7 @@ function nextType(){ tIdx++; drawType(); }
 let rvColl='all';
 function viewReview(){
   const base = rvColl==='all'?VOCAB:VOCAB.filter(c=>c.coll===rvColl);
-  const due=shuffle(base.filter(c=>isDue(c.id) && (P[c.id]&&P[c.id].seen)));
+  const due=shuffle(base.filter(c=>isDue(c.id) && (P[c.id]&&P[c.id].seen) && (!hideKnown||!isKnown(c))));
   const fresh=base.filter(c=>!P[c.id]||!P[c.id].seen).length;
   const picker=`<div class="row" style="margin-bottom:14px"><label>Deck:
         <select id="rvColl">${collOptionsHTML(rvColl)}</select></label></div>`;
@@ -1028,8 +1040,77 @@ function answerConf(btn,r){
   $('#cfNext').onclick=()=>{cfIdx++;drawConf();};
 }
 
+/* ================= SIFT (cull known words) ================= */
+let siDeck=[], siIdx=0, siShelved=0, siFlipped=false;
+function siKnownCount(){return VOCAB.filter(isKnown).length;}
+function viewSift(){
+  app.innerHTML=`
+    <h2>Sift</h2>
+    <p class="sub">Quick triage: go through words and shelve the ones you already know, so your study list shrinks to what you don't. Tap the card to check the meaning if you're unsure.</p>
+    <div class="row">
+      <label>Deck:<select id="siColl">${collOptionsHTML('all')}</select></label>
+      <label>Set:<select id="siSet">${setOptionsHTML('all',false)}</select></label>
+      <label><input type="checkbox" id="siHide" ${hideKnown?'checked':''}> Hide shelved words everywhere</label>
+      <button class="btn small" id="siStart">Start</button>
+    </div>
+    <div class="note" id="siStats" style="margin-top:10px"></div>
+    <div id="siArea"></div>`;
+  $('#siColl').onchange=()=>{ $('#siSet').innerHTML=setOptionsHTML($('#siColl').value,false); };
+  $('#siHide').onchange=()=>{ hideKnown=$('#siHide').checked; saveHideK(); renderStreak(); updSiStats(); };
+  $('#siStart').onclick=startSift;
+  updSiStats();
+}
+function updSiStats(){
+  const el=$('#siStats'); if(!el) return;
+  el.innerHTML=`Shelved as known: <b>${siKnownCount()}</b>. <button class="btn ghost small" id="siReset" style="margin-left:6px">Un-shelve all</button>`;
+  const r=$('#siReset'); if(r) r.onclick=()=>{ if(confirm('Bring all shelved words back into your study list?')){ KNOWN={}; saveKnown(); renderStreak(); updSiStats(); } };
+}
+function startSift(){
+  const ck=$('#siColl').value, sv=$('#siSet').value;
+  let base=ck==='all'?VOCAB.slice():VOCAB.filter(c=>c.coll===ck);
+  if(sv!=='__all') base=base.filter(c=>c.set===sv);
+  siDeck=shuffle(base.filter(c=>!isKnown(c))); siIdx=0; siShelved=0; siFlipped=false;
+  if(!siDeck.length){ $('#siArea').innerHTML='<div class="empty">Nothing to sift here — everything is already shelved, or the set is empty.</div>'; return; }
+  drawSift();
+}
+function drawSift(){
+  if(siIdx>=siDeck.length){
+    $('#siArea').innerHTML=`<div class="quiz-card" style="text-align:center">
+      <div style="font-size:22px;font-weight:800">Batch done</div>
+      <p class="sub" style="margin:10px 0 0">Shelved ${siShelved} just now · ${siKnownCount()} known in total.</p>
+      <p class="sub" style="margin:6px 0 16px">Your other modes now focus on the words you kept.</p>
+      <button class="btn" onclick="viewSift()">Back to Sift</button></div>`;
+    renderStreak(); return;
+  }
+  const c=siDeck[siIdx];
+  $('#siArea').innerHTML=`
+    <div class="fc-wrap">
+      <div class="card ${siFlipped?'flipped':''}" id="siCard">
+        <div class="card-inner">
+          <div class="face front">
+            <div class="wordrow"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
+            <div class="hint">tap to check meaning · ${esc(c.set)}</div>
+          </div>
+          <div class="face back">
+            <div class="wordrow" style="justify-content:flex-start"><div class="word">${esc(c.w)}</div>${spk(c.w)}</div>
+            <div class="sect"><div class="lbl">Definition</div><div class="val">${rich(c.d1)}</div></div>
+            ${c.sent?`<div class="sect sentence"><div class="lbl">In a sentence</div><div class="val">${rich(c.sent)}</div></div>`:''}
+          </div>
+        </div>
+      </div>
+      <div class="counter">${siIdx+1} / ${siDeck.length} · shelved ${siShelved}</div>
+      <div class="rate">
+        <button class="miss" id="siKeep">Keep (learning)</button>
+        <button class="got" id="siKnow">✓ I know it</button>
+      </div>
+    </div>`;
+  $('#siCard').onclick=()=>{siFlipped=!siFlipped;$('#siCard').classList.toggle('flipped')};
+  $('#siKeep').onclick=()=>{ siIdx++; siFlipped=false; drawSift(); };
+  $('#siKnow').onclick=()=>{ KNOWN[knownKey(c)]=true; saveKnown(); siShelved++; siIdx++; siFlipped=false; drawSift(); };
+}
+
 /* ================= ROUTER ================= */
-const VIEWS={flash:viewFlash,listen:viewListen,match:viewMatch,quiz:viewQuiz,rquiz:viewQuizWord,cloze:viewCloze,closest:viewClosest,type:viewType,groups:viewGroups,conf:viewConf,review:viewReview,progress:viewProgress};
+const VIEWS={flash:viewFlash,sift:viewSift,listen:viewListen,match:viewMatch,quiz:viewQuiz,rquiz:viewQuizWord,cloze:viewCloze,closest:viewClosest,type:viewType,groups:viewGroups,conf:viewConf,review:viewReview,progress:viewProgress};
 function go(mode){
   document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));
   if(window.liAudio && mode!=='listen'){ try{window.liAudio.pause();}catch(e){} }
@@ -1037,7 +1118,7 @@ function go(mode){
 }
 document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>go(b.dataset.mode));
 document.addEventListener('keydown',e=>{
-  if(e.code==='Space'){const c=$('#theCard'); if(c){e.preventDefault();fcFlipped=!fcFlipped;c.classList.toggle('flipped')}}
+  if(e.code==='Space'){const c=$('#theCard'); if(c){e.preventDefault();fcFlipped=!fcFlipped;c.classList.toggle('flipped')} const s=$('#siCard'); if(s){e.preventDefault();siFlipped=!siFlipped;s.classList.toggle('flipped')}}
   if(e.key==='ArrowRight'&&$('#next'))move(1);
   if(e.key==='ArrowLeft'&&$('#prev'))move(-1);
 });
