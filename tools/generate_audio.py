@@ -40,6 +40,7 @@ import argparse, asyncio, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 WORDS = os.path.join(HERE, "audio_words.json")
+GROUPS = os.path.join(HERE, "audio_groups.json")
 SIL_DIR = os.path.join(HERE, "silence")
 OUT_DIR = os.path.join(REPO, "audio")
 
@@ -119,6 +120,26 @@ async def build_set(edge_tts, words, sil, voice, rate, pitch, coll, setnum, labe
     return fn
 
 
+
+async def build_group(edge_tts, grp, sil, voice, rate, pitch, labels=True):
+    chunks = bytearray()
+    intro = f"Group: {grp['name']}." if labels else grp["name"]
+    print(f"  intro: {grp['name']}")
+    chunks += await tts_bytes(edge_tts, intro, voice, rate, pitch)
+    chunks += sil[PAUSE_BETWEEN]
+    for n, w in enumerate(grp["words"], 1):
+        print(f"    [{n:>2}/{len(grp['words'])}] {w['w']}")
+        for text, pause in segments_for_word(w, labels):
+            chunks += await tts_bytes(edge_tts, text, voice, rate, pitch)
+            chunks += sil[pause]
+    os.makedirs(OUT_DIR, exist_ok=True)
+    fn = f"group-{grp['idx']}.mp3"
+    with open(os.path.join(OUT_DIR, fn), "wb") as f:
+        f.write(chunks)
+    print(f"  -> saved audio/{fn}  ({len(chunks)//1024} KB)")
+    return fn
+
+
 async def main_async(args):
     try:
         import edge_tts
@@ -131,9 +152,23 @@ async def main_async(args):
                 print(f"{v['ShortName']:<26} {v['Gender']:<7} {v['Locale']}")
         return
 
+    sil = load_silence()
+
+    if args.deck == "groups":
+        with open(GROUPS, encoding="utf-8") as f:
+            groups = json.load(f)
+        if args.set:
+            groups = [g for g in groups if g["idx"] == args.set]
+        labels = not args.no_labels
+        print(f"Voice: {args.voice}   Rate: {args.rate}   Labels: {'on' if labels else 'off'}")
+        for g in groups:
+            print(f"Group {g['idx']}: {g['name']}  ({len(g['words'])} words)")
+            await build_group(edge_tts, g, sil, args.voice, args.rate, args.pitch, labels)
+        print("\nDone. Open the game, go to the Listen tab, and switch Deck to Groups.")
+        return
+
     with open(WORDS, encoding="utf-8") as f:
         words = json.load(f)
-    sil = load_silence()
 
     if args.deck == "all":
         colls = ["Essential", "Advanced"]
@@ -158,7 +193,7 @@ async def main_async(args):
 
 def main():
     ap = argparse.ArgumentParser(description="Generate GRE vocab Listen-mode audio.")
-    ap.add_argument("--deck", choices=["all", "essential", "advanced"], default="all",
+    ap.add_argument("--deck", choices=["all", "essential", "advanced", "groups"], default="all",
                     help="which deck to generate (default: all)")
     ap.add_argument("--voice", default=DEFAULT_VOICE, help="edge-tts voice name")
     ap.add_argument("--rate", default=DEFAULT_RATE, help="speech rate, e.g. -8%% or +0%%")

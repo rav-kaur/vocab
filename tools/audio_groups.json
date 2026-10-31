@@ -1,0 +1,1593 @@
+[
+ {
+  "idx": 1,
+  "name": "Abbreviated Communication",
+  "words": [
+   {
+    "w": "abridge",
+    "def": "Reduce or lessen; shorten by omitting parts throughout while retaining the main idea",
+    "example": "Our romantic vacation was abridged when the babysitter called to say that the kids were sick and we should come home. Audio books are almost always abridged , since few people want to listen to a 200-hour book."
+   },
+   {
+    "w": "compendium",
+    "def": "Concise but complete summary; a list or collection",
+    "example": "I could hardly bring my whole collection of poetry books on vacation, so instead, I brought a lightweight poetry compendium containing a few selections each from thirty or so poets thought to represent various styles and eras. This movie review is unusually compendious—although a scant 500 words, it tells every single thing that happens in the entire film."
+   },
+   {
+    "w": "terse",
+    "def": "Concise, brief and to the point (sometimes to the point of rudeness)",
+    "example": "Hoping to talk to her doctor at length about her condition, she was disappointed to be treated so tersely by a doctor who simply renewed her prescription and disappeared."
+   }
+  ]
+ },
+ {
+  "idx": 2,
+  "name": "Act Quickly",
+  "words": [
+   {
+    "w": "impetuous",
+    "def": "Passionately impulsive, marked by sudden, hasty emotion; forceful, violent",
+    "example": "Reflecting on her most recent breakup, Heather decided that next time she would like to date someone less impetuous ; a man who quits his job on a whim and suggests moving together to Utah and raising llamas was just a little too impulsive for her tastes."
+   },
+   {
+    "w": "precipitate",
+    "def": "Cause to happen suddenly or prematurely; fling, plunge, or hurl down",
+    "example": "Mr. and Mrs. Rosen had been considering a move to Florida for years, but the sudden destruction of their house in a hurricane precipitated their decision to finally make the move. “Stay away from the precipice!” said the mother to her child. “I wouldn’t want my darling son to be precipitated to his doom!”"
+   }
+  ]
+ },
+ {
+  "idx": 3,
+  "name": "Assist",
+  "words": [
+   {
+    "w": "advocate",
+    "def": "Speak or argue in favor of (verb); a person who pleads for a cause or on behalf of another person (noun)",
+    "example": "I cannot possibly vote for a candidate who advocates oil drilling in federally protected nature preserves. Children often have advocates appointed to represent them in court."
+   },
+   {
+    "w": "bolster",
+    "def": "Strengthen or support",
+    "example": "The general requested reinforcements to bolster the defensive line set up at the border. Many people use alcohol to bolster their confidence before approaching an attractive person in a bar."
+   },
+   {
+    "w": "corroborate",
+    "def": "Support, add evidence to",
+    "example": "You’re telling me you were thirty miles away riding a roller coaster when the school was vandalized? I have a hard time believing that—is there anyone who can corroborate your story?"
+   },
+   {
+    "w": "countenance",
+    "def": "Facial expression or face (noun); approve or tolerate (verb)",
+    "example": "Her countenance said it all—the look on her face was pure terror. I saw you cheating off my paper, and I can’t countenance cheating—either you turn yourself in or I’ll report you."
+   },
+   {
+    "w": "munificent",
+    "def": "Generous, giving liberally",
+    "example": "The elderly titan of industry was notoriously miserly, sometimes called “the cheapest man alive.” But his wife was quite munificent , and after his death, she used his fortune to support numerous charities and to buy a house for their longtime maid."
+   }
+  ]
+ },
+ {
+  "idx": 4,
+  "name": "Bad Mood",
+  "words": [
+   {
+    "w": "irascible",
+    "def": "Irritable, easily angered",
+    "example": "“I spent my entire childhood tiptoeing around so as not to anger my irascible mother,” Joe told his therapist."
+   },
+   {
+    "w": "querulous",
+    "def": "Given to complaining, grumbling",
+    "example": "Norma had been happy to be a grandmother, but was somewhat less happy when a querulous child was dropped off on her doorstep—“I don’t want to come inside,” “I don’t like sandwiches,” “It’s too cold in the bathroom.” Would the whining and moaning ever stop?"
+   },
+   {
+    "w": "umbrage",
+    "def": "Offense or annoyance (usually as take umbrage, meaning become offended or annoyed)",
+    "example": "With thirty years’ experience in the field and quite recent successes on a variety of projects, the executive understandably took umbrage when a coworker suggested that he was good to have around to remind others of “ancient history.”"
+   }
+  ]
+ },
+ {
+  "idx": 5,
+  "name": "Beginner/Amateur",
+  "words": [
+   {
+    "w": "dilettante",
+    "def": "Person who takes up an art or activity for amusement only or in a superficial way",
+    "example": "The “arts center” in the rich neighborhood was populated by dilettantes —a sculpture here, a bit of music appreciation there, two weeks of painting class until they got bored and quit."
+   },
+   {
+    "w": "fledgling",
+    "def": "A young bird that has just recently gotten its feathers, an inexperienced person (noun); new or inexperienced (adj)",
+    "example": "The zoo’s EagleCam will hopefully be able to catch the moment the fledglings fly out of the nest for the very first time! The Society of Engineers is available for career day presentations in elementary schools, where we hope to encourage fledgling talents in the applied sciences."
+   },
+   {
+    "w": "neophyte",
+    "def": "Beginner, novice; person newly converted to a religion",
+    "example": "It was totally outrageous of our law firm to send a neophyte into the courtroom to defend our case against a team of experienced attorneys."
+   },
+   {
+    "w": "tyro",
+    "def": "Beginner",
+    "example": "Kenneth felt called to work as a missionary, but he was really a tyro in the field, and was unprepared for many of the questions people asked him."
+   }
+  ]
+ },
+ {
+  "idx": 6,
+  "name": "Beginning/Young",
+  "words": [
+   {
+    "w": "burgeon",
+    "def": "Grow or flourish rapidly; put forth buds or shoots (of a plant)",
+    "example": "The dictator was concerned about the people’s burgeoning discontent and redoubled his personal security. Spending an hour a day on vocabulary studies will soon cause your lexicon to burgeon ."
+   },
+   {
+    "w": "engender",
+    "def": "Produce, give rise to, cause to exist; procreate",
+    "example": "The television demagogue was blamed for engendering hate and divisiveness. Having four wives helped the magnate engender 15 children."
+   },
+   {
+    "w": "inchoate",
+    "def": "Just begun, undeveloped, unorganized",
+    "example": "The first few weeks of language class went well, but her inchoate French was all but useless when she found herself at an academic conference in Quebec."
+   },
+   {
+    "w": "incipient",
+    "def": "Just beginning; in a very early stage",
+    "example": "The movie producer was devastated when, due to legal trouble over the screenplay, the incipient project was crushed before it had even begun shooting."
+   },
+   {
+    "w": "nascent",
+    "def": "Coming into existence, still developing",
+    "example": "The violin teacher was always very encouraging with children. All children sound terrible the first couple of years, so she offered plenty of praise to encourage nascent talents."
+   }
+  ]
+ },
+ {
+  "idx": 7,
+  "name": "Biting (as in wit or temperament)",
+  "words": [
+   {
+    "w": "acerbic",
+    "def": "Sour; harsh or severe",
+    "example": "Lemons are acerbic . Harsh comments are also acerbic , like putting lemon juice on a wound."
+   },
+   {
+    "w": "acidulous",
+    "def": "Slightly acid or sour; sharp or caustic",
+    "example": "Grapefruit juice is acidulous . I’m skipping Thanksgiving this year just to avoid my mother’s acidulous comments about what she thinks I ought to be doing with my life."
+   },
+   {
+    "w": "asperity",
+    "def": "Rigor, severity; harshness or sharpness of tone; roughness of surface",
+    "example": "Used to a more lax school environment, the freshman at military school was shocked by the asperity of punishments meted out for even the most minor offenses, as well as the asperity with which his drill sergeant bossed him around. The asperity of her cheap, scratchy sweater made her wish she could afford cashmere."
+   },
+   {
+    "w": "caustic",
+    "def": "Capable of corroding metal or burning the skin; very critical or sarcastic",
+    "example": "Wait, those chemicals are caustic ! You need safety gloves and goggles before performing this experiment, or else you risk not only getting your skin burned off, but also some seriously caustic remarks from our chemistry teacher."
+   },
+   {
+    "w": "trenchant",
+    "def": "forceful or vigorous, effective, keen; caustic, sharp",
+    "example": "The school’s trenchant new anti-truancy policy immediately increased class attendance by a noticeable margin. Claudia would have gone on making excuses for hours had Juan not trenchantly stepped in and said, “You want to quit, right?” “Yes!” she said, quite relieved."
+   }
+  ]
+ },
+ {
+  "idx": 8,
+  "name": "Boring",
+  "words": [
+   {
+    "w": "banal",
+    "def": "Lacking freshness and originality; cliché",
+    "example": "The drama professor despaired at reading another banal play from his uninspired students. “Oh look,” he said sarcastically, “yet another young person has decided to write a play about a young person breaking free of society’s constraints. Can you see me yawning?”"
+   },
+   {
+    "w": "fatuous",
+    "def": "Foolish, silly, esp. in a smug or complacent manner",
+    "example": "Sadly, every philosophy class seems to have one person who responds to every discussion, from metaphysics to ethics, with the fatuous question, “But what if we don’t really exist?”"
+   },
+   {
+    "w": "hackneyed",
+    "def": "So commonplace as to be stale; not fresh or original",
+    "example": "This screenplay is so hackneyed —the leading lady has a quirky, artsy job in the city and has a minor problem early in the movie from which the male lead rescues her, and they get together but then break up due to a misunderstanding, and then they end up together anyway, all while the female lead’s “sassy” friend gives advice. Ugh. I’ll bet they’re auditioning Jennifer Aniston right now."
+   },
+   {
+    "w": "insipid",
+    "def": "Dull, stale, lacking taste or interest",
+    "example": "This is a university level poetry class, and your insipid drivel just won’t cut it here. “Things that are bad always make me sad”? Really? The restaurant critic called the dish “ insipid ”—I did think it was bland, but I probably would’ve been more polite about it."
+   },
+   {
+    "w": "mundane",
+    "def": "Common, ordinary, everyday",
+    "example": "Dominique had been excited to visit France for the first time, but she was soon disappointed at how mundane the stay with her relatives was: they shopped at the market, cooked dinner, chatted with one another, and occasionally went shopping."
+   },
+   {
+    "w": "pedestrian",
+    "def": "Ordinary, dull, commonplace",
+    "example": "It was so amazing when you had us over to dinner and made that rack of lamb! I’m afraid neither of us is a professional chef like you are, though, so we hope you won’t mind that we’ve made something more pedestrian : hot dogs and French fries."
+   },
+   {
+    "w": "platitude",
+    "def": "A shallow, overused statement; cliche",
+    "example": "Everyone who knew my mother knows she was an atheist, so I can’t imagine why people at her funeral would think we’d enjoy their soppy platitudes about Mom’s “being in a better place now.”"
+   },
+   {
+    "w": "prosaic",
+    "def": "Dull, ordinary",
+    "example": "Finding his friends’ bar mitzvahs at the local synagogue a bit prosaic , Justin instead asked his dad to rent out the local laser tag center."
+   },
+   {
+    "w": "quotidian",
+    "def": "Daily; everyday, ordinary",
+    "example": "He was so involved in his quest for spiritual enlightenment that he regularly forgot more quotidian concerns—sure, he meditated for six hours today, but he hasn’t done laundry in weeks."
+   },
+   {
+    "w": "trite",
+    "def": "Lacking freshness and originality, lacking effectiveness due to overuse, cliché",
+    "example": "The topic of your speech is “Children are the Future”? That’s pretty trite . Maybe you should think harder and come up with something original."
+   }
+  ]
+ },
+ {
+  "idx": 9,
+  "name": "Carousal",
+  "words": [
+   {
+    "w": "iniquity",
+    "def": "Injustice, wickedness, sin",
+    "example": "The preacher’s sermon about loving your neighbor was regarded by some as a welcome departure from his usual fiery homilies railing against iniquity . Iniquitous corporations, such as those that spill oil into our oceans, must be punished."
+   },
+   {
+    "w": "libertine",
+    "def": "Morally or sexually unrestrained person; freethinker (regarding religion)",
+    "example": "A famed libertine , the sitcom star was constantly in the news for cavorting with women of dubious occupations and overdosing on drugs often enough to regularly hold up production of his popular television show."
+   },
+   {
+    "w": "licentious",
+    "def": "Sexually unrestrained; immoral; ignoring the rules",
+    "example": "The licentious behavior Joe was accustomed to practicing at the local strip club was enough to get him thrown out of a nice restaurant and fired from his new job."
+   },
+   {
+    "w": "reprobate",
+    "def": "Disreputable, unprincipled, or damned person (noun); shameless, depraved (adj)",
+    "example": "The police joked that they had so many mug shots of the old reprobate that they could assemble them into a photography book called, “Faces of Petty Crime, 1976–2011.”"
+   },
+   {
+    "w": "ribald",
+    "def": "Using or relating to obscene or vulgar humor",
+    "example": "Nearly all limericks are based on ribald humor—hence, the constant rhymes with “Nantucket.” The movie’s humor was so ribald that a PG-13 rating was assigned, and Joey’s mother covered up his eyes nearly every time a woman was on the screen."
+   },
+   {
+    "w": "turpitude",
+    "def": "Depravity, baseness of character, corrupt or depraved acts",
+    "example": "Worried about her grandson’s turpitude —as evinced by his constant detentions and a three- day stay in a juvenile jail—Mrs. Worthington offered to pay for military school. It’s hard to fathom the kind of turpitude required to make a movie that could get banned in modern-day Europe! When I read the screenplay, I nearly threw up."
+   }
+  ]
+ },
+ {
+  "idx": 10,
+  "name": "Changing Quickly",
+  "words": [
+   {
+    "w": "capricious",
+    "def": "Acting on impulse, erratic",
+    "example": "The headmaster’s punishments were capricious —break the rules one day, you get a warning; break them another day, you get expelled. Who needs a plan? A date is more fun with a little caprice —let’s just start driving and see what we find!"
+   },
+   {
+    "w": "mercurial",
+    "def": "Quickly and unpredictably changing moods; fickle, flighty",
+    "example": "It’s tough being married to someone so mercurial . I do pretty much the same thing every day— some days, she thinks I’m great, and other days, the exact same behaviors make her inexplicably angry."
+   },
+   {
+    "w": "volatile",
+    "def": "Varying, inconstant, fleeting; tending to violence, explosive;",
+    "example": "Following the sudden revolution, the political environment in the country was so volatile that anything could have started a riot. Stock prices are by nature volatile —if you want a “safe and steady” investment, try mutual funds."
+   }
+  ]
+ },
+ {
+  "idx": 11,
+  "name": "Copy",
+  "words": [
+   {
+    "w": "emulate",
+    "def": "Copy in an attempt to equal or be better than",
+    "example": "The ardent Star Trek fan emulated Captain Kirk in every way possible—his brash and confident leadership might have gotten him somewhere, but the women he tried to impress weren’t so impressed."
+   },
+   {
+    "w": "paradigm",
+    "def": "Model or pattern; worldview, set of shared assumptions, values, etc.",
+    "example": "Far from being atypically bawdy, this limerick is a paradigm of the form—nearly all of them rely on off-color jokes."
+   },
+   {
+    "w": "precursor",
+    "def": "Something that comes before, esp. something that also announces or suggests something on its way",
+    "example": "We cannot ignore this warning sign—it is clearly a precursor of larger problems to come. The new CEO decided to do things differently from his precursors ."
+   }
+  ]
+ },
+ {
+  "idx": 12,
+  "name": "Criticize/Criticism",
+  "words": [
+   {
+    "w": "aspersions",
+    "def": "Damaging remarks, defamation, slander",
+    "example": "He could no longer work with his duplicitous business partner, who acted friendly to his face but then spewed aspersions about him behind his back. If you asperse me one more time, I will sue you for libel!"
+   },
+   {
+    "w": "calumny",
+    "def": "Malicious lie intended to hurt someone’s reputation; the act of telling such lies",
+    "example": "I’ve had enough of your calumnious accusations! Admit that you made up all those wicked things about me, or I will see you in court when I sue you for slander!"
+   },
+   {
+    "w": "castigate",
+    "def": "Criticize severely; punish in order to correct",
+    "example": "At the grocery store, the mother attracted stares when she castigated —rather than merely admonished—her child for throwing a box of instant oatmeal."
+   },
+   {
+    "w": "deride",
+    "def": "Mock, scoff at, laugh at contemptuously",
+    "example": "The manager really thought that deriding his employees as “stupid” or “lazy” would motivate them to work harder; instead, it motivated them to constantly hide his office supplies as an act of revenge."
+   },
+   {
+    "w": "diatribe",
+    "def": "Bitter, abusive attack or criticism; rant",
+    "example": "I’d stay out of the living room for awhile—Grandpa’s on another one of his diatribes about how it’s un-American to call a large coffee a “venti.” You can hear him ranting from here!"
+   },
+   {
+    "w": "disparage",
+    "def": "Belittle, put down; bring shame upon, discredit",
+    "example": "An Ad Hominem attack is a logical fallacy in which the arguer disparages his opponent rather than addressing the opponent’s ideas. Your shoplifting arrest has disparaged this family!"
+   },
+   {
+    "w": "gainsay",
+    "def": "Declare false, deny; oppose",
+    "example": "The professor is quite doctrinaire—she’s been known to lower the grade of any student who dares gainsay her."
+   },
+   {
+    "w": "harangue",
+    "def": "Long, intense verbal attack, esp. when delivered publicly",
+    "example": "Look, I’ll clean the gutters when I get a free weekend—I don’t need you to keep haranguing me about it."
+   },
+   {
+    "w": "impugn",
+    "def": "Attack the truth or integrity of",
+    "example": "I hate to impugn the motives of the volunteers, but I think that some of them are here for personal gain, not to help."
+   },
+   {
+    "w": "opprobrium",
+    "def": "Disgrace and disapproval that result from outrageously shameful actions",
+    "example": "Some young starlets seem to think a DUI offense isn’t such a big deal, but drunk driving deserves opprobrium —driving under the influence maims and kills innocent people every year."
+   },
+   {
+    "w": "tirade",
+    "def": "Bitter, abusive criticism or verbal attack",
+    "example": "I hate that television show where that commentator goes on angry tirades about all the liberal conspiracies taking over America. Even my conservative friends find his ranting embarrassing."
+   },
+   {
+    "w": "vituperate",
+    "def": "Verbally abuse, rebuke or criticize harshly",
+    "example": "All couples fight, but your girlfriend vituperates you so severely that I’m not sure she loves you at all. Verbal abuse is actually a pretty good reason to break up."
+   }
+  ]
+ },
+ {
+  "idx": 13,
+  "name": "Death/Mourning",
+  "words": [
+   {
+    "w": "elegy",
+    "def": "Song or poem of sorrow, esp. for a deceased person",
+    "example": "While composing an elegy is certainly old fashioned, the poet felt that it was a fitting way for her to honor her father at his funeral."
+   },
+   {
+    "w": "knell",
+    "def": "The sound made by a bell for a funeral, or any sad sound or signal of a failure, death, ending, etc. (noun); to make such a sound (verb)",
+    "example": "The Senate minority leader’s speech was a death knell for the bill; all hope of bipartisan cooperation was lost."
+   },
+   {
+    "w": "lament",
+    "def": "Mourn; express grief, sorrow, or regret (verb); an expression of grief, esp. as a song or poem (noun)",
+    "example": "Silda said she couldn’t make it to the party—she’s still lamenting the death of her cat. In fact, she wrote a poem: “A Lament On the Topic of Buttons McFlufferton.” Lamentably , Silda is a very bad poet."
+   }
+  ]
+ },
+ {
+  "idx": 14,
+  "name": "Denying of Self",
+  "words": [
+   {
+    "w": "abstain",
+    "def": "Hold back, refrain (especially from something bad or unhealthy); decline to vote",
+    "example": "The church board voted on whether to hold an abstinence rally to encourage young people not to become sexually active; while most members voted in favor, one voted against and two abstained , with one abstainer commenting that, as far as she knew, the church’s teens were pretty abstemious already."
+   },
+   {
+    "w": "ascetic",
+    "def": "abstinent or austere in lifestyle (adj); a person who leads an austere and simple life without material pleasures, esp. someone who does this for religious reasons",
+    "example": "Ascetics such as monks actually take vows of poverty. The graduate student lived an ascetic existence, her apartment containing only a futon couch and a single bowl and set of chopsticks, which she used to eat ramen noodles every night."
+   },
+   {
+    "w": "spartan",
+    "def": "Very disciplined and stern; frugal, living simply, austere; suggestive of the ancient Spartans",
+    "example": "A young soldier in the spartan environment of boot camp can really long for a home-cooked meal or even just a comfortable couch to sit on. Her apartment was so spartan that she couldn’t even serve us both soup—she only had one bowl and one spoon. Instead, we sat in hard-backed chairs and drank water."
+   },
+   {
+    "w": "stoic or stoical",
+    "def": "Indifferent to pleasure or pain, enduring without complaint; person indifferent to pleasure or pain (noun)",
+    "example": "Della was not only calm but positively stoic , thanking her family for driving her home from chemotherapy, and then simply never mentioning it until it was time to go again."
+   },
+   {
+    "w": "temperance",
+    "def": "Moderation, self-control, esp. regarding alcohol or other desires or pleasures; total abstinence from alcohol",
+    "example": "After the end of the Civil War, economic change led to an increase in alcohol problems and the birth of the Temperance Movement, which ultimately led to Prohibition. Grandma is a model of temperance —she drinks red wine every night, but only the 1/3 of a glass that she read was conducive to preventing heart attacks."
+   }
+  ]
+ },
+ {
+  "idx": 15,
+  "name": "Dictatorial",
+  "words": [
+   {
+    "w": "hegemony",
+    "def": "Domination, authority; influence by one country over others socially, culturally, economically, etc.",
+    "example": "The discovery of oil by a previously poor nation disrupted the larger, richer nation’s hegemony in the region—suddenly, the hegemon had a competitor."
+   },
+   {
+    "w": "imperious",
+    "def": "Commanding, domineering; acting like a high ranking person; urgent",
+    "example": "Her friend were peeved by her imperious attitude and talked about her while she was in the ladies’ room: “Who does she think she is, not only picking the bar and the meeting time but also telling us where to sit?”"
+   }
+  ]
+ },
+ {
+  "idx": 16,
+  "name": "Difficult to Understand",
+  "words": [
+   {
+    "w": "ambiguous",
+    "def": "Not clear, hard to understand, open to having several meanings or interpretations",
+    "example": "The meaning of this ancient text is ambiguous —either we are missing some cultural context, or else the writer actually wanted to be mysterious."
+   },
+   {
+    "w": "arcane",
+    "def": "Known or understood by only a few; obscure, secret",
+    "example": "To win at Jeopardy, you must be full of arcane knowledge. The wizard’s shop was full of arcanum , from Latin-to-Ancient Greek dictionaries to entire books on magic spells relating only to elephants."
+   },
+   {
+    "w": "esoteric",
+    "def": "Understood by or intended for only a few; secret",
+    "example": "In his first year of university-level physics, he felt he was merely memorizing information found in every textbook on the subject; by his fourth year, he spent his days poring over esoteric journal articles that few people had ever read or understood."
+   },
+   {
+    "w": "opaque",
+    "def": "Not translucent; not allowing light, heat, etc. to pass through; dark, dull, unclear or stupid",
+    "example": "The school dress code required opaque tights under skirts—the rules specified that sheer stockings were unacceptable. Rena was tragically opaque —when her boyfriend said “I want to see other people,” she thought he meant he needed glasses."
+   },
+   {
+    "w": "recondite",
+    "def": "Not easily understood, hidden, dealing with an obscure topic",
+    "example": "Professor Ryan’s office is full of books, every single one of which is more than 400 years old, and many of them in ancient Greek. He deals in some seriously recondite information."
+   }
+  ]
+ },
+ {
+  "idx": 17,
+  "name": "Disgusting/Offensive",
+  "words": [
+   {
+    "w": "fetid",
+    "def": "Stinking; having an offensive smell",
+    "example": "I hate doing your laundry—it’s always full of fetid gym socks."
+   },
+   {
+    "w": "invidious",
+    "def": "Hateful, offensive, injurious",
+    "example": "School bullying has become a serious problem, with ongoing invidious behavior driving students to suicide."
+   },
+   {
+    "w": "noisome",
+    "def": "Offensive, disgusting; harmful",
+    "example": "Everyone knows that smoking is deadly, but even “herbal” cigarettes are a noisome habit— and noisome to your health!"
+   }
+  ]
+ },
+ {
+  "idx": 18,
+  "name": "Easy to Understand",
+  "words": [
+   {
+    "w": "articulate",
+    "def": "Using language in a clear, fluent way (adj); speak distinctly or give clarity to an idea (verb)",
+    "example": "She’s so articulate that I’m sure she’ll make a good lawyer. The group voted on who would be the best spokesperson, able to articulate their needs to the panel."
+   },
+   {
+    "w": "cogent",
+    "def": "Very convincing, logical",
+    "example": "Studying logic is an excellent way to improve at formulating cogent arguments. Nurses who work in the Alzheimer’s ward must develop skills for communicating with people who are often not cogent ."
+   },
+   {
+    "w": "eloquent",
+    "def": "Marked by forceful, fluid, apt speech; expressive, emotionally moving",
+    "example": "Wow, he’s such an eloquent speaker, he could sell snow to Antarcticans! When Mom suggested that everyone might enjoy a museum instead of the beach, she was met with the children’s eloquent looks of disgust."
+   },
+   {
+    "w": "limpid",
+    "def": "Clear, transparent; completely calm",
+    "example": "Hawaii was amazing! The water was crystal clear—so limpid that when you were scuba diving, you could see ahead for what seemed like miles! After two years meditating in religious seclusion, he had a totally limpid attitude, affected by nothing from the outside world."
+   },
+   {
+    "w": "lucid",
+    "def": "Clear, easy to understand; rational, sane",
+    "example": "After surgery, it’ll take at least an hour until she’s lucid —it’s nothing to worry about, but patients sometimes talk complete nonsense until the anesthesia wears off and their speech becomes lucid ."
+   },
+   {
+    "w": "pellucid",
+    "def": "Transparent, translucent; clear, easy to understand",
+    "example": "He decided that the cove’s pellucid waters were an excellent place to teach his daughter to swim, reasoning that, if she started to sink, he would easily be able to see where she was."
+   }
+  ]
+ },
+ {
+  "idx": 19,
+  "name": "Eccentric/Dissimilar",
+  "words": [
+   {
+    "w": "aberrant",
+    "def": "Abnormal, deviant",
+    "example": "The teen’s aberrant behavior made his family suspect that he was using drugs. Losing rather than gaining weight over the holidays is certainly an aberration."
+   },
+   {
+    "w": "anachronism",
+    "def": "Something that is not in its correct historical time; a mistake in chronology, such as by assigning a person or event to the wrong time period",
+    "example": "The Queen of England is a bit of an anachronism , with her old-fashioned pillbox hats. Did you catch the anachronisms in the latest action blockbuster set in ancient Greece? One of the characters was wearing a wristwatch with his toga!"
+   },
+   {
+    "w": "discrete",
+    "def": "Separate, distinct, detached, existing as individual parts",
+    "example": "Be sure to use quotation marks and citations as appropriate in your paper in order to keep your ideas discrete from those of the experts you are quoting. The advertising agency pitched us not on one campaign, but on three discrete ideas."
+   },
+   {
+    "w": "eclectic",
+    "def": "Selecting the best of everything or from many diverse sources",
+    "example": "Eclectic taste is helpful in being a DJ—crowds love to hear the latest hip-hop mixed with ‘80s classics and other unexpected genres of music. The restaurant features an eclectic menu—if you don’t like artisanal pasta or steak frites, try the chow mein!"
+   },
+   {
+    "w": "esoteric",
+    "def": "Understood by or intended for only a few; secret",
+    "example": "In his first year of university-level physics, he felt he was merely memorizing information found in every textbook on the subject; by his fourth year, he spent his days poring over esoteric journal articles that few people had ever read or understood."
+   },
+   {
+    "w": "iconoclast",
+    "def": "Attacker of cherished beliefs or institutions",
+    "example": "A lifelong iconoclast , Ayn Rand wrote a controversial book entitled The Virtue of Selfishness."
+   }
+  ]
+ },
+ {
+  "idx": 20,
+  "name": "Embarrass",
+  "words": [
+   {
+    "w": "diffident",
+    "def": "Lacking confidence, shy",
+    "example": "Natasha was so diffident that she never believed her comments could be worth anything in class, even when she knew the answer."
+   },
+   {
+    "w": "rue",
+    "def": "Regret, remorse (noun); to feel regret or remorse (verb)",
+    "example": "Movie or cartoon villains sometimes say, “You’ll rue the day!” What they mean is,“I will make you regret that you did what you just did.” The couple broke up in high school for a foolish reason, and each hastily married another person. Twenty years later, they were still full of endless rue over having lost each other."
+   }
+  ]
+ },
+ {
+  "idx": 21,
+  "name": "Falsehood",
+  "words": [
+   {
+    "w": "apocryphal",
+    "def": "Of questionable authenticity; false",
+    "example": "I’m sorry, but this putative letter from George Washington that you found at a garage sale is clearly apocryphal —it is riddled with anachronisms (for instance, Washington was long dead by the time silent films were invented), and also, Washington most certainly didn’t refer to Martha Washington as “hey baby.”"
+   },
+   {
+    "w": "canard",
+    "def": "Rumor, a false or baseless story",
+    "example": "The idea that we only use 10% of our brains is a tired, old canard ; actually, even the dumbest people use all of their brains."
+   },
+   {
+    "w": "chicanery",
+    "def": "Trickery, deception by knowingly false arguments",
+    "example": "The defense lawyer’s strategy for getting her client acquitted by knowingly misinterpreting words in an obscure precedent was nothing but chicanery . Nice try, passing off last week’s homework as this week’s by changing the date at the top. I’ve had enough of your chicanery , young man!"
+   },
+   {
+    "w": "dissemble",
+    "def": "Mislead, conceal the truth, put on a false appearance of",
+    "example": "Roxanne was used to dissembling in job interviews; when asked about the gap on her resume from 1999–2003, she would say, “Oh, I was out of the workforce fulfilling some obligations”—a somewhat misleading way to describe a prison stint. He won so much money at pool halls by dissembling inexperience, pretending at first that he had no idea how to even hold a pool cue; once bets were placed, he handily defeated his opponents."
+   },
+   {
+    "w": "duplicity",
+    "def": "Deceit, double-dealing, acting in two different ways for the purpose of deception",
+    "example": "The campaign worker’s duplicity finally came to light when it was discovered that, despite rising to a trusted position within the local Workers Party, he was actually a registered National Party member and was feeding information back to his cronies."
+   },
+   {
+    "w": "equivocate",
+    "def": "Use unclear language to deceive or avoid committing to a position",
+    "example": "Not wanting to lose supporters, the politician equivocated on the issue, tossing out buzzwords related to each side while also claiming more study was needed."
+   },
+   {
+    "w": "erroneous",
+    "def": "Mistaken, in error; improper, morally incorrect",
+    "example": "Hilda was completely unable to assemble her new desk chair after the instructions erroneously instructed her to screw the left armrest onto a small lever on the bottom of the seat."
+   },
+   {
+    "w": "ersatz",
+    "def": "Artificial, synthetic; being an inferior substitute",
+    "example": "I hate this health food restaurant! I do not want to eat some ersatz meatballs made of textured vegetable protein!"
+   },
+   {
+    "w": "fallacious",
+    "def": "Containing a fallacy, or mistake in logic; logically unsound; deceptive",
+    "example": "The formal study of logic can enable a student to more easily identify fallacious reasoning and, furthermore, to point out its fallacies."
+   },
+   {
+    "w": "guile",
+    "def": "Clever deceit, cunning, craftiness",
+    "example": "The game of poker is all about guile , manipulating your own body language and patter to lead other players to erroneous conclusions about the cards you’re holding."
+   },
+   {
+    "w": "mendacious",
+    "def": "Lying, habitually dishonest",
+    "example": "She was so mendacious that, when she broke the television, she blamed it on her little brother, even though he was in a wheelchair and could hardly have tipped over a piece of furniture. Her mendacity knows no bounds!"
+   },
+   {
+    "w": "prevaricate",
+    "def": "Stray from the truth, mislead, lie",
+    "example": "Maryanne had been shoplifting—when her mother asked where her new clothes had come from, she prevaricated , vaguely suggesting that a rich friend had bought them for her."
+   },
+   {
+    "w": "specious",
+    "def": "Seemingly true but actually false; deceptively attractive",
+    "example": "“All squares are rectangles, all candy bars are rectangles, therefore all squares are candy bars” is clearly a specious argument."
+   }
+  ]
+ },
+ {
+  "idx": 22,
+  "name": "Favoring/Not Impartial",
+  "words": [
+   {
+    "w": "ardent",
+    "def": "Very passionate, devoted, or enthusiastic",
+    "example": "He was an ardent heavy metal lover and became offended anytime someone referred to Poison as a “hair band.” They were so in love that not even meeting each other’s awful relatives could dampen their ardor."
+   },
+   {
+    "w": "doctrinaire",
+    "def": "Person who applies doctrine in an impractical or rigid and close-minded way (noun); merely theoretical, impractical, or fanatical about other people accepting one’s ideas (adj)",
+    "example": "The old science professor was so doctrinaire that he refused to even consider any evidence that flew in the face of his own research, and thereby failed to recognize when his graduate students made an exciting new discovery. Don’t be a doctrinaire —try actually considering the views of those you disagree with!"
+   },
+   {
+    "w": "fervid",
+    "def": "Very hot; heated in passion or enthusiasm",
+    "example": "He is a fervid fan of Virginia Tech football, so much so that we’ve all gotten used to receiving “Go Hokies!” hats and shirts for every birthday."
+   },
+   {
+    "w": "partisan",
+    "def": "Devoted to a particular group, cause, etc. (adj.); fervent supporter of a group, party, idea, etc.; guerilla fighter (noun)",
+    "example": "It is unconscionable to engage in partisan politics in a time of crisis. People are trapped in the rubble of an earthquake, and you suggest that we vote for your tax bill in exchange for your voting for our relief bill?"
+   },
+   {
+    "w": "tendentious",
+    "def": "Marked by a strong point of view, biased",
+    "example": "It’s hard to become absorbed in the world of a fantasy novel when the author is so tendentious —the planet of Xerxon is clearly meant to mimic the United States, and the author’s politics intrude on the story on every page."
+   }
+  ]
+ },
+ {
+  "idx": 23,
+  "name": "Forgive/Make Amends",
+  "words": [
+   {
+    "w": "exculpate",
+    "def": "Clear from guilt or blame",
+    "example": "The security camera footage showing Mr. Murphy to have been in a casino the entire night turned out to be just the evidence needed to exculpate him of robbing a bank fifty miles away."
+   },
+   {
+    "w": "exonerate",
+    "def": "Clear from blame or accusation; free from a responsibility",
+    "example": "When the defendant was exonerated after a long trial, his family wept for joy."
+   },
+   {
+    "w": "palliate",
+    "def": "Make less serious or severe; relieve symptoms of an illness",
+    "example": "The doctors said it would be pointless to subject Uncle Al to continued treatments when there was no hope of a cure, so we gave consent for him to be transferred to the palliative care wing where he would be made as comfortable as possible in his final weeks or months."
+   },
+   {
+    "w": "redress",
+    "def": "Setting something right after a misdeed, compensation or relief for injury or wrongdoing (noun); correct, set right, remedy (verb)",
+    "example": "My client was an innocent victim of medical malpractice. As would anyone who had the wrong leg amputated in surgery, he is seeking financial redress ."
+   }
+  ]
+ },
+ {
+  "idx": 24,
+  "name": "Funny",
+  "words": [
+   {
+    "w": "droll",
+    "def": "Funny in an odd way",
+    "example": "The play was a droll production—not laugh-out-loud hilarious, but funny especially because it was so strange. Who’s ever seen a fairy be mistaken for a block of cheese?"
+   },
+   {
+    "w": "facetious",
+    "def": "Joking, humorous, esp. inappropriately; not serious, concerned with frivolous things",
+    "example": "When I said, “Sure, you can take anything in my house as a souvenir of this study session,” I was being facetious ! I would like my nightgown back now. He’s a facetious person—I doubt he will take your offer of a spiritual quest very seriously."
+   },
+   {
+    "w": "jocular",
+    "def": "Joking or given to joking all the time; jolly, playful",
+    "example": "He’s certainly a jocular fellow—if we were friends, I’m sure I’d find his antics amusing, but as his professor, I do wish he’d contribute some serious comments to the class discussion instead of his constant stream of jocular comments."
+   },
+   {
+    "w": "levity",
+    "def": "Lightness (of mind, spirit, or mood) or lack of seriousness, sometimes in an inappropriate way",
+    "example": "My late uncle Bill loved practical jokes and absolutely would have approved of the iPod mix my aunt played at the wake, which added a little levity by segueing from “Amazing Grace” to the party anthem “Let’s Get It Started.”"
+   }
+  ]
+ },
+ {
+  "idx": 25,
+  "name": "Gaps/Openings",
+  "words": [
+   {
+    "w": "interregnum",
+    "def": "A time in between two reigns or regimes during which there is no ruler; a period during which government does not function; any period of freedom from authority or break or interruption in a series",
+    "example": "When the king died with no heir, his ministers ruled in the interregnum as the nobles argued over which of the king’s nephews should rule next. In the interregnum between Madonna and Lady Gaga, there was no single female pop star who commanded such titanic audiences."
+   },
+   {
+    "w": "lull",
+    "def": "Soothe or cause to fall asleep (as in a lullaby); quiet down; make to feel secure, sometimes falsely (verb); a period of calm or quiet (noun)",
+    "example": "Tisha always tried to be polite—if she had to slip out of class to use the bathroom, she waited for a lull in the action so as not to attract too much attention. Grandma’s singing lulled the baby to sleep—much as, in her work as a spy during World War II, Grandma used her beauty and charm to lull foreign dignitaries into giving up their secrets."
+   }
+  ]
+ },
+ {
+  "idx": 26,
+  "name": "Generous/Kind",
+  "words": [
+   {
+    "w": "beneficent",
+    "def": "Doing good",
+    "example": "The billionaire had been a mean and stingy fellow, but after his death, his beneficent widow gave all his money to charity, even accompanying the donations with handwritten notes thanking the charities for all the good work they did."
+   },
+   {
+    "w": "largess or largesse",
+    "def": "Generosity, the giving of money or gifts (esp. with the implication that the giver is a bit superior to the recipient)",
+    "example": "While I did attend a tony private school, my parents were actually quite poor—I was at that school through the largesse of my grandfather."
+   },
+   {
+    "w": "magnanimous",
+    "def": "High-minded, noble, lofty; generous in forgiving others, free of resentment",
+    "example": "The twins were so different from one another—while Andrea was petty and vengeful and would hold a grudge for years, Marina was quite magnanimous , easily forgiving insults or slights, and simply rising above the petty bickering and cliquish behavior of our high school."
+   },
+   {
+    "w": "munificent",
+    "def": "Generous, giving liberally",
+    "example": "The elderly titan of industry was notoriously miserly, sometimes called “the cheapest man alive.” But his wife was quite munificent , and after his death, she used his fortune to support numerous charities and to buy a house for their longtime maid."
+   },
+   {
+    "w": "philanthropy",
+    "def": "Efforts to improve the well-being of humankind, generally through giving money",
+    "example": "Many wealthy people turn to philanthropy as a way to create social good, and many others turn to it as a way to hobnob with the rich and famous."
+   }
+  ]
+ },
+ {
+  "idx": 27,
+  "name": "Hard-Hearted",
+  "words": [
+   {
+    "w": "asperity",
+    "def": "Rigor, severity; harshness or sharpness of tone; roughness of surface",
+    "example": "Used to a more lax school environment, the freshman at military school was shocked by the asperity of punishments meted out for even the most minor offenses, as well as the asperity with which his drill sergeant bossed him around. The asperity of her cheap, scratchy sweater made her wish she could afford cashmere."
+   },
+   {
+    "w": "sardonic",
+    "def": "Scornfully or ironically mocking, cynically derisive",
+    "example": "A sardonic movie critic is one thing, but a sardonic film professor is another—I really wish Professor Dahl wouldn’t sarcastically cut down his students the way he does cheesy horror films. Dorothy Parker wrote sardonically , “If you want to know what God thinks about money, just look at the people he gave it to.”"
+   },
+   {
+    "w": "scathing",
+    "def": "Severe, injurious; bitterly harsh or critical (as a remark)",
+    "example": "The school superintendant gave a scathing criticism of the education bill, calling it “an attack on our community’s children that will surely go down in infamy.” How is it possible that she flew off her bicycle like that and walked away unscathed?"
+   },
+   {
+    "w": "truculent",
+    "def": "Fierce, cruel, savage; belligerent",
+    "example": "That guy is too truculent to work in customer service—when the customers are already angry, the last thing this store needs is someone prone to blow up at any moment! The honey badger is a truculent hunter—it can and will eat anything, and sometimes tortures its prey before eating it."
+   },
+   {
+    "w": "vitriol",
+    "def": "Something highly caustic, such as criticism (literally, one of a number of chemicals including sulfuric acid)",
+    "example": "After another embarrassing loss, the team’s shortstop was full of vitriol for the coach who had led them to their worst season in history."
+   },
+   {
+    "w": "vituperate",
+    "def": "Verbally abuse, rebuke or criticize harshly",
+    "example": "All couples fight, but your girlfriend vituperates you so severely that I’m not sure she loves you at all. Verbal abuse is actually a pretty good reason to break up."
+   }
+  ]
+ },
+ {
+  "idx": 28,
+  "name": "Harmful",
+  "words": [
+   {
+    "w": "deleterious",
+    "def": "Harmful, unhealthful",
+    "example": "The Resident Assistant told the first-year students, “I think you will find not only that drugs are illegal and will result in expulsion, but also that drug abuse will have a deleterious effect on anyone’s grades.”"
+   },
+   {
+    "w": "inimical",
+    "def": "Hostile, adverse, harmful",
+    "example": "Most people think that being shouted at in the freezing rain is inimical to learning; sadly, our boot camp instructor disagreed."
+   },
+   {
+    "w": "perfidious",
+    "def": "Disloyal, treacherous, violating one’s trust",
+    "example": "The perfidious soldier sold out his comrades, giving secrets to the enemy in exchange for money and protection."
+   },
+   {
+    "w": "pernicious",
+    "def": "Very harmful or destructive, deadly",
+    "example": "Bullying has a pernicious effect on the learning environment, keeping victims too intimidated to speak up and also silencing others who fear that they could be next."
+   }
+  ]
+ },
+ {
+  "idx": 29,
+  "name": "Harsh-Sounding",
+  "words": [
+   {
+    "w": "cacophony",
+    "def": "Harsh, discordant, or meaningless mixture of sounds",
+    "example": "The first day of elementary school marching band practice was nothing but cacophony , as students who hadn’t learned to play their instruments at all nevertheless banged on or puffed air into them."
+   },
+   {
+    "w": "din",
+    "def": "Loud, confused noise, esp. for a long period of time",
+    "example": "This hotel was described as “near all the hot spots,” but I didn’t realize that I wouldn’t be able to sleep due to the all-night din from partygoers."
+   },
+   {
+    "w": "dissonance",
+    "def": "Harsh, inharmonious sound; cacophony; disagreement",
+    "example": "After allowing her sixth-grader’s heavy metal band to practice in her living room, Mrs. Rosen decided she’d better get used to dissonance ."
+   }
+  ]
+ },
+ {
+  "idx": 30,
+  "name": "Hesitate",
+  "words": [
+   {
+    "w": "dither",
+    "def": "Act indecisively (verb); a state of fear or trembling excitement",
+    "example": "“Stop dithering ,” said the mother to her daughter. “Pick which sweater you want so I can pay for it and we can get out of here.” The haunted house brought the children to a dither from which it was difficult for their parents to calm them down."
+   },
+   {
+    "w": "oscillate",
+    "def": "Swing back and forth; waver, change one’s mind",
+    "example": "I wish we had air conditioning, but at least I replaced our old fan with this oscillating one that swings side to side and blows air on the whole room. Stop oscillating and pick a restaurant! Seriously—Indian or Thai?"
+   },
+   {
+    "w": "vacillate",
+    "def": "Waver in one’s mind or opinions, be indecisive",
+    "example": "In need of a good used car, I was vacillating between the Ford and the Hyundai until a recommendation from a friend helped me decide."
+   }
+  ]
+ },
+ {
+  "idx": 31,
+  "name": "Hostile",
+  "words": [
+   {
+    "w": "curmudgeon",
+    "def": "Bad-tempered, difficult person; grouch",
+    "example": "The college students’ party was hampered by constant complaints from a curmudgeonly neighbor who insisted that making noise after 8pm was unreasonable, and called the police over a single beer can on his lawn."
+   },
+   {
+    "w": "irascible",
+    "def": "Irritable, easily angered",
+    "example": "“I spent my entire childhood tiptoeing around so as not to anger my irascible mother,” Joe told his therapist."
+   },
+   {
+    "w": "misanthrope or misanthropist",
+    "def": "Hater of humankind",
+    "example": "He is such a misanthrope that when some Girl Scouts going door-to-door asked if he’d like to sponsor a hungry child overseas, he replied, “The fewer people in the world, the better,” and shut the door in their faces!"
+   },
+   {
+    "w": "truculent",
+    "def": "Fierce, cruel, savage; belligerent",
+    "example": "That guy is too truculent to work in customer service—when the customers are already angry, the last thing this store needs is someone prone to blow up at any moment! The honey badger is a truculent hunter—it can and will eat anything, and sometimes tortures its prey before eating it."
+   }
+  ]
+ },
+ {
+  "idx": 32,
+  "name": "Innocent/Inexperienced",
+  "words": [
+   {
+    "w": "credulous",
+    "def": "Gullible; prone to believing or trusting too easily or without enough evidence",
+    "example": "“Did you know you can wash your ears by turning your head on its side in the shower and letting the water run straight through your head?” said the father to his five-year-old daughter. “I’ll try that!” said the credulous little girl."
+   },
+   {
+    "w": "ingenuous",
+    "def": "Genuine, sincere, not holding back; naive",
+    "example": "Multi-level marketing scams prey on the ingenuous , those who really think there’s someone out there who just wants to help them get rich."
+   },
+   {
+    "w": "naïve",
+    "def": "Simple and unsophisticated, unsuspecting, lacking worldly experience and critical judgment",
+    "example": "I was a little naïve during the hiring process—the HR rep asked for my acceptable salary range, and I answered honestly. Of course I got an offer for the very lowest number in the range! Now I know I should have tried to get a number from her first, or named a higher number so I could negotiate down."
+   },
+   {
+    "w": "tyro",
+    "def": "Beginner",
+    "example": "Kenneth felt called to work as a missionary, but he was really a tyro in the field, and was unprepared for many of the questions people asked him."
+   }
+  ]
+ },
+ {
+  "idx": 33,
+  "name": "Insincere",
+  "words": [
+   {
+    "w": "disingenuous",
+    "def": "Insincere, not genuine",
+    "example": "Christine used the fact that her mother spoke limited English as an opportunity to be disingenuous . When her mother asked, “Will there be boys at this sleepover?” she replied “There won’t not be boys there!”"
+   },
+   {
+    "w": "dissemble",
+    "def": "Mislead, conceal the truth, put on a false appearance of",
+    "example": "Roxanne was used to dissembling in job interviews; when asked about the gap on her resume from 1999–2003, she would say, “Oh, I was out of the workforce fulfilling some obligations”—a somewhat misleading way to describe a prison stint. He won so much money at pool halls by dissembling inexperience, pretending at first that he had no idea how to even hold a pool cue; once bets were placed, he handily defeated his opponents."
+   },
+   {
+    "w": "ostensible or ostensive",
+    "def": "Professed, evident, or pretended; outwardly appearing in a certain way",
+    "example": "Ostensibly , she came to volunteer out of the goodness of her heart. However, I think she’s really here because she has a crush on one of the other volunteers. He’s an ostensive candidate for the job, but we need to check these references before we move further."
+   }
+  ]
+ },
+ {
+  "idx": 34,
+  "name": "Lazy/Sluggish",
+  "words": [
+   {
+    "w": "indolent",
+    "def": "Lazy, slothful",
+    "example": "Having worked all his life, the CEO was constantly frustrated with his indolent son, who used his inherited wealth as an excuse to sunbathe and party."
+   },
+   {
+    "w": "inert",
+    "def": "Inactive; having little or no power to move",
+    "example": "“All of the missiles at the military museum are inert , Timmy,” said the tour guide, answering the question children always asked. “They’re not going to blow up.” When she saw her father’s inert body on the floor, she thought the worst, but fortunately he was just practicing very slow yoga."
+   },
+   {
+    "w": "languid",
+    "def": "Drooping from exhaustion, sluggish, slow; lacking in spirit",
+    "example": "We signed up for a fitness boot camp, but after a single hour of exercise in the heat, we all felt so overcome with languor that we refused to go on. Turns out the reason we need a fitness boot camp in the first place is that we’re pretty languid people."
+   },
+   {
+    "w": "lassitude",
+    "def": "Tiredness, weariness; lazy indifference",
+    "example": "It’s so difficult to get anything done in the dead heat of August! I can’t seem to shake my lassitude enough to get out of this hammock, much less study for the GRE."
+   },
+   {
+    "w": "lethargic",
+    "def": "Lazy, drowsy, or sluggish",
+    "example": "I do love the Golden Corral’s reasonably priced buffet, but I feel so lethargic after I eat my weight in mac-and-cheese and hand-carved turkey."
+   },
+   {
+    "w": "phlegmatic",
+    "def": "Apathetic, sluggish, not easily excited or made emotional",
+    "example": "A phlegmatic child, he declined to participate in the youth soccer league. He preferred to stay at home, mostly sitting outside poking at dirt with a stick, and occasionally stopping for naptime."
+   },
+   {
+    "w": "quiescent",
+    "def": "Quiet, still",
+    "example": "After hours of moaning and shaking from his illness, the child finally exhausted himself and grew quiescent ."
+   }
+  ]
+ },
+ {
+  "idx": 35,
+  "name": "Luck",
+  "words": [
+   {
+    "w": "fortuitous",
+    "def": "Happening by chance; lucky",
+    "example": "It was amazingly fortuitous that the exclusive beach resort had a cancellation for exactly the weekend she had wanted to get married, allowing her to have the perfect wedding after all."
+   },
+   {
+    "w": "optimal or optimum",
+    "def": "Best, most desirable or favorable",
+    "example": "Many believe that the U.S. Constitution’s genius lies in its striking and optimal balance between freedom and order."
+   },
+   {
+    "w": "propitiate",
+    "def": "Attempt to reconcile with, satisfy, or reduce the animosity of (a person who is angry, offended, etc.)",
+    "example": "The ancient Greeks would often attempt to propitiate angry gods by sacrificing animals to them."
+   },
+   {
+    "w": "propitious",
+    "def": "Favorable, giving good signs for the future, likely to work out; kind or forgiving",
+    "example": "After having to postpone the game earlier in the week due to rain, the officials were pleased to see the propitious weather forecast. “We’ll get this game in after all,” one of them exclaimed."
+   },
+   {
+    "w": "providential",
+    "def": "Lucky, fortunate, or relating to divine care (the idea that a deity has helped or cared for a person)",
+    "example": "Every time their religious sister ran out of money, help always arrived! She viewed this as God’s providential hand, but her family members viewed it as their always having to bail her out, and it was getting annoying."
+   }
+  ]
+ },
+ {
+  "idx": 36,
+  "name": "Nag",
+  "words": [
+   {
+    "w": "admonish",
+    "def": "Mildly scold; caution, advise, or remind to do something",
+    "example": "She was an exacting boss who upbraided an employee for jamming the copier, yet she merely admonished her five-year-old for the same offense."
+   },
+   {
+    "w": "harangue",
+    "def": "Long, intense verbal attack, esp. when delivered publicly",
+    "example": "Look, I’ll clean the gutters when I get a free weekend—I don’t need you to keep haranguing me about it."
+   },
+   {
+    "w": "martinet",
+    "def": "Person who adheres to rules extremely closely; strict disciplinarian",
+    "example": "It was no fun growing up with a military officer for a dad. He was such a martinet he once made me do twenty pushups for being one minute late to bed—even though the reason I was late was that I wanted to kiss him goodnight."
+   }
+  ]
+ },
+ {
+  "idx": 37,
+  "name": "Nasty",
+  "words": [
+   {
+    "w": "fetid",
+    "def": "Stinking; having an offensive smell",
+    "example": "I hate doing your laundry—it’s always full of fetid gym socks."
+   },
+   {
+    "w": "noisome",
+    "def": "Offensive, disgusting; harmful",
+    "example": "Everyone knows that smoking is deadly, but even “herbal” cigarettes are a noisome habit— and noisome to your health!"
+   }
+  ]
+ },
+ {
+  "idx": 38,
+  "name": "Overblown/Wordy",
+  "words": [
+   {
+    "w": "bombastic",
+    "def": "(Of speech or writing) far too showy or dramatic than is appropriate; pretentious",
+    "example": "Professor Knutsen’s friends joked that he became quite bombastic after a few drinks, once asking a woman in a bar, “Is your daddy an aesthete? Because you are the epitome of ineffable pulchritude.” She replied, “I’m not impressed by your bombast.”"
+   },
+   {
+    "w": "garrulous",
+    "def": "Talkative, wordy, rambling",
+    "example": "Uncle Bill is so garrulous that our dinner conversation lasted three hours—and the only person who said more than ten words was Uncle Bill."
+   },
+   {
+    "w": "grandiloquent",
+    "def": "Relating to lofty speech, esp. to the point of being pompous, overblown, bombastic",
+    "example": "After memorizing 1,000 vocabulary flashcards for the GRE, Derek couldn’t help but become a little grandiloquent , declaring his desire to “abscond from my familial domicile and satisfy my penchant for erudition.” “You can do that later,” said his mother, “but now it’s your turn to do the dishes.”"
+   },
+   {
+    "w": "loquacious",
+    "def": "Talkative, wordy",
+    "example": "The loquacious professor spoke at a million miles an hour and still regularly talked past the scheduled end time of the class."
+   },
+   {
+    "w": "prolix",
+    "def": "Excessively long and wordy (of a person, piece of writing, etc.)",
+    "example": "My mother is incredibly verbose. She’ll tell a boring, prolix story for five whole minutes, and at the end, it turns out that the point was that she got a fifty cent discount on a box of spaghetti at the store."
+   },
+   {
+    "w": "rhetoric",
+    "def": "The art or study of persuasion through speaking or writing; language that is elaborate or pretentious but actually empty, meaning little",
+    "example": "The ancient Greeks used to study rhetoric as a major academic subject. Today, if you want to improve your rhetorical skills, you will probably have to hunt down a public speaking class or join Toastmasters. The politician’s blather is all rhetoric and no substance."
+   },
+   {
+    "w": "turgid",
+    "def": "Swollen, inflated; or, metaphorically “inflated,” such as in overblown, pompous speech",
+    "example": "His prose was so turgid he used the phrase “synchronous repast” to mean a lunch break. Jimmy carefully carried the turgid water balloons to the balcony, ready for a serious splash attack on members of the rival fraternity."
+   },
+   {
+    "w": "verbose",
+    "def": "Wordy",
+    "example": "Twitter’s 140 character limit really forces the verbose to go against their natural tendencies and instead write succinctly."
+   }
+  ]
+ },
+ {
+  "idx": 39,
+  "name": "Pacify/Satisfy",
+  "words": [
+   {
+    "w": "ameliorate",
+    "def": "Improve; make better or more bearable",
+    "example": "If you spill water on your computer keyboard, you can ameliorate the damage by leaving the keyboard upside down to try—it may still be ruined, but that’s still the best chance you’ve got of saving it."
+   },
+   {
+    "w": "appease",
+    "def": "Pacify, satisfy, relieve; concede to belligerent demands, sometimes at the expense of principles",
+    "example": "My mother is so angry she wasn’t the first person we called when the baby was born—I’m hoping to appease her by spending Christmas at her house this year."
+   },
+   {
+    "w": "assuage",
+    "def": "Make milder, relieve; soothe, pacify, or calm",
+    "example": "After losing a million-dollar account, he tried to assuage his furious boss by pointing out that he was close to winning a new account worth at least as much."
+   },
+   {
+    "w": "deference",
+    "def": "Respectful submission; yielding to the authority or opinion of another",
+    "example": "In many cultures, young people are expected to show deference to older people at all times. I’m not an expert in databases—I’ll defer to our programmers on that decision. Ingrid deferred her college admissions for a year so she could travel the world."
+   },
+   {
+    "w": "mitigate",
+    "def": "Make less severe; lessen or moderate (damage, grief, pain, etc.)",
+    "example": "Sadly, his illness could not be cured, but the nurses made every effort to mitigate the symptoms."
+   },
+   {
+    "w": "mollify",
+    "def": "Calm or soothe (an angry person); lessen or soften",
+    "example": "The cellular company’s billing practices were so infuriating to customers that the customer service representatives spent every workday mollifying angry customers."
+   },
+   {
+    "w": "placate",
+    "def": "Satisfy or calm down (an angry or dissatisfied person), esp. by conciliatory gestures",
+    "example": "“It’s an interesting business model,” said the flower shop owner. “Outside of Valentine’s Day, our average customer uses our product to placate an angry partner.”"
+   },
+   {
+    "w": "propitiate",
+    "def": "Attempt to reconcile with, satisfy, or reduce the animosity of (a person who is angry, offended, etc.)",
+    "example": "The ancient Greeks would often attempt to propitiate angry gods by sacrificing animals to them."
+   },
+   {
+    "w": "satiate or sate",
+    "def": "To fully satisfy; to go beyond satisfying to the point of excess (possibly inducing disgust, tiredness, etc.)",
+    "example": "I usually just eat a tiny salad or something while I’m at work, but since I had a half day off, I went to the Indian buffet and stayed for a whole hour! I’ve never been more satiated (or sated ) in my life. To maintain a healthy weight, stop eating before you reach the point of satiety."
+   },
+   {
+    "w": "slake",
+    "def": "Satisfy (esp. thirst), cool, or refresh; make less active",
+    "example": "Having been lost for hours, the weary hikers were more than willing to slake their thirst in a mountain stream. The teacher’s harsh, demanding attitude soon slaked the girls’ enthusiasm for the ballet class."
+   }
+  ]
+ },
+ {
+  "idx": 40,
+  "name": "Poor",
+  "words": [
+   {
+    "w": "impecunious",
+    "def": "Poor, without money",
+    "example": "Having grown up with impecunious parents who could barely keep the electricity on in the house, she was now obsessed with wealth and security."
+   },
+   {
+    "w": "indigence",
+    "def": "Extreme poverty",
+    "example": "The city government has several agencies that provide shelter, food, and other assistance to the indigent."
+   }
+  ]
+ },
+ {
+  "idx": 41,
+  "name": "Praise",
+  "words": [
+   {
+    "w": "aggrandize",
+    "def": "Make greater; exaggerate",
+    "example": "I can’t stand when my coworker aggrandizes her role in our group projects. Stop it with your constant self- aggrandizing —we don’t care how many automobiles you own!"
+   },
+   {
+    "w": "encomium",
+    "def": "Warm, glowing praise, esp. a formal expression of praise",
+    "example": "Just after all the encomium at his retirement party, he received a gold watch. The first draft of your dissertation is little but encomium of the works of Christopher Marlowe, whereas I’m afraid that doctoral-level work requires a more nuanced and critical view."
+   },
+   {
+    "w": "fawn",
+    "def": "Show affection or try to please in the manner of a dog; try to win favor through flattery and submissive behavior",
+    "example": "Although he was only president of a chain of grocery stores, he was used to being fawned over like a king or rock star. “You are truly king of the low-priced produce world,” said the regional manager. “May I wash your car for you?”"
+   },
+   {
+    "w": "venerate",
+    "def": "Revere, regard with deep respect and awe",
+    "example": "The boys were utterly crushed when the baseball player they venerated saw them waiting and refused to sign an autograph."
+   }
+  ]
+ },
+ {
+  "idx": 42,
+  "name": "Predict",
+  "words": [
+   {
+    "w": "augury",
+    "def": "Telling the future, such as through supernatural means",
+    "example": "Value investors such as Warren Buffet (who attempt to buy shares in undervalued companies by analyzing the businesses themselves) consider others’ attempts to “time the market” as mere augury , equivalent to trying to predict rain by reading tea leaves."
+   },
+   {
+    "w": "precursor",
+    "def": "Something that comes before, esp. something that also announces or suggests something on its way",
+    "example": "We cannot ignore this warning sign—it is clearly a precursor of larger problems to come. The new CEO decided to do things differently from his precursors ."
+   },
+   {
+    "w": "prescient",
+    "def": "Having foreknowledge or foresight, seeing the future",
+    "example": "Mariposa swears she’s prescient —she thinks she sees the future in her dreams. The science fiction novel, published in 1955, was strangely prescient —it pictures the year 2000 as having no flying cars, but a communication system known as the “interconnect,” used largely for online shopping and wasting time."
+   }
+  ]
+ },
+ {
+  "idx": 43,
+  "name": "Prevent/Obstruct",
+  "words": [
+   {
+    "w": "discomfiting",
+    "def": "Disconcerting, confusing, frustrating",
+    "example": "His fiancee’s family said they were comfortable with the fact that he was of a different religion, but he found their constant probing about his beliefs quite discomfiting ./ He hates telemarketers so much that he likes to discomfit them by asking them personal questions and suggesting he call them at their homes instead."
+   },
+   {
+    "w": "impede",
+    "def": "Hold back, obstruct the progress of",
+    "example": "I didn’t realize business school would be entirely group work—sadly, there’s always at least one person in every group who impedes the group’s progress more than helps it."
+   },
+   {
+    "w": "occlude",
+    "def": "Stop up, close, shut in or shut off",
+    "example": "This drain guard is here to make sure nothing (like silverware) ends up occluding your garbage disposal. Don’t eat that enormous wad of gum! I’m no doctor, but what if it occludes your intestines or something?"
+   }
+  ]
+ },
+ {
+  "idx": 44,
+  "name": "Smart/Learned",
+  "words": [
+   {
+    "w": "erudite",
+    "def": "Scholarly, knowledgeable; possessing deep, often systematic, knowledge",
+    "example": "Some have said that Americans dislike erudite leaders; while German leaders frequently have Ph.D.’s, even speaking a foreign language is considered pretentious by many American voters."
+   },
+   {
+    "w": "perspicacious",
+    "def": "Having penetrating insight or good discernment",
+    "example": "A good detective is shrewd and perspicacious , judging when someone is lying, noticing things the rest of us would ignore, and making connections that allow an investigation to move forward."
+   }
+  ]
+ },
+ {
+  "idx": 45,
+  "name": "Sorrow",
+  "words": [
+   {
+    "w": "lament",
+    "def": "Mourn; express grief, sorrow, or regret (verb); an expression of grief, esp. as a song or poem (noun)",
+    "example": "Silda said she couldn’t make it to the party—she’s still lamenting the death of her cat. In fact, she wrote a poem: “A Lament On the Topic of Buttons McFlufferton.” Lamentably , Silda is a very bad poet."
+   },
+   {
+    "w": "lugubrious",
+    "def": "Mournful, gloomy (sometimes in an exaggerated way)",
+    "example": "Helen was having a good time at the Irish pub until the Traditional Music Hour started, and the lugubrious tunes made her cry into her Guinness."
+   },
+   {
+    "w": "morose",
+    "def": "Gloomy, sullen",
+    "example": "She had always been a happy child, but once she hit high school and decided to become a goth, she adopted a morose attitude to match her all-black clothing."
+   }
+  ]
+ },
+ {
+  "idx": 46,
+  "name": "Stubborn",
+  "words": [
+   {
+    "w": "implacable",
+    "def": "Not able to be appeased, calmed, or satisfied",
+    "example": "After the dog groomer misunderstood and shaved the family Weimaraner totally bald, Mr. Garcia was implacable ; neither an offer of a free gift certificate nor a complimentary doggie sweater would reduce his fury."
+   },
+   {
+    "w": "inexorable",
+    "def": "Relentless, unyielding; not moved by pleading",
+    "example": "Many people fled Europe in the face of Hitler’s inexorable march across the continent."
+   },
+   {
+    "w": "intractable",
+    "def": "Difficult to control, manage, or manipulate; hard to cure; stubborn",
+    "example": "That student is positively intractable ! Last week, we talked about the importance of staying in your seat during the lesson—this week, she not only got up mid-class, but she actually scrambled on top of a bookcase and refused to come down! Back injuries often result in intractable pain; despite treatment, patients never feel fully cured."
+   },
+   {
+    "w": "intransigent",
+    "def": "Refusing to compromise, inflexible, having extreme attitudes",
+    "example": "“Even three detentions and a note home to your parents haven’t convinced you to behave yourself in class!” the teacher said to the intransigent child."
+   },
+   {
+    "w": "obdurate",
+    "def": "Stubborn, hardhearted, hardened in wrongdoing",
+    "example": "The first mate reported that there was some fuzzy shape on the horizon, but the captain insisted that the instruments showed no such object, and obdurately sailed straight ahead—right into an iceberg. This obdurate criminal should never be let out on parole—he simply cannot be reformed."
+   },
+   {
+    "w": "obstinate",
+    "def": "Stubborn or hard to control",
+    "example": "It’s difficult to get an obstinate child to eat food he doesn’t want to eat. When Toby realized that his son would rather sit and starve than eat mahi-mahi, he gave in and made him a peanut butter and jelly sandwich."
+   },
+   {
+    "w": "recalcitrant",
+    "def": "Not obedient, resisting authority, hard to manage",
+    "example": "As an aspiring kindergarten teacher, she had imagined days filled with giggles and singing songs about friendship—she was not prepared for a roomful of twenty recalcitrant children who wouldn’t even sit down, much less learn the words to “Holding Hands Around the World.”"
+   },
+   {
+    "w": "refractory",
+    "def": "Stubbornly disobedient, hard to manage",
+    "example": "No matter how much job training the city gives them, refractory ex-criminals are simply unemployable."
+   }
+  ]
+ },
+ {
+  "idx": 47,
+  "name": "Terse",
+  "words": [
+   {
+    "w": "laconic",
+    "def": "Using few words, concise",
+    "example": "The boss was famously laconic ; after allowing his employees to present their new plan for an entire hour, he finally responded, “Confirmed.”"
+   },
+   {
+    "w": "pith",
+    "def": "Core, essence; significance or weight",
+    "example": "I can only stay at this meeting for a minute—can you get to the pith of the issue now, and discuss the details after I leave? This presentation has no pith —there’s no central point and nothing I didn’t already know."
+   },
+   {
+    "w": "taciturn",
+    "def": "Not talking much, reserved; silent, holding back in conversation",
+    "example": "Because he felt self-conscious about his stutter, Mike had always been taciturn , but after some very good speech therapy, soon he was much more voluble."
+   }
+  ]
+ },
+ {
+  "idx": 48,
+  "name": "Time/Order/Duration",
+  "words": [
+   {
+    "w": "anachronism",
+    "def": "Something that is not in its correct historical time; a mistake in chronology, such as by assigning a person or event to the wrong time period",
+    "example": "The Queen of England is a bit of an anachronism , with her old-fashioned pillbox hats. Did you catch the anachronisms in the latest action blockbuster set in ancient Greece? One of the characters was wearing a wristwatch with his toga!"
+   },
+   {
+    "w": "antedate",
+    "def": "Be older than, precede in time; assign to an earlier date",
+    "example": "Dinosaurs antedate the first human beings by about 65 million years. Jamal didn’t get around to writing the “Best Vocabulary Words of 2010” blog post until January 3rd, 2011, but he antedated the post for December 31st so at least the infrequent readers wouldn’t notice."
+   },
+   {
+    "w": "archaic",
+    "def": "Characteristic of an earlier period, ancient, primitive",
+    "example": "The school’s archaic computer system predated even floppy disks—it stored records on tape drives! Sometimes, when you look a word up in the dictionary, certain definitions are marked “ archaic ”—unless you are a Shakespeare scholar, you can safely ignore those archaisms."
+   },
+   {
+    "w": "diurnal",
+    "def": "Occurring every day; happening in the daytime (rather than at night)",
+    "example": "While many Americans rarely have a sit-down family meal, in many other cultures, dining as a family is a diurnal affair. Wall Street is a diurnal neighborhood—hectic in the day, but quiet once people pile on the rush hour trains to go home."
+   },
+   {
+    "w": "ephemeral",
+    "def": "Lasting only a short time, fleeting",
+    "example": "“Thank you for this jacket that says ‘Eugene’s Girl,’” said Marie, “but I fear that your love will prove to be ephemeral —over the last two years, I’ve seen four other girls in school with the same jacket. Do you buy them in six-packs?”"
+   },
+   {
+    "w": "synchronous",
+    "def": "Happening at the same time; occurring at the same rate and thus happening together repeatedly",
+    "example": "The sound of that bell is a signal for the dancers to make perfectly synchronous entrances from opposite sides of the stage. The two nearby churches have synchronous church bells—if you stand halfway between the buildings as the bells chime out the hour, it sounds really cool!"
+   }
+  ]
+ },
+ {
+  "idx": 49,
+  "name": "Timid/Timidity",
+  "words": [
+   {
+    "w": "craven",
+    "def": "Very cowardly, lacking courage",
+    "example": "The nervous soldier feared he would turn craven in his first firefight, but he actually acted quite bravely."
+   },
+   {
+    "w": "diffident",
+    "def": "Lacking confidence, shy",
+    "example": "Natasha was so diffident that she never believed her comments could be worth anything in class, even when she knew the answer."
+   },
+   {
+    "w": "pusillanimous",
+    "def": "Cowardly, timid",
+    "example": "He was so pusillanimous that not only was he afraid to ask his boss for a raise, he was even afraid to tell the waitress that he didn’t like sugar in his tea."
+   },
+   {
+    "w": "timorous",
+    "def": "Fearful, timid",
+    "example": "An expression describing a timorous person is “quaking in his boots”—that is, a scared person would shake or shiver from fear."
+   }
+  ]
+ },
+ {
+  "idx": 50,
+  "name": "Truth",
+  "words": [
+   {
+    "w": "candid",
+    "def": "Open, sincere, honest",
+    "example": "Allow me to be candid : you do look rather portly in those pants, and I think you should wear something else. You have been really secretive about where you’ve been going after work; we could use a little more candor in this relationship."
+   },
+   {
+    "w": "probity",
+    "def": "Honesty, integrity",
+    "example": "After losing the last election when their candidate’s string of mistresses came to light, this time, the party would only nominate a candidate whose probity was beyond any doubt."
+   }
+  ]
+ },
+ {
+  "idx": 51,
+  "name": "Unusual",
+  "words": [
+   {
+    "w": "aberrant",
+    "def": "Abnormal, deviant",
+    "example": "The teen’s aberrant behavior made his family suspect that he was using drugs. Losing rather than gaining weight over the holidays is certainly an aberration."
+   },
+   {
+    "w": "anomaly",
+    "def": "Deviation from what is common; inconsistency",
+    "example": "While the cosmetics division of this company has many female executives, it is an anomaly — in the rest of the company, sadly, only 4% of management positions are filled by women."
+   },
+   {
+    "w": "iconoclast",
+    "def": "Attacker of cherished beliefs or institutions",
+    "example": "A lifelong iconoclast , Ayn Rand wrote a controversial book entitled The Virtue of Selfishness."
+   },
+   {
+    "w": "idiosyncrasy",
+    "def": "Characteristic or habit peculiar to an individual; peculiar quality, quirk",
+    "example": "Sometimes, the richer people get, the more idiosyncratic they become. After he made his first billion, he began traveling with a pet iguana, sleeping in an oxygen chamber, and, oddly, speaking with a slight Dutch accent."
+   }
+  ]
+ },
+ {
+  "idx": 52,
+  "name": "Walking About",
+  "words": [
+   {
+    "w": "itinerant",
+    "def": "Traveling from place to place, esp. as part of a job",
+    "example": "In rural areas in the 1940s, it was common that a small town would lack its own doctor, instead being seen by an itinerant family physician who made rounds to many such towns."
+   },
+   {
+    "w": "peripatetic",
+    "def": "Journeying from place to place; traveling on foot",
+    "example": "He quit his office job to become a peripatetic musician, traveling from town to town playing in bars and sleeping on couches."
+   }
+  ]
+ },
+ {
+  "idx": 53,
+  "name": "Wandering",
+  "words": [
+   {
+    "w": "forage",
+    "def": "Wander in search of; rummage, hunt, make a raid",
+    "example": "It’s important to seal your trash cans tightly in this neighborhood, or else you’ll get raccoons foraging for food in your backyard."
+   },
+   {
+    "w": "itinerant",
+    "def": "Traveling from place to place, esp. as part of a job",
+    "example": "In rural areas in the 1940s, it was common that a small town would lack its own doctor, instead being seen by an itinerant family physician who made rounds to many such towns."
+   },
+   {
+    "w": "peregrinate",
+    "def": "Travel from place to place, esp. on foot",
+    "example": "After college, he took a year off to peregrinate across the country, visiting friends and seeing the forty-odd states he had never before had the chance to see."
+   },
+   {
+    "w": "peripatetic",
+    "def": "Journeying from place to place; traveling on foot",
+    "example": "He quit his office job to become a peripatetic musician, traveling from town to town playing in bars and sleeping on couches."
+   }
+  ]
+ },
+ {
+  "idx": 54,
+  "name": "Weaken",
+  "words": [
+   {
+    "w": "adulterate",
+    "def": "Make impure by adding inappropriate or inferior ingredients",
+    "example": "Some bars adulterate top-shelf liquor by pouring cheaper brands into the more expensive brands’ bottles."
+   },
+   {
+    "w": "enervate",
+    "def": "Weaken, tire",
+    "example": "After taking the SAT in the morning and playing in a soccer game in the afternoon, Trina was truly enervated before the prom even began. “You dance like a grandmother with osteoporosis,” said her date."
+   },
+   {
+    "w": "exacerbate",
+    "def": "Make worse (more violent, severe, etc.), inflame; irritate or embitter (a person)",
+    "example": "Allowing your band to practice in our garage has greatly exacerbated my headache."
+   },
+   {
+    "w": "obviate",
+    "def": "Prevent, eliminate, or make unnecessary",
+    "example": "Adding protective heel taps to your dress shoes can obviate the need to take them to the shoe repair store later, once the heels have worn down."
+   },
+   {
+    "w": "undermine",
+    "def": "Weaken, cause to collapse by digging away at the foundation (of a building or an argument); injure or attack in a secretive or underhanded way",
+    "example": "Rather than searching impartially for the truth, these pharmaceutical company “scientists” willfully ignored any evidence that undermined the conclusion they were being paid to produce. You are nice to my face, but you are undermining me behind my back, suggesting to others in the office that I am making mistakes in my work and that you have been fixing them!"
+   }
+  ]
+ },
+ {
+  "idx": 55,
+  "name": "Wisdom",
+  "words": [
+   {
+    "w": "axiom",
+    "def": "Self-evident truth requiring no proof; universally or generally accepted principle",
+    "example": "Given the last decade of research into the brain—as well as our own experience trying to function while deprived of sleep or food—we must take as axiomatic that the brain is influenced by the body."
+   },
+   {
+    "w": "dictum",
+    "def": "Formal or authoritative pronouncement; saying or proverb",
+    "example": "“A stitch in time saves nine” is an old dictum meaning that it’s easier to solve a problem before it gets too big. The king’s dictum stated that each feudal lord must provide a certain number of soldiers within three weeks’ time."
+   },
+   {
+    "w": "platitude",
+    "def": "A shallow, overused statement; cliche",
+    "example": "Everyone who knew my mother knows she was an atheist, so I can’t imagine why people at her funeral would think we’d enjoy their soppy platitudes about Mom’s “being in a better place now.”"
+   }
+  ]
+ },
+ {
+  "idx": 56,
+  "name": "Withdrawal/Retreat",
+  "words": [
+   {
+    "w": "abeyance",
+    "def": "Temporary suspension, inactivity",
+    "example": "The baseball player’s contract negotiations are in abeyance while doctors try to determine whether his injuries will heal in time for the season."
+   },
+   {
+    "w": "abjure",
+    "def": "Give up, renounce; repudiate, recant, or shun (especially formally or under oath)",
+    "example": "To become a citizen of the United States, you must abjure loyalty to the nation of your birth. Since enrolling in that nutrition class, she has abjured sugar and saturated fats."
+   },
+   {
+    "w": "demur",
+    "def": "Show reluctance or object, especially for moral reasons",
+    "example": "When asked to name her favorite professor in the department, she demurred —she was pretty sure that, if she said anything, it would come back to haunt her."
+   },
+   {
+    "w": "recant",
+    "def": "Withdraw, retract, or disavow something one has previously said, esp. formally",
+    "example": "For saying that the Sun and not the Earth was the center of the universe, Galileo was brought on trial for heresy, forced to recant , and spent the rest of his life under house arrest. Of course, a forced recantation doesn’t say much about whether the person really abjures his former views."
+   },
+   {
+    "w": "rescind",
+    "def": "Annul, repeal, make void",
+    "example": "The governor rescinded his proclamation making September 10th “Pastafarian Day” once someone told him it wasn’t a real religion."
+   }
+  ]
+ }
+]

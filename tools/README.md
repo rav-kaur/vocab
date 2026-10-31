@@ -53,6 +53,29 @@ Files land in `../audio/` as `essential-1.mp3 ... essential-20.mp3` and
 (On Windows, if `python` is not found, use the full path to python.exe, e.g.
 `& $py generate_audio.py`.)
 
+
+## Group recordings (Listen > Deck > Groups)
+
+The **Listen** tab also has a **Groups** deck: one recording per theme that
+says the group name, then each word with its definition and example. Generate
+them with:
+
+```
+python generate_audio.py --deck groups
+```
+
+Files land in `../audio/` as `group-1.mp3`, `group-2.mp3`, ... (numbered by
+theme). Only themes with 2+ of your words get a file, and any words you removed
+in Sift are skipped automatically. One group at a time:
+
+```
+python generate_audio.py --deck groups --set 3
+```
+
+(The group data comes from `audio_groups.json`. If you add, remove, or re-trim
+words, regenerate that file first, then rerun the command above. Ask Claude to
+rebuild `audio_groups.json` from the current decks.)
+
 ## Change the voice
 
 ```

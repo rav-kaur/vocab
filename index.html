@@ -758,27 +758,39 @@ function viewProgress(){
 /* ================= LISTEN (audio player) ================= */
 let liSetName=null, liColl='all';
 function fmtT(t){ if(!isFinite(t)||t<0)t=0; t=t|0; return `${t/60|0}:${String(t%60).padStart(2,'0')}`; }
-function liSets(){ return setsInColl(liColl).map(n=>{const c=VOCAB.find(x=>x.set===n);return {name:n,coll:c.coll,num:c.setNum};}); }
+function liGroupTracks(){
+  const out=[];
+  (window.VOCAB_GROUPS||[]).forEach((g,i)=>{
+    const cards=(g.words||[]).map(w=>VOCAB.find(c=>c.w===w)).filter(Boolean);
+    if(cards.length>=2) out.push({name:g.name, file:'audio/group-'+(i+1)+'.mp3', meta:cards.length+' words · group name, then each word, definition, example'});
+  });
+  return out.sort((a,b)=>a.name.localeCompare(b.name));
+}
+function liSets(){
+  if(liColl==='__groups') return liGroupTracks();
+  return setsInColl(liColl).map(n=>{const c=VOCAB.find(x=>x.set===n);const cnt=VOCAB.filter(x=>x.coll===c.coll&&x.setNum===c.setNum).length;return {name:n, file:'audio/'+c.coll.toLowerCase()+'-'+c.setNum+'.mp3', meta:cnt+' words · word, definition, example'};});
+}
 function liCur(){ const s=liSets(); return s.find(x=>x.name===liSetName) || s[0]; }
 function liCurName(){ const c=liCur(); return c?c.name:''; }
-function liFile(){ const c=liCur(); return c?`audio/${c.coll.toLowerCase()}-${c.num}.mp3`:''; }
+function liFile(){ const c=liCur(); return c?c.file:''; }
 function liSetSelectHTML(){ const s=liSets(); return s.map(x=>`<option value="${esc(x.name)}" ${x.name===liSetName?'selected':''}>${esc(x.name)}</option>`).join(''); }
+function liDeckSelectHTML(){ const gN=liGroupTracks().length; let h=collOptionsHTML(liColl); h+=`<option value="__groups"${liColl==='__groups'?' selected':''}>Groups (${gN})</option>`; return h; }
 function viewListen(){
   const sets=liSets();
   if(!sets.length){ app.innerHTML='<h2>Listen</h2><div class="empty">No sets found.</div>'; return; }
   if(!sets.some(s=>s.name===liSetName)) liSetName=sets[0].name;
   app.innerHTML=`
     <h2>Listen</h2>
-    <p class="sub">Hands-free audio: each word, its definition, then an example sentence, with pauses. Put on headphones and let a set loop. Keeps playing with the screen locked.</p>
+    <p class="sub">Hands-free audio. Pick a set, or switch Deck to <b>Groups</b> for one recording per theme (the group name, then each word with its definition and example). Put on headphones and let it loop. Keeps playing with the screen locked.</p>
     <div class="row">
       <label>Deck:
-        <select id="liColl">${collOptionsHTML(liColl)}</select></label>
-      <label>Set:
+        <select id="liColl">${liDeckSelectHTML()}</select></label>
+      <label>Set / Group:
         <select id="liSet">${liSetSelectHTML()}</select></label>
       <label>Repeat:
         <select id="liRepeat">
-          <option value="one" selected>This set (loop)</option>
-          <option value="all">All sets</option>
+          <option value="one" selected>This one (loop)</option>
+          <option value="all">All</option>
           <option value="off">Off</option>
         </select></label>
       <label>Speed:
@@ -798,13 +810,13 @@ function viewListen(){
           <input type="range" id="liSeek" min="0" max="1000" value="0" step="1">
           <span class="time" id="liDur">0:00</span></div>
         <div class="tr">
-          <button class="pbtn" id="liPrev" title="Previous set" aria-label="Previous set">&#9198;</button>
+          <button class="pbtn" id="liPrev" title="Previous" aria-label="Previous">&#9198;</button>
           <button class="pbtn main" id="liPlay" title="Play / Pause" aria-label="Play or pause">&#9654;</button>
-          <button class="pbtn" id="liNext" title="Next set" aria-label="Next set">&#9197;</button>
+          <button class="pbtn" id="liNext" title="Next" aria-label="Next">&#9197;</button>
         </div>
       </div>
       <div id="liNotice"></div>
-      <div class="li-note">On a phone, playback continues with the screen off and appears on your lock screen. If a set has no audio yet, run <b>tools/generate_audio.py</b> once (see tools/README.md).</div>
+      <div class="li-note">On a phone, playback continues with the screen off and appears on your lock screen. If something has no audio yet, run <b>tools/generate_audio.py</b> once (see tools/README.md).</div>
     </div>`;
   const A=$('#liAudio'); window.liAudio=A;
   $('#liColl').onchange=()=>{ liColl=$('#liColl').value; const s=liSets(); liSetName=s.length?s[0].name:null; $('#liSet').innerHTML=liSetSelectHTML(); loadListen(false); };
@@ -828,8 +840,7 @@ function loadListen(autoplay){
   const A=$('#liAudio'); if(!A) return;
   const cur=liCur();
   $('#liName').textContent=liCurName();
-  const items=cur?VOCAB.filter(c=>c.coll===cur.coll&&c.setNum===cur.num):[];
-  $('#liMeta').textContent=`${items.length} words · word, definition, example`;
+  $('#liMeta').textContent=cur?cur.meta:'';
   $('#liNotice').innerHTML=''; $('#liBody').style.display='';
   A.loop = ($('#liRepeat')||{}).value==='one';
   A.playbackRate=parseFloat((($('#liSpeed')||{}).value)||'1');
@@ -847,7 +858,8 @@ function liStep(d,autoplay){
 function liShowMissing(){
   const n=$('#liNotice'); if(!n) return;
   $('#liBody').style.display='none';
-  n.innerHTML=`<div class="li-missing">No recording found for <b>${esc(liCurName())}</b> yet.<br>Generate audio once on your computer: <b>pip install edge-tts</b>, then <b>python tools/generate_audio.py</b>. Details in tools/README.md.</div>`;
+  const cmd=liColl==='__groups'?'python tools/generate_audio.py --deck groups':'python tools/generate_audio.py';
+  n.innerHTML=`<div class="li-missing">No recording found for <b>${esc(liCurName())}</b> yet.<br>Generate audio once on your computer: <b>pip install edge-tts</b>, then <b>${cmd}</b>. Details in tools/README.md.</div>`;
 }
 function liSetMedia(){
   if(!('mediaSession' in navigator)) return;
